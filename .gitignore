@@ -4,6 +4,8 @@
 
 # --- Dane wrażliwe ---
 public_html/config.php
+public_html/smf/Settings.php
+public_html/smf/Settings_bak.php
 .htpasswd/
 .htpasswd
 
@@ -18,6 +20,7 @@ public_html/cache/
 public_html/files/
 public_html/album_mod/upload/
 public_html/images/avatars/
+public_html/smf/attachments/
 
 # --- Archiwum backupów i logów ---
 logs/
