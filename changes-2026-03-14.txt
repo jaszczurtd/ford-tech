@@ -1,0 +1,123 @@
+Zmiany wprowadzone 2026-03-14
+Cel: uruchomienie forum phpBB 2.x (modyfikacja Przemo ~1.12.5) lokalnie pod PHP 8.3 / MySQL 8.0
+================================================================================
+
+1. public_html/.htaccess
+   - Zakomentowano: AddHandler application/x-httpd-php52 php
+     (blokował PHP 8 — wymuszał PHP 5.2)
+   - Dodano: php_value default_charset iso-8859-2
+     (Apache wysyłal UTF-8 w naglowku HTTP, co psuло polskie znaki)
+
+2. public_html/config.php
+   - Zmieniono dane polaczenia z baza danych z produkcyjnych na lokalne
+
+3. public_html/common.php
+   - Dodano polyfille PHP 8 po sprawdzeniu IN_PHPBB:
+     * get_magic_quotes_gpc() — zwraca false
+     * get_magic_quotes_runtime() — zwraca false
+     * each(&$arr) — emulacja usuniętej funkcji
+   - Dodano @ przed ini_set('magic_quotes_runtime', 'Off')
+     (PHP 8 rzuca warning na nieistniejące ustawienie)
+
+4. public_html/db/mysql4.php
+   - Przepisano caly plik z mysql_*() na mysqli_*()
+   - Dodano __construct() jako glowny konstruktor
+     (PHP 8 nie wywoluje starych konstruktorow PHP 4/5)
+   - Zachowano function sql_db() jako alias dla zgodnosci
+   - Zamieniono (int)$query_result na spl_object_id($query_result)
+     jako klucze tablic $row[] i $rowset[]
+     (obiekty mysqli_result nie konwertuja sie na int)
+   - Dodano guard is_object() przed wywolaniami spl_object_id()
+
+5. public_html/includes/db.php
+   - Linia 46: mysql_error() -> mysqli_connect_error()
+
+6. public_html/includes/functions.php
+   - Naprawiono dostep przez nawiasy klamrowe: $str{n} -> $str[n]
+   - Naprawiono 19 wywolan count($zmienna) -> count((array)$zmienna)
+     (PHP 8 rzuca TypeError gdy argument jest null)
+   - Linie 2705, 2709, 2714: in_array(..., $tablica) ->
+     in_array(..., (array)$tablica)
+     w funkcji moderarots_list()
+
+7. public_html/includes/functions_hierarchy.php
+   - Linia 494: count($tree['sub'][$cur]) ->
+     count((array)$tree['sub'][$cur])
+     w funkcji build_index()
+
+8. public_html/includes/functions_admin.php
+   - Naprawiono niequotowane nazwy funkcji (styl PHP 4):
+     gzopen, gzwrite, gzread, gzclose -> 'gzopen', 'gzwrite', itd.
+     fopen, fwrite, fread, fclose -> 'fopen', 'fwrite', itd.
+
+9. public_html/includes/functions_gg.php
+   - Naprawiono dostep przez nawiasy klamrowe: $keys{$str[$i]} ->
+     $keys[$str[$i]]
+
+10. public_html/includes/usercp_confirm.php
+
+11. public_html/includes/bbcode.php
+    - Linia 401: preg_replace z modyfikatorem /e (usuniety w PHP 7)
+      zamieniono na preg_replace_callback
+      (modyfikator /e zwracal NULL zamiast przetworzonego tekstu,
+      co powodowalo ze tresc posta nie byla zapisywana do bazy danych)
+
+12. public_html/includes/template.php
+    - Dodano __construct($root = '.') jako glowny konstruktor klasy Template
+      (PHP 8 nie wywoluje starych konstruktorow — function Template()
+      nie byla wywolywana, $this->root bylo puste,
+      szablony nie byly znajdywane)
+    - Zachowano function Template() jako alias
+    - Linia 1083: sizeof($str) -> sizeof((array)$str)
+      (dwa miejsca, PHP 8 TypeError gdy argument null)
+
+13. public_html/includes/auth.php
+    - Linia 329: count($u_access) -> count((array)$u_access)
+    - Linia 331: count($u_access) -> count((array)$u_access)
+      w funkcji auth_check_user()
+      (crash przy zalogowanym uzytkowniku przy wejsciu na index)
+
+14. public_html/includes/sessions.php
+    - Brak zmian (plik nie byl modyfikowany)
+
+15. public_html/viewtopic.php
+    - Linia 1892: count($userdata['unread_data'][...]) ->
+      count((array)...) i in_array(...) -> in_array(..., (array)...)
+      (crash przy wysietlaniu tematu przez zalogowanego uzytkownika)
+
+16. public_html/language/lang_polish/lang_modcp.php
+    - Linia 6: $lang['del_notify_reasons'] = '' ->
+      $lang['del_notify_reasons'] = array()
+      (PHP 8: [] operator not supported for strings)
+
+17. public_html/attach_mod/posting_attachments.php
+    - Zastapiono wszystkie 14 wywolan count($zmienna) ->
+      count((array)$zmienna) w calym pliku
+      (PHP 8 TypeError przy null)
+
+18. public_html/templates/ApartDark/ApartDark.cfg
+    public_html/templates/VipLight/VipLight.cfg
+    public_html/templates/subSilver/subSilver.cfg
+    - define(TEMPLATE_CONFIG, TRUE) ->
+      define('TEMPLATE_CONFIG', TRUE)
+      (PHP 8 nie akceptuje niequotowanych stalych jako nazwy define)
+
+19. public_html/attach_mod/posting_attachments.php
+    - Naprawiono brak wyswietlania tresci posta po jego dodaniu
+    - Linia 935 i 13 innych: count($zmienna) -> count((array)$zmienna)
+      (PHP 8 TypeError przy null — strona posting.php wyswietlala sie pusta)
+
+20. public_html/album_mod/album_constants.php
+    - Dodano brakujaca definicje stalej:
+      define('PERSONAL_GALLERY', 0)
+      (stala uzywana w album_personal.php i album_upload.php,
+       nigdzie niezdefiniowana — crash przy probie wejscia w album uzytkownika)
+
+BAZA DANYCH (fordtech_local, tabela phpbb2_config):
+    - server_name    = localhost
+    - server_port    = 80
+    - script_path    = ''
+    - cookie_secure  = 0        (bylo: 1 — ciasteczka nie dzialaly na HTTP)
+    - cookie_domain  = localhost
+    - board_disable  = ''       (bylo: 'Przerba techniczna :)')
+    - disable_type   = 0

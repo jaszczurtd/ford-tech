@@ -1,0 +1,6 @@
+#AddHandler application/x-httpd-php52 php
+php_value default_charset iso-8859-2
+AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain text/javascript application/javascript application/x-javascript application/json
+<IfModule mod_security.c>
+SecRuleRemoveById 210730 
+</IfModule>

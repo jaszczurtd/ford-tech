@@ -1,0 +1,64 @@
+############################################################## 
+## MOD Title: Allow login for smf users
+## MOD Author: Dicky < dicky@askmaggymae.com >
+## MOD Description: Allows converted smf users to log in to the new phpBB board with their smf passwords
+## MOD Version: 1.0.2
+## MOD date: Jan 31, 2007
+## 
+## Installation Level: easy
+## Installation Time: 3 Minutes 
+## Files To Edit: (1) login.php
+## Included Files: n/a
+############################################################## 
+## Before Adding This MOD To Your Forum, You Should Back Up All Files Related To This MOD 
+############################################################## 
+# 
+#-----[ OPEN ]------------------------------------------ 
+# 
+login.php
+# 
+#-----[ FIND ]------------------------------------------ 
+# Line 86
+				{
+					message_die(GENERAL_MESSAGE, sprintf($lang['Login_attempts_exceeded'], $board_config['max_login_attempts'], $board_config['login_reset_time']));
+				}
+# 
+#-----[ AFTER, ADD ]------------------------------------
+#
+			// check if this is a converted user
+			// handles smf user passwords
+				if( md5($password) !== $row['user_password'] && $row['user_active'] )
+				{
+					if (( $row['user_password'] == substr( sha1(strtolower($username) . $password), 0, 32)) || ( $row['user_password'] == md5_hmac($password, strtolower($username))))
+					{
+						// this is a converted user. Now make them a phpBB user!
+						// take the subbed pass and put a md5 encryption on it and insert it into the database 
+						$sql = "UPDATE " . USERS_TABLE . " SET user_password = '" . md5( $HTTP_POST_VARS['password'] ) . "' WHERE user_id = '" . $row['user_id'] . "'";
+						if( !$db->sql_query($sql) ) 
+						{ 
+							message_die(GENERAL_ERROR, 'Password Error:<br />Please contact the board administrator immediately.', '', __LINE__, __FILE__, $sql); 
+						}
+						// reset $row[user_password]
+						$sql = "SELECT user_id, username, user_password, user_active, user_level FROM " . USERS_TABLE . "
+						WHERE username = '" . str_replace("\\'", "''", $username) . "'";
+
+						if ( !($result = $db->sql_query($sql)) )
+						{
+							message_die(GENERAL_ERROR, 'Error in obtaining userdata', '', __LINE__, __FILE__, $sql);
+						}
+						$row = $db->sql_fetchrow($result); 
+					}
+				}
+# 
+#-----[ FIND ]------------------------------------------ 
+# At end of file
+?>
+# 
+#-----[ BEFORE, ADD ]------------------------------------
+#
+// encrypts password for smf users
+function md5_hmac($data, $key)
+{
+	$key = str_pad(strlen($key) <= 64 ? $key : pack('H*', md5($key)), 64, chr(0x00));
+	return md5(($key ^ str_repeat(chr(0x5c), 64)) . pack('H*', md5(($key ^ str_repeat(chr(0x36), 64)). $data)));
+}

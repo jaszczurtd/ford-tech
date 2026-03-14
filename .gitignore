@@ -1,0 +1,46 @@
+# =============================================================================
+# phpBB 2.x ford-tech.pl — .gitignore
+# =============================================================================
+
+# --- Dane wrażliwe ---
+public_html/config.php
+.htpasswd/
+.htpasswd
+
+# --- Dump bazy danych ---
+*.sql
+*.sql.gz
+
+# --- Cache forum ---
+public_html/cache/
+
+# --- Pliki uploadu użytkowników ---
+public_html/files/
+public_html/album_mod/upload/
+public_html/images/avatars/
+
+# --- Archiwum backupów i logów ---
+logs/
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# --- Katalog statystyk i FTP ---
+stats/
+public_ftp/
+
+# --- Pliki tymczasowe i systemowe ---
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Edytory ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
