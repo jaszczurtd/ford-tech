@@ -39,7 +39,7 @@ function checkAlbumForm() {
   </tr>
 <!-- END switch_user_logged_out -->
   <tr>
-	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span><br><span class="gensmall">(opcjonalny przy wielu plikach — użyta zostanie nazwa pliku)</span></td>
+	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span><br><span class="gensmall">(opcjonalny przy wielu plikach &mdash; u&#380;yta zostanie nazwa pliku)</span></td>
 	<td class="row2"><input class="post" type="text" name="pic_title" size="60"></td>
   </tr>
   <tr>

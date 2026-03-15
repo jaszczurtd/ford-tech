@@ -1,58 +1,58 @@
 <?php
 $lang['Empty_server_name'] = 'Brak nazwy domeny';
 $lang['Empty_port'] = 'Brak portu serwera';
-$lang['Empty_path'] = 'Brak ¶cie¿ki skryptu';
+$lang['Empty_path'] = 'Brak Å›cieÅ¼ki skryptu';
 $lang['Empty_dbhost'] = 'Brak hostu serwera SQL';
 $lang['Empty_dbname'] = 'Brak nazwy bazy danych';
-$lang['Empty_dbuser'] = 'Brak u¿ytkownika bazy danych, z powodów bezpieczeñstwa jest to wymagane';
-$lang['Empty_dbpasswd'] = 'Brak has³a bazy danych, z powodów bezpieczeñstwa jest to wymagane';
+$lang['Empty_dbuser'] = 'Brak uÅ¼ytkownika bazy danych, z powodÃ³w bezpieczeÅ„stwa jest to wymagane';
+$lang['Empty_dbpasswd'] = 'Brak hasÅ‚a bazy danych, z powodÃ³w bezpieczeÅ„stwa jest to wymagane';
 $lang['Empty_username'] = 'Brak nazwy administratora';
 $lang['Empty_email'] = 'Brak adresu e-mail';
 $lang['Welcome_install'] = 'Witamy w Instalacji phpBB modified by Przemo';
-$lang['ftp_instructs'] = 'Wybra³e¶ opcjê automatycznego wys³ania pliku do katalogu zawieraj±cego skrypt phpbb2 modified by Przemo. Poni¿ej wpisz informacje potrzebne do wykonania tego polecenia. Pamiêtaj, ¿e ¶cie¿ka powinna byæ dok³adnie taka jak± u¿ywasz przy po³±czeniach z FTP przez inne programy.';
-$lang['NoFTP_config'] = 'Próba wys³ania pliku drog± ftp na swoje miejsce nie powiod³a siê. ¦ci±gnij plik konfiguracyjny i wy¶lij go na miejsce samodzielnie.';
-$lang['Inst_Step_2'] = 'Konto administratora zosta³o utworzone. W tej chwili podstawowa instalacja jest zakoñczona. Pamiêtaj o sprawdzeniu Konfiguracji G³ównej i zmianie tych opcji, które tego wymagaj±. Pamiêtaj te¿ o sprawdzeniu w Panelu Administracyjnym w sekcji "Kontrola Systemu" czy wymagaj±ce tego pliki i katalogi w katalogu forum maj± prawa do zapisu, w przeciwnym wypadku czê¶æ funkcji nie bêdzie dzia³aæ prawid³owo.<br />Dziêkujemy, za wybór phpBB modified by Przemo.';
-$lang['Start_Install'] = 'Zacznij Instalacjê';
-$lang['Finish_Install'] = 'Zakoñcz Instalacjê';
-$lang['Inst_Step_0'] = 'Dziêkujemy, za wybór phpBB modified by Przemo. Aby zainstalowaæ forum wpisz poni¿sze dane. Pamiêtaj, ¿e baza danych, w której chcesz zainstalowaæ forum powinna wcze¶niej istnieæ.<br />Poni¿ej jest formularz s³u¿±cy do wprowadzenia podstawowych danych konfiguracyjnych, warto¶ci które s± ju¿ podane nie musisz zmieniaæ (zosta³y wykryte automatycznie). Wszystkie dane mo¿na zmieniæ pó¼niej w Panelu Administracyjnym';
-$lang['Unwriteable_config'] = 'Twój plik konfiguracyjny nie mo¿e zostaæ zapisany. Jego kopia zostanie wys³ana do ciebie je¶li wci¶niesz poni¿szy przycisk, i zapisze sie na Twoim komputerze. Powiniene¶ potem wys³aæ j± samodzielnie do katalogu g³ównego forum. Kiedy to zrobisz zaloguj siê do nowego forum, u¿ywaj±c twoich danych podanych wcze¶niej, oraz odwiedziæ Panel Aministracyjny forum (do którego odno¶nik pojawi siê na dole ka¿dej strony forum, kiedy siê zalogujesz) aby zmieniæ opcje. Dziêkujemy, za wybór phpBB modified by Przemo.';
-$lang['Download_config'] = '¦ci±gnij Plik Konfiguracyjny';
+$lang['ftp_instructs'] = 'WybraÅ‚eÅ› opcjÄ™ automatycznego wysÅ‚ania pliku do katalogu zawierajÄ…cego skrypt phpbb2 modified by Przemo. PoniÅ¼ej wpisz informacje potrzebne do wykonania tego polecenia. PamiÄ™taj, Å¼e Å›cieÅ¼ka powinna byÄ‡ dokÅ‚adnie taka jakÄ… uÅ¼ywasz przy poÅ‚Ä…czeniach z FTP przez inne programy.';
+$lang['NoFTP_config'] = 'PrÃ³ba wysÅ‚ania pliku drogÄ… ftp na swoje miejsce nie powiodÅ‚a siÄ™. ÅšciÄ…gnij plik konfiguracyjny i wyÅ›lij go na miejsce samodzielnie.';
+$lang['Inst_Step_2'] = 'Konto administratora zostaÅ‚o utworzone. W tej chwili podstawowa instalacja jest zakoÅ„czona. PamiÄ™taj o sprawdzeniu Konfiguracji GÅ‚Ã³wnej i zmianie tych opcji, ktÃ³re tego wymagajÄ…. PamiÄ™taj teÅ¼ o sprawdzeniu w Panelu Administracyjnym w sekcji "Kontrola Systemu" czy wymagajÄ…ce tego pliki i katalogi w katalogu forum majÄ… prawa do zapisu, w przeciwnym wypadku czÄ™Å›Ä‡ funkcji nie bÄ™dzie dziaÅ‚aÄ‡ prawidÅ‚owo.<br />DziÄ™kujemy, za wybÃ³r phpBB modified by Przemo.';
+$lang['Start_Install'] = 'Zacznij InstalacjÄ™';
+$lang['Finish_Install'] = 'ZakoÅ„cz InstalacjÄ™';
+$lang['Inst_Step_0'] = 'DziÄ™kujemy, za wybÃ³r phpBB modified by Przemo. Aby zainstalowaÄ‡ forum wpisz poniÅ¼sze dane. PamiÄ™taj, Å¼e baza danych, w ktÃ³rej chcesz zainstalowaÄ‡ forum powinna wczeÅ›niej istnieÄ‡.<br />PoniÅ¼ej jest formularz sÅ‚uÅ¼Ä…cy do wprowadzenia podstawowych danych konfiguracyjnych, wartoÅ›ci ktÃ³re sÄ… juÅ¼ podane nie musisz zmieniaÄ‡ (zostaÅ‚y wykryte automatycznie). Wszystkie dane moÅ¼na zmieniÄ‡ pÃ³Åºniej w Panelu Administracyjnym';
+$lang['Unwriteable_config'] = 'TwÃ³j plik konfiguracyjny nie moÅ¼e zostaÄ‡ zapisany. Jego kopia zostanie wysÅ‚ana do ciebie jeÅ›li wciÅ›niesz poniÅ¼szy przycisk, i zapisze sie na Twoim komputerze. PowinieneÅ› potem wysÅ‚aÄ‡ jÄ… samodzielnie do katalogu gÅ‚Ã³wnego forum. Kiedy to zrobisz zaloguj siÄ™ do nowego forum, uÅ¼ywajÄ…c twoich danych podanych wczeÅ›niej, oraz odwiedziÄ‡ Panel Aministracyjny forum (do ktÃ³rego odnoÅ›nik pojawi siÄ™ na dole kaÅ¼dej strony forum, kiedy siÄ™ zalogujesz) aby zmieniÄ‡ opcje. DziÄ™kujemy, za wybÃ³r phpBB modified by Przemo.';
+$lang['Download_config'] = 'ÅšciÄ…gnij Plik Konfiguracyjny';
 $lang['Initial_config'] = 'Podstawowa Konfiguracja';
 $lang['Transfer_config'] = 'Rozpocznij Transfer';
-$lang['ftp_path'] = '¦cie¿ka FTP do katalogu forum';
-$lang['ftp_password'] = 'Has³o FTP';
+$lang['ftp_path'] = 'ÅšcieÅ¼ka FTP do katalogu forum';
+$lang['ftp_password'] = 'HasÅ‚o FTP';
 $lang['DB_config'] = 'Konfiguracja Bazy Danych';
 $lang['dbms'] = 'Typ Bazy Danych';
 $lang['DB_Host'] = 'Server Bazy Danych / DSN';
 $lang['DB_Name'] = 'Nazwa Bazy Danych';
-$lang['DB_Username'] = 'U¿ytkownik Bazy Danych';
-$lang['DB_Password'] = 'Has³o Bazy Danych';
+$lang['DB_Username'] = 'UÅ¼ytkownik Bazy Danych';
+$lang['DB_Password'] = 'HasÅ‚o Bazy Danych';
 $lang['Table_Prefix'] = 'Prefiks dla tabel w bazie danych';
 $lang['Admin_config'] = 'Konfiguracja Admina';
 $lang['Admin_Username'] = 'Nazwa Administratora';
-$lang['Admin_Password'] = 'Has³o Administratora';
-$lang['Admin_Password_confirm'] = 'Has³o Administratora [ Potwierd¼ ]';
-$lang['Installer_Error'] = 'Wyst±pi³ b³±d podczas instalacji';
-$lang['Install_db_error'] = 'Wyst±pi³ b³±d przy instalacji do bazy danych';
-$lang['Install_No_Ext'] = 'Konfiguracja php na serwerze nie obs³uguje wybranej bazy danych';
+$lang['Admin_Password'] = 'HasÅ‚o Administratora';
+$lang['Admin_Password_confirm'] = 'HasÅ‚o Administratora [ PotwierdÅº ]';
+$lang['Installer_Error'] = 'WystÄ…piÅ‚ bÅ‚Ä…d podczas instalacji';
+$lang['Install_db_error'] = 'WystÄ…piÅ‚ bÅ‚Ä…d przy instalacji do bazy danych';
+$lang['Install_No_Ext'] = 'Konfiguracja php na serwerze nie obsÅ‚uguje wybranej bazy danych';
 $lang['Upgrade'] = 'Aktualizacja';
 
-$lang['Wrong_file_checksum'] = 'Z³a zawarto¶æ pliku! <span class="gensmall">Suma kontrolna: [ %s ]</span>';
+$lang['Wrong_file_checksum'] = 'ZÅ‚a zawartoÅ›Ä‡ pliku! <span class="gensmall">Suma kontrolna: [ %s ]</span>';
 $lang['Missing_file'] = 'Brak pliku!';
-$lang['Wrong_checksum'] = 'Niektóre pliki wys³ane na serwer maj± z³± zawarto¶æ (s± prawdopodobnie uszkodzone)<br />Je¿eli nie edytowa³e¶ ¿adnych plików, oznacza to, ¿e wyst±pi³y problemy z ich wysy³aniem na serwer. Sprobuj ponownie wys³aæ pliki, które s± wy¶wietlone poni¿ej. Mo¿esz spróbowaæ w³±czyæ lub wy³±czyæ przesy³anie w trybie binarnym.<br /><br />Je¿eli zmienia³e¶ zawarto¶æ plików celowo, kliknij <a href="install.'.$phpEx.'?mode=break">TUTAJ</a> aby zainstalowaæ forum, ale <font color="red"><b>TYLKO w tym przypadku!</b></font><br />Je¿eli ¶ciagn±³e¶ oryginalny pakiet ze strony http://www.przemo.org/phpBB2 i nie zmienia³e¶ ¿adnych plików, wy¶lij je ponownie na serwer. W innym przypadku forum nie bêdzie dzia³aæ prawid³owo!</font>';
-$lang['Install_duplicate_tables_info'] = 'Wyst±pi³ nieoczekiwany b³±d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />W bazie danych <b>"%s"</b> istniej± tabele phpBB2 z prefixem <b>"%s"</b><br /><br />Mo¿esz wybraæ inny prefix dla nowo instalowanego forum, lub usun±æ istniej±ce tabele. Je¿eli zdecydujesz siê usun±æ, upewnij siê, ¿e tabele nie s± potrzebne (nie korzysta z nich inne forum dyskusyjne. Nie mo¿na cofn±æ tej operacji !';
-$lang['Install_duplicate_tables_info2'] = 'Wyst±pi³ nieoczekiwany b³±d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />Nie mo¿na kontynuowaæ instalacji forum.<br />Istnieje mo¿liwo¶c poprawienia b³êdu w pliku lub w ustawieniach serwera w celu wyeliminowania b³êdu.<br />Gdy to zostanie zrobione bêdzie mo¿liwo¶c kontunuacji lecz wówczas nale¿y usun±æ tabele, które zosta³y juz utworzone, lub utworzyæ nowe, zmieniaj±c prefix.';
-$lang['Install_duplicate_tables_info3'] = 'Wyst±pi³ nieoczekiwany b³±d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />Nie mo¿na kontynuowaæ instalacji forum.<br />Istnieje mo¿liwo¶æ poprawienia b³êdu w pliku lub w ustawieniach serwera w celu wyeliminowania b³êdu.<br />Gdy to zostanie zrobione bêdzie mo¿liwo¶c kontunuacji.';
-$lang['Remove_tables'] = 'Usuñ wszystkie tabele z prefixem: <b>"%s"</b>';
-$lang['Change_prefix'] = 'Zmieñ prefix nowych tabel';
+$lang['Wrong_checksum'] = 'NiektÃ³re pliki wysÅ‚ane na serwer majÄ… zÅ‚Ä… zawartoÅ›Ä‡ (sÄ… prawdopodobnie uszkodzone)<br />JeÅ¼eli nie edytowaÅ‚eÅ› Å¼adnych plikÃ³w, oznacza to, Å¼e wystÄ…piÅ‚y problemy z ich wysyÅ‚aniem na serwer. Sprobuj ponownie wysÅ‚aÄ‡ pliki, ktÃ³re sÄ… wyÅ›wietlone poniÅ¼ej. MoÅ¼esz sprÃ³bowaÄ‡ wÅ‚Ä…czyÄ‡ lub wyÅ‚Ä…czyÄ‡ przesyÅ‚anie w trybie binarnym.<br /><br />JeÅ¼eli zmieniaÅ‚eÅ› zawartoÅ›Ä‡ plikÃ³w celowo, kliknij <a href="install.'.$phpEx.'?mode=break">TUTAJ</a> aby zainstalowaÄ‡ forum, ale <font color="red"><b>TYLKO w tym przypadku!</b></font><br />JeÅ¼eli Å›ciagnÄ…Å‚eÅ› oryginalny pakiet ze strony http://www.przemo.org/phpBB2 i nie zmieniaÅ‚eÅ› Å¼adnych plikÃ³w, wyÅ›lij je ponownie na serwer. W innym przypadku forum nie bÄ™dzie dziaÅ‚aÄ‡ prawidÅ‚owo!</font>';
+$lang['Install_duplicate_tables_info'] = 'WystÄ…piÅ‚ nieoczekiwany bÅ‚Ä…d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />W bazie danych <b>"%s"</b> istniejÄ… tabele phpBB2 z prefixem <b>"%s"</b><br /><br />MoÅ¼esz wybraÄ‡ inny prefix dla nowo instalowanego forum, lub usunÄ…Ä‡ istniejÄ…ce tabele. JeÅ¼eli zdecydujesz siÄ™ usunÄ…Ä‡, upewnij siÄ™, Å¼e tabele nie sÄ… potrzebne (nie korzysta z nich inne forum dyskusyjne. Nie moÅ¼na cofnÄ…Ä‡ tej operacji !';
+$lang['Install_duplicate_tables_info2'] = 'WystÄ…piÅ‚ nieoczekiwany bÅ‚Ä…d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />Nie moÅ¼na kontynuowaÄ‡ instalacji forum.<br />Istnieje moÅ¼liwoÅ›c poprawienia bÅ‚Ä™du w pliku lub w ustawieniach serwera w celu wyeliminowania bÅ‚Ä™du.<br />Gdy to zostanie zrobione bÄ™dzie moÅ¼liwoÅ›c kontunuacji lecz wÃ³wczas naleÅ¼y usunÄ…Ä‡ tabele, ktÃ³re zostaÅ‚y juz utworzone, lub utworzyÄ‡ nowe, zmieniajÄ…c prefix.';
+$lang['Install_duplicate_tables_info3'] = 'WystÄ…piÅ‚ nieoczekiwany bÅ‚Ä…d instalacji do bazy SQL. Plik instalacyjny: <b>%s</b><br /><br />Nie moÅ¼na kontynuowaÄ‡ instalacji forum.<br />Istnieje moÅ¼liwoÅ›Ä‡ poprawienia bÅ‚Ä™du w pliku lub w ustawieniach serwera w celu wyeliminowania bÅ‚Ä™du.<br />Gdy to zostanie zrobione bÄ™dzie moÅ¼liwoÅ›c kontunuacji.';
+$lang['Remove_tables'] = 'UsuÅ„ wszystkie tabele z prefixem: <b>"%s"</b>';
+$lang['Change_prefix'] = 'ZmieÅ„ prefix nowych tabel';
 $lang['Continue'] = 'Kontynuuj';
-$lang['DB_name_e'] = 'Je¿eli jej nie znasz, skontaktuj siê z administratorem hostingu';
-$lang['DB_username_e'] = 'Nazwa u¿ytkownika przypisanego do powy¿szej bazy';
-$lang['Table_Prefix_e'] = 'Dowolny ci±g znaków identyfikuj±cy tabele forum w bazie';
-$lang['Admin_config_e'] = 'Twoje osobiste dane: e-mail który bêdzie u¿ywany na forum oraz z którego bêd± wysy³ane wiadomo¶ci z forum. Nazwa u¿ytkownika i has³o u¿ywane na forum.';
-$lang['Install_warning_1'] = '- Niektóre katalogi lub pliki nie maj± praw do zapisu. Po zainstalowaniu forum, w Panelu Administracyjnym w sekcji "Kontrola Systemu" sprawd¼ które katalogi tego wymagaj± i ustaw im prawa do zapisu u¿ywaj±c klienta FTP. W przeciwnym razie niektóre funkcje forum nie bêd± dzia³aæ. W zwi±zku z tym prawdopodobnie po zakoñczeniu instalacji bêdzie konieczne ¶ci±gniêcie pliku konfiguracyjnego <b>%s</b> i wys³aniu go poprzez FTP';
-$lang['Go_to_admin_panel'] = 'Przej¶æ do Panelu Administracji';
-$lang['Go_to_forum'] = 'Przej¶æ na stronê g³ówn± Forum';
-$lang['After_downloading'] = 'Po odebraniu pliku i wys³aniu do katalogu forum mo¿esz:';
-$lang['File_download_trouble'] = 'Je¿eli z jaki¶ powodów nie mo¿esz ¶ci±gn±æ pliku, poni¿ej znajduje siê jego zawarto¶æ. Skopiuj j± dok³adnie, utwórz na dysku plik <b>%s</b> i wklej skopiowan± zawarto¶æ (upewnij siê, ¿e na pocz±tku i na koñcu pliku nie ma spacji ani pustej linii! Po czym wy¶lij go do g³ównego katalogu forum.';
+$lang['DB_name_e'] = 'JeÅ¼eli jej nie znasz, skontaktuj siÄ™ z administratorem hostingu';
+$lang['DB_username_e'] = 'Nazwa uÅ¼ytkownika przypisanego do powyÅ¼szej bazy';
+$lang['Table_Prefix_e'] = 'Dowolny ciÄ…g znakÃ³w identyfikujÄ…cy tabele forum w bazie';
+$lang['Admin_config_e'] = 'Twoje osobiste dane: e-mail ktÃ³ry bÄ™dzie uÅ¼ywany na forum oraz z ktÃ³rego bÄ™dÄ… wysyÅ‚ane wiadomoÅ›ci z forum. Nazwa uÅ¼ytkownika i hasÅ‚o uÅ¼ywane na forum.';
+$lang['Install_warning_1'] = '- NiektÃ³re katalogi lub pliki nie majÄ… praw do zapisu. Po zainstalowaniu forum, w Panelu Administracyjnym w sekcji "Kontrola Systemu" sprawdÅº ktÃ³re katalogi tego wymagajÄ… i ustaw im prawa do zapisu uÅ¼ywajÄ…c klienta FTP. W przeciwnym razie niektÃ³re funkcje forum nie bÄ™dÄ… dziaÅ‚aÄ‡. W zwiÄ…zku z tym prawdopodobnie po zakoÅ„czeniu instalacji bÄ™dzie konieczne Å›ciÄ…gniÄ™cie pliku konfiguracyjnego <b>%s</b> i wysÅ‚aniu go poprzez FTP';
+$lang['Go_to_admin_panel'] = 'PrzejÅ›Ä‡ do Panelu Administracji';
+$lang['Go_to_forum'] = 'PrzejÅ›Ä‡ na stronÄ™ gÅ‚Ã³wnÄ… Forum';
+$lang['After_downloading'] = 'Po odebraniu pliku i wysÅ‚aniu do katalogu forum moÅ¼esz:';
+$lang['File_download_trouble'] = 'JeÅ¼eli z jakiÅ› powodÃ³w nie moÅ¼esz Å›ciÄ…gnÄ…Ä‡ pliku, poniÅ¼ej znajduje siÄ™ jego zawartoÅ›Ä‡. Skopiuj jÄ… dokÅ‚adnie, utwÃ³rz na dysku plik <b>%s</b> i wklej skopiowanÄ… zawartoÅ›Ä‡ (upewnij siÄ™, Å¼e na poczÄ…tku i na koÅ„cu pliku nie ma spacji ani pustej linii! Po czym wyÅ›lij go do gÅ‚Ã³wnego katalogu forum.';
 ?>

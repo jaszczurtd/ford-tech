@@ -51,43 +51,43 @@ $lang['Category'] = 'Kategoria';
 $lang['Topic'] = 'Temat';
 $lang['Topics'] = 'Tematy';
 $lang['Replies'] = 'Odpowiedzi';
-$lang['Views'] = 'Wy¶wietleñ';
+$lang['Views'] = 'WyÅ›wietleÅ„';
 $lang['Post'] = 'Post';
 $lang['Posts'] = 'Posty';
-$lang['Posted'] = 'Wys³any';
-$lang['Username'] = 'U¿ytkownik';
-$lang['Password'] = 'Has³o';
+$lang['Posted'] = 'WysÅ‚any';
+$lang['Username'] = 'UÅ¼ytkownik';
+$lang['Password'] = 'HasÅ‚o';
 $lang['Email'] = 'E-mail';
-$lang['Poster'] = 'Wys³a³';
+$lang['Poster'] = 'WysÅ‚aÅ‚';
 $lang['Author'] = 'Autor';
 $lang['Time'] = 'Czas';
 $lang['Hours'] = 'Godzin';
-$lang['Message'] = 'Wiadomo¶æ';
+$lang['Message'] = 'WiadomoÅ›Ä‡';
 
-$lang['1_Day'] = '1 Dzieñ';
+$lang['1_Day'] = '1 DzieÅ„';
 $lang['7_Days'] = '7 Dni';
 $lang['2_Weeks'] = '2 Tygodnie';
-$lang['1_Month'] = '1 Miesi±c';
-$lang['3_Months'] = '3 Miesi±ce';
-$lang['6_Months'] = '6 Miesiêcy';
+$lang['1_Month'] = '1 MiesiÄ…c';
+$lang['3_Months'] = '3 MiesiÄ…ce';
+$lang['6_Months'] = '6 MiesiÄ™cy';
 $lang['1_Year'] = '1 Rok';
 
 $lang['Jump_to'] = 'Skocz do';
-$lang['Submit'] = 'Wy¶lij';
-$lang['Reset'] = 'Wyczy¶æ';
+$lang['Submit'] = 'WyÅ›lij';
+$lang['Reset'] = 'WyczyÅ›Ä‡';
 $lang['Cancel'] = 'Anuluj';
-$lang['Preview'] = 'Podgl±d';
-$lang['Confirm'] = 'Zatwierd¼';
+$lang['Preview'] = 'PodglÄ…d';
+$lang['Confirm'] = 'ZatwierdÅº';
 $lang['Yes'] = 'Tak';
 $lang['No'] = 'Nie';
-$lang['Enabled'] = 'W³±czony';
-$lang['Disabled'] = 'Wy³±czony';
-$lang['Error'] = 'B³±d';
+$lang['Enabled'] = 'WÅ‚Ä…czony';
+$lang['Disabled'] = 'WyÅ‚Ä…czony';
+$lang['Error'] = 'BÅ‚Ä…d';
 
 $lang['Next'] = 'Dalej';
 $lang['Previous'] = 'Wstecz';
-$lang['Goto_page'] = 'Id¼ do strony';
-$lang['Joined'] = 'Do³±czy³';
+$lang['Goto_page'] = 'IdÅº do strony';
+$lang['Joined'] = 'DoÅ‚Ä…czyÅ‚';
 $lang['IP_Address'] = 'Adres IP';
 
 $lang['Select_forum'] = 'Wybierz forum';
@@ -99,55 +99,55 @@ $lang['AIM'] = 'Numer Gadu-Gadu';
 $lang['MSNM'] = 'MSN Messenger';
 $lang['YIM'] = 'Yahoo Messenger';
 
-$lang['Forum_Index'] = '%s Strona G³ówna';
+$lang['Forum_Index'] = '%s Strona GÅ‚Ã³wna';
 
 $lang['Post_new_topic'] = 'Napisz nowy temat';
 $lang['Reply_to_topic'] = 'Odpowiedz do tematu';
 $lang['Reply_with_quote'] = 'Odpowiedz z cytatem';
 
-$lang['Click_return_topic'] = 'Kliknij %sTutaj%s aby powróciæ do tematu';
-$lang['Click_return_forum'] = 'Kliknij %sTutaj%s aby powróciæ na forum';
-$lang['Click_view_message'] = 'Kliknij %sTutaj%s aby zobaczyæ swoj± wiadomo¶æ';
-$lang['Click_return_group'] = 'Kliknij %sTutaj%s aby powróciæ do informacji o grupach';
+$lang['Click_return_topic'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ do tematu';
+$lang['Click_return_forum'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ na forum';
+$lang['Click_view_message'] = 'Kliknij %sTutaj%s aby zobaczyÄ‡ swojÄ… wiadomoÅ›Ä‡';
+$lang['Click_return_group'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ do informacji o grupach';
 
 $lang['Admin_panel'] = 'Panel Administracyjny';
 
-$lang['Board_disable'] = 'To forum jest teraz wy³±czone.';
+$lang['Board_disable'] = 'To forum jest teraz wyÅ‚Ä…czone.';
 
 //
 // Global Header strings
 //
-$lang['Registered_users'] = 'Zarejestrowani U¿ytkownicy:';
-$lang['Browsing_forum'] = 'U¿ytkownicy przegl±daj±cy to forum:';
-$lang['Online_users_zero_total'] = 'Na Forum jest <b>0</b> u¿ytkowników :: ';
-$lang['Online_users_total'] = 'Na Forum jest <b>%d</b> u¿ytkowników :: ';
-$lang['Online_user_total'] = 'Na Forum jest <b>%d</b> u¿ytkownik :: ';
+$lang['Registered_users'] = 'Zarejestrowani UÅ¼ytkownicy:';
+$lang['Browsing_forum'] = 'UÅ¼ytkownicy przeglÄ…dajÄ…cy to forum:';
+$lang['Online_users_zero_total'] = 'Na Forum jest <b>0</b> uÅ¼ytkownikÃ³w :: ';
+$lang['Online_users_total'] = 'Na Forum jest <b>%d</b> uÅ¼ytkownikÃ³w :: ';
+$lang['Online_user_total'] = 'Na Forum jest <b>%d</b> uÅ¼ytkownik :: ';
 $lang['Reg_users_zero_total'] = '0 Zarejestrowanych, ';
 $lang['Reg_users_total'] = '%d Zarejestrowanych, ';
 $lang['Reg_user_total'] = '%d Zarejestrowany, ';
 $lang['Hidden_users_zero_total'] = '0 Ukrytych i ';
 $lang['Hidden_users_total'] = '%d Ukrytych i ';
 $lang['Hidden_user_total'] = '%d Ukryty i ';
-$lang['Guest_users_zero_total'] = '0 Go¶ci';
-$lang['Guest_users_total'] = '%d Go¶ci';
-$lang['Guest_user_total'] = '%d Go¶æ';
-$lang['Record_online_users'] = 'Najwiêcej u¿ytkowników <b>%s</b> by³o obecnych %s';
+$lang['Guest_users_zero_total'] = '0 GoÅ›ci';
+$lang['Guest_users_total'] = '%d GoÅ›ci';
+$lang['Guest_user_total'] = '%d GoÅ›Ä‡';
+$lang['Record_online_users'] = 'NajwiÄ™cej uÅ¼ytkownikÃ³w <b>%s</b> byÅ‚o obecnych %s';
 
 $lang['Admin_online_color'] = 'Administrator';
 $lang['Mod_online_color'] = 'Moderator';
 
-$lang['You_last_visit'] = 'Ostatnio odwiedzi³' .  (($he) ? 'e' : 'a') . '¶ nas %s';
+$lang['You_last_visit'] = 'Ostatnio odwiedziÅ‚' .  (($he) ? 'e' : 'a') . 'Å› nas %s';
 $lang['Current_time'] = 'Obecny czas to %s';
 
-$lang['Flood_Search'] = 'Nie mo¿esz wyszukiwaæ tak szybko. Odczekaj kilka sekund i spróbuj ponowanie lub od¶wie¿ stronê.';
+$lang['Flood_Search'] = 'Nie moÅ¼esz wyszukiwaÄ‡ tak szybko. Odczekaj kilka sekund i sprÃ³buj ponowanie lub odÅ›wieÅ¼ stronÄ™.';
 $lang['Search_your_posts'] = 'Zobacz swoje posty';
 $lang['Search_unanswered'] = 'Zobacz posty bez odpowiedzi';
 
 $lang['Register'] = 'Rejestracja';
 $lang['Profile'] = 'Profil';
-$lang['Edit_profile'] = 'Zmieñ swój profil';
+$lang['Edit_profile'] = 'ZmieÅ„ swÃ³j profil';
 $lang['Search'] = 'Szukaj';
-$lang['Memberlist'] = 'U¿ytkownicy';
+$lang['Memberlist'] = 'UÅ¼ytkownicy';
 $lang['FAQ'] = 'FAQ';
 $lang['BBCode_guide'] = 'Przewodnik BBCode';
 $lang['Usergroups'] = 'Grupy';
@@ -159,20 +159,20 @@ $lang['Moderators'] = 'Moderatorzy';
 //
 // Stats block text
 //
-$lang['Posted_articles_zero_total'] = 'Nasi u¿ytkownicy napisali <b>0</b> postów';
-$lang['Posted_articles_total'] = 'Nasi u¿ytkownicy napisali <b>%d</b> postów';
-$lang['Posted_article_total'] = 'Nasi u¿ytkownicy napisali <b>%d</b> wiadomo¶æ';
-$lang['Registered_users_zero_total'] = 'Mamy <b>0</b> zarejestrowanych u¿ytkowników';
-$lang['Registered_users_total'] = 'Mamy <b>%d</b> zarejestrowanych u¿ytkowników';
-$lang['Registered_user_total'] = 'Mamy <b>%d</b> zarejestrowanego u¿ytkownika';
+$lang['Posted_articles_zero_total'] = 'Nasi uÅ¼ytkownicy napisali <b>0</b> postÃ³w';
+$lang['Posted_articles_total'] = 'Nasi uÅ¼ytkownicy napisali <b>%d</b> postÃ³w';
+$lang['Posted_article_total'] = 'Nasi uÅ¼ytkownicy napisali <b>%d</b> wiadomoÅ›Ä‡';
+$lang['Registered_users_zero_total'] = 'Mamy <b>0</b> zarejestrowanych uÅ¼ytkownikÃ³w';
+$lang['Registered_users_total'] = 'Mamy <b>%d</b> zarejestrowanych uÅ¼ytkownikÃ³w';
+$lang['Registered_user_total'] = 'Mamy <b>%d</b> zarejestrowanego uÅ¼ytkownika';
 $lang['Newest_user'] = 'Ostatnio zarejestrowana osoba: <b>%s%s%s</b>';
 
-$lang['No_new_posts'] = 'Brak nowych postów';
+$lang['No_new_posts'] = 'Brak nowych postÃ³w';
 $lang['New_posts'] = 'Nowe posty';
 $lang['New_post'] = 'Nowy post';
-$lang['No_new_posts_hot'] = 'Brak nowych postów [ Popularny ]';
+$lang['No_new_posts_hot'] = 'Brak nowych postÃ³w [ Popularny ]';
 $lang['New_posts_hot'] = 'Nowe posty [ Popularny ]';
-$lang['No_new_posts_locked'] = 'Brak nowych postów [ Zablokowany ]';
+$lang['No_new_posts_locked'] = 'Brak nowych postÃ³w [ Zablokowany ]';
 $lang['New_posts_locked'] = 'Nowe posty [ Zablokowany ]';
 $lang['Forum_is_locked'] = 'Forum Zablokowane';
 
@@ -183,19 +183,19 @@ $lang['Forum_is_locked'] = 'Forum Zablokowane';
 $lang['Login'] = 'Zaloguj';
 $lang['Logout'] = 'Wyloguj';
 
-$lang['Forgotten_password'] = 'Zapomnia³em has³a';
+$lang['Forgotten_password'] = 'ZapomniaÅ‚em hasÅ‚a';
 
-$lang['Log_me_in'] = 'Zaloguj mnie automatycznie przy ka¿dej wizycie';
+$lang['Log_me_in'] = 'Zaloguj mnie automatycznie przy kaÅ¼dej wizycie';
 
 
 //
 // Index page
 //
-$lang['No_Posts'] = 'Brak Postów';
+$lang['No_Posts'] = 'Brak PostÃ³w';
 $lang['No_forums'] = 'Brak For';
 
-$lang['Private_Message'] = 'Prywatna Wiadomo¶æ';
-$lang['Private_Messages'] = 'Prywatne Wiadomo¶ci';
+$lang['Private_Message'] = 'Prywatna WiadomoÅ›Ä‡';
+$lang['Private_Messages'] = 'Prywatne WiadomoÅ›ci';
 $lang['Who_is_Online'] = 'Kto jest na Forum';
 
 $lang['Mark_all_forums'] = 'Oznacz wszystkie fora jako przeczytane';
@@ -209,280 +209,280 @@ $lang['View_forum'] = 'Zobacz Forum';
 
 $lang['Forum_not_exist'] = 'Wybrane przez Ciebie forum nie istnieje';
 
-$lang['Display_topics'] = 'Wy¶wietl tematy z ostatnich';
+$lang['Display_topics'] = 'WyÅ›wietl tematy z ostatnich';
 
-$lang['Topic_Announcement'] = '<b>Og³oszenie:</b>';
+$lang['Topic_Announcement'] = '<b>OgÅ‚oszenie:</b>';
 $lang['Topic_Sticky'] = '<b>Przyklejony:</b>';
-$lang['Topic_Moved'] = '<b>Przesuniêty:</b>';
+$lang['Topic_Moved'] = '<b>PrzesuniÄ™ty:</b>';
 $lang['Topic_Poll'] = '<b>[ Ankieta ]</b>';
 
 $lang['Mark_all_topics'] = 'Oznacz wszystkie tematy jako przeczytane';
-$lang['Topics_marked_read'] = 'Tematy na tym forum zosta³y oznaczone jako przeczytane';
+$lang['Topics_marked_read'] = 'Tematy na tym forum zostaÅ‚y oznaczone jako przeczytane';
 
-$lang['Rules_post_can'] = '<b>Mo¿esz</b> pisaæ nowe tematy';
-$lang['Rules_post_cannot'] = '<b>Nie mo¿esz</b> pisaæ nowych tematów';
-$lang['Rules_reply_can'] = '<b>Mo¿esz</b> odpowiadaæ w tematach';
-$lang['Rules_reply_cannot'] = '<b>Nie mo¿esz</b> odpowiadaæ w tematach';
-$lang['Rules_edit_can'] = '<b>Mo¿esz</b> zmieniaæ swoje posty';
-$lang['Rules_edit_cannot'] = '<b>Nie mo¿esz</b> zmieniaæ swoich postów';
-$lang['Rules_delete_can'] = '<b>Mo¿esz</b> usuwaæ swoje posty';
-$lang['Rules_delete_cannot'] = '<b>Nie mo¿esz</b> usuwaæ swoich postów';
-$lang['Rules_vote_can'] = '<b>Mo¿esz</b> g³osowaæ w ankietach';
-$lang['Rules_vote_cannot'] = '<b>Nie mo¿esz</b> g³osowaæ w ankietach';
-$lang['Rules_moderate'] = '<b>Mo¿esz</b> %smoderowaæ to forum%s';
+$lang['Rules_post_can'] = '<b>MoÅ¼esz</b> pisaÄ‡ nowe tematy';
+$lang['Rules_post_cannot'] = '<b>Nie moÅ¼esz</b> pisaÄ‡ nowych tematÃ³w';
+$lang['Rules_reply_can'] = '<b>MoÅ¼esz</b> odpowiadaÄ‡ w tematach';
+$lang['Rules_reply_cannot'] = '<b>Nie moÅ¼esz</b> odpowiadaÄ‡ w tematach';
+$lang['Rules_edit_can'] = '<b>MoÅ¼esz</b> zmieniaÄ‡ swoje posty';
+$lang['Rules_edit_cannot'] = '<b>Nie moÅ¼esz</b> zmieniaÄ‡ swoich postÃ³w';
+$lang['Rules_delete_can'] = '<b>MoÅ¼esz</b> usuwaÄ‡ swoje posty';
+$lang['Rules_delete_cannot'] = '<b>Nie moÅ¼esz</b> usuwaÄ‡ swoich postÃ³w';
+$lang['Rules_vote_can'] = '<b>MoÅ¼esz</b> gÅ‚osowaÄ‡ w ankietach';
+$lang['Rules_vote_cannot'] = '<b>Nie moÅ¼esz</b> gÅ‚osowaÄ‡ w ankietach';
+$lang['Rules_moderate'] = '<b>MoÅ¼esz</b> %smoderowaÄ‡ to forum%s';
 
-$lang['No_topics_post_one'] = 'Nie ma ¿adnych postów na tym forum<br />Kliknij na przycisk <b>Nowy Temat</b> aby co¶ napisaæ';
-$lang['No_topics_post_one_ignore'] = 'Nie ma wiêcej tematów których nie ignorujesz na tym forum, kliknij link "Poka¿ ignorowane tematy" aby zobaczyæ wszystkie tematy';
+$lang['No_topics_post_one'] = 'Nie ma Å¼adnych postÃ³w na tym forum<br />Kliknij na przycisk <b>Nowy Temat</b> aby coÅ› napisaÄ‡';
+$lang['No_topics_post_one_ignore'] = 'Nie ma wiÄ™cej tematÃ³w ktÃ³rych nie ignorujesz na tym forum, kliknij link "PokaÅ¼ ignorowane tematy" aby zobaczyÄ‡ wszystkie tematy';
 
 //
 // Viewtopic
 //
 $lang['View_topic'] = 'Zobacz temat';
 
-$lang['Guest'] = 'Go¶æ';
+$lang['Guest'] = 'GoÅ›Ä‡';
 $lang['Post_subject'] = 'Temat postu';
-$lang['View_next_topic'] = 'Nastêpny temat';
+$lang['View_next_topic'] = 'NastÄ™pny temat';
 $lang['View_previous_topic'] = 'Poprzedni temat';
-$lang['Submit_vote'] = 'Wy¶lij G³os';
+$lang['Submit_vote'] = 'WyÅ›lij GÅ‚os';
 $lang['View_results'] = 'Zobacz Wyniki';
 
-$lang['No_newer_topics'] = 'Nie ma nowszych tematów na tym forum';
-$lang['No_older_topics'] = 'Nie ma starszych tematów na tym forum';
-$lang['No_posts_topic'] = 'Nie istniej± ¿adne posty dla tego tematu';
+$lang['No_newer_topics'] = 'Nie ma nowszych tematÃ³w na tym forum';
+$lang['No_older_topics'] = 'Nie ma starszych tematÃ³w na tym forum';
+$lang['No_posts_topic'] = 'Nie istniejÄ… Å¼adne posty dla tego tematu';
 
-$lang['Display_posts'] = 'Wy¶wietl posty z ostatnich';
+$lang['Display_posts'] = 'WyÅ›wietl posty z ostatnich';
 $lang['All_Posts'] = 'Wszystkie Posty';
 $lang['Newest_First'] = 'Najpierw Nowsze';
 $lang['Oldest_First'] = 'Najpierw Starsze';
 
-$lang['Back_to_top'] = 'Powrót do góry';
+$lang['Back_to_top'] = 'PowrÃ³t do gÃ³ry';
 
 $lang['Read_profile'] = 'Zobacz profil autora';
-$lang['Visit_website'] = 'Odwied¼ stronê autora';
-$lang['Edit_delete_post'] = 'Zmieñ/Usuñ ten post';
+$lang['Visit_website'] = 'OdwiedÅº stronÄ™ autora';
+$lang['Edit_delete_post'] = 'ZmieÅ„/UsuÅ„ ten post';
 $lang['View_IP'] = 'Zobacz IP autora';
-$lang['Delete_post'] = 'Usuñ ten post';
+$lang['Delete_post'] = 'UsuÅ„ ten post';
 
-$lang['wrote'] = 'napisa³/a';
+$lang['wrote'] = 'napisaÅ‚/a';
 $lang['Quote'] = 'Cytat';
 $lang['Code'] = 'Kod';
 $lang['youtube_link'] = "YouTube"; // YouTube Tag
-$lang['Edited_time_total'] = 'Ostatnio zmieniony przez %s %s, w ca³o¶ci zmieniany %d raz';
-$lang['Edited_times_total'] = 'Ostatnio zmieniony przez %s %s, w ca³o¶ci zmieniany %d razy';
+$lang['Edited_time_total'] = 'Ostatnio zmieniony przez %s %s, w caÅ‚oÅ›ci zmieniany %d raz';
+$lang['Edited_times_total'] = 'Ostatnio zmieniony przez %s %s, w caÅ‚oÅ›ci zmieniany %d razy';
 
 $lang['Lock_topic'] = 'Zablokuj ten temat';
 $lang['Unlock_topic'] = 'Odblokuj ten temat';
-$lang['Move_topic'] = 'Przesuñ ten temat';
-$lang['Delete_topic'] = 'Usuñ ten temat';
+$lang['Move_topic'] = 'PrzesuÅ„ ten temat';
+$lang['Delete_topic'] = 'UsuÅ„ ten temat';
 $lang['Split_topic'] = 'Podziel ten temat';
 
-$lang['Stop_watching_topic'] = 'Przestañ ¶ledziæ ten temat';
-$lang['Start_watching_topic'] = '¦led¼ odpowiedzi w tym temacie';
-$lang['No_longer_watching'] = 'Przesta³' .  (($he) ? 'e' : 'a') . '¶ ¶ledziæ ten temat';
-$lang['You_are_watching'] = 'Rozpocz' .  (($he) ? '±³e' : 'ê³a') . '¶ ¶ledzenie tego tematu';
+$lang['Stop_watching_topic'] = 'PrzestaÅ„ Å›ledziÄ‡ ten temat';
+$lang['Start_watching_topic'] = 'ÅšledÅº odpowiedzi w tym temacie';
+$lang['No_longer_watching'] = 'PrzestaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› Å›ledziÄ‡ ten temat';
+$lang['You_are_watching'] = 'Rozpocz' .  (($he) ? 'Ä…Å‚e' : 'Ä™Å‚a') . 'Å› Å›ledzenie tego tematu';
 
-$lang['Total_votes'] = 'Wszystkich G³osów';
+$lang['Total_votes'] = 'Wszystkich GÅ‚osÃ³w';
 
 //
 // Posting/Replying (Not private messaging!)
 //
-$lang['Message_body'] = 'Tre¶æ wiadomo¶ci';
-$lang['Topic_review'] = 'Przegl±d tematu';
+$lang['Message_body'] = 'TreÅ›Ä‡ wiadomoÅ›ci';
+$lang['Topic_review'] = 'PrzeglÄ…d tematu';
 
-$lang['No_post_mode'] = 'Nie okre¶lono typu postu';
+$lang['No_post_mode'] = 'Nie okreÅ›lono typu postu';
 
 $lang['Post_a_new_topic'] = 'Napisz nowy temat';
-$lang['Post_a_reply'] = 'Napisz odpowied¼';
+$lang['Post_a_reply'] = 'Napisz odpowiedÅº';
 $lang['Post_topic_as'] = 'Napisz temat jako';
-$lang['Edit_Post'] = 'Zmieñ post';
+$lang['Edit_Post'] = 'ZmieÅ„ post';
 $lang['Options'] = 'Opcje';
 
-$lang['Post_Announcement'] = 'Og³oszenie';
+$lang['Post_Announcement'] = 'OgÅ‚oszenie';
 $lang['Post_Sticky'] = 'Przyklejony';
 $lang['Post_Normal'] = 'Normalny';
 
-$lang['Confirm_delete'] = 'Czy na pewno chcesz usun±æ ten post?';
-$lang['Confirm_delete_poll'] = 'Czy na pewno chcesz usun±æ tê ankietê?';
+$lang['Confirm_delete'] = 'Czy na pewno chcesz usunÄ…Ä‡ ten post?';
+$lang['Confirm_delete_poll'] = 'Czy na pewno chcesz usunÄ…Ä‡ tÄ™ ankietÄ™?';
 
-$lang['Flood_Error'] = 'Nie mo¿esz wys³aæ nowego postu tak szybko po poprzednim, zaczekaj chwilê i spróbuj ponownie';
-$lang['Empty_subject'] = 'Musisz wpisaæ temat je¶li wysy³asz nowy w±tek';
-$lang['Empty_message'] = 'Musisz wpisaæ wiadomo¶æ przed wys³aniem';
-$lang['Forum_locked'] = 'To forum jest zablokowane, nie mo¿esz pisaæ dodawaæ ani zmieniaæ na nim czegokolwiek';
-$lang['Topic_locked'] = 'Ten temat jest zablokowany bez mo¿liwo¶ci zmiany postów lub pisania odpowiedzi';
-$lang['No_topic_id'] = 'Musisz wybraæ temat do wys³ania odpowiedzi';
-$lang['No_valid_mode'] = 'Mo¿esz jedynie pisaæ nowe, odpowiadaæ, zmieniaæ lub cytowaæ wiadomo¶ci, wróæ i spróbuj ponownie';
-$lang['No_such_post'] = 'Taki post lub temat nie istnieje, byæ mo¿e zosta³ przed chwil± usuniêty, wróæ i spróbuj ponownie';
-$lang['Edit_own_posts'] = 'Mo¿esz zmieniaæ jedynie swoje posty';
-$lang['Delete_own_posts'] = 'Mo¿esz usuwaæ jedynie swoje posty';
-$lang['Cannot_delete_replied'] = 'Nie mo¿esz usuwaæ postów, na które jest odpowied¼';
-$lang['Cannot_delete_poll'] = 'Nie mo¿esz usun±æ aktywnej ankiety';
-$lang['Empty_poll_title'] = 'Musisz wpisaæ tytu³ dla ankiety';
-$lang['To_few_poll_options'] = 'Musisz wpisaæ przynajmniej dwie opcje ankiety';
-$lang['To_many_poll_options'] = 'Poda³' .  (($he) ? 'e' : 'a') . '¶ zbyt wiele opcji dla ankiety';
-$lang['Already_voted'] = 'Odda³' .  (($he) ? 'e' : 'a') . '¶ ju¿ g³os w tej ankiecie';
-$lang['No_vote_option'] = 'Musisz wybraæ opcjê podczas g³osowania';
+$lang['Flood_Error'] = 'Nie moÅ¼esz wysÅ‚aÄ‡ nowego postu tak szybko po poprzednim, zaczekaj chwilÄ™ i sprÃ³buj ponownie';
+$lang['Empty_subject'] = 'Musisz wpisaÄ‡ temat jeÅ›li wysyÅ‚asz nowy wÄ…tek';
+$lang['Empty_message'] = 'Musisz wpisaÄ‡ wiadomoÅ›Ä‡ przed wysÅ‚aniem';
+$lang['Forum_locked'] = 'To forum jest zablokowane, nie moÅ¼esz pisaÄ‡ dodawaÄ‡ ani zmieniaÄ‡ na nim czegokolwiek';
+$lang['Topic_locked'] = 'Ten temat jest zablokowany bez moÅ¼liwoÅ›ci zmiany postÃ³w lub pisania odpowiedzi';
+$lang['No_topic_id'] = 'Musisz wybraÄ‡ temat do wysÅ‚ania odpowiedzi';
+$lang['No_valid_mode'] = 'MoÅ¼esz jedynie pisaÄ‡ nowe, odpowiadaÄ‡, zmieniaÄ‡ lub cytowaÄ‡ wiadomoÅ›ci, wrÃ³Ä‡ i sprÃ³buj ponownie';
+$lang['No_such_post'] = 'Taki post lub temat nie istnieje, byÄ‡ moÅ¼e zostaÅ‚ przed chwilÄ… usuniÄ™ty, wrÃ³Ä‡ i sprÃ³buj ponownie';
+$lang['Edit_own_posts'] = 'MoÅ¼esz zmieniaÄ‡ jedynie swoje posty';
+$lang['Delete_own_posts'] = 'MoÅ¼esz usuwaÄ‡ jedynie swoje posty';
+$lang['Cannot_delete_replied'] = 'Nie moÅ¼esz usuwaÄ‡ postÃ³w, na ktÃ³re jest odpowiedÅº';
+$lang['Cannot_delete_poll'] = 'Nie moÅ¼esz usunÄ…Ä‡ aktywnej ankiety';
+$lang['Empty_poll_title'] = 'Musisz wpisaÄ‡ tytuÅ‚ dla ankiety';
+$lang['To_few_poll_options'] = 'Musisz wpisaÄ‡ przynajmniej dwie opcje ankiety';
+$lang['To_many_poll_options'] = 'PodaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› zbyt wiele opcji dla ankiety';
+$lang['Already_voted'] = 'OddaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› juÅ¼ gÅ‚os w tej ankiecie';
+$lang['No_vote_option'] = 'Musisz wybraÄ‡ opcjÄ™ podczas gÅ‚osowania';
 
-$lang['Add_poll'] = 'Dodaj Ankietê';
-$lang['Add_poll_explain'] = 'Je¿eli nie chcesz dodawaæ ankiety do tego tematu, pozostaw pola puste';
+$lang['Add_poll'] = 'Dodaj AnkietÄ™';
+$lang['Add_poll_explain'] = 'JeÅ¼eli nie chcesz dodawaÄ‡ ankiety do tego tematu, pozostaw pola puste';
 $lang['Poll_question'] = 'Pytanie do ankiety';
 $lang['Poll_option'] = 'Opcja ankiety';
-$lang['Add_option'] = 'Dodaj opcjê';
+$lang['Add_option'] = 'Dodaj opcjÄ™';
 $lang['Update'] = 'Aktualizuj';
-$lang['Delete'] = 'Usuñ';
+$lang['Delete'] = 'UsuÅ„';
 $lang['Poll_for'] = 'Czas trwania';
 $lang['Days'] = 'Dni';
-$lang['Poll_for_explain'] = '[ Wpisz 0 lub pozostaw puste dla niekoñcz±cej siê ankiety ]';
-$lang['Delete_poll'] = 'Usuñ Ankietê';
+$lang['Poll_for_explain'] = '[ Wpisz 0 lub pozostaw puste dla niekoÅ„czÄ…cej siÄ™ ankiety ]';
+$lang['Delete_poll'] = 'UsuÅ„ AnkietÄ™';
 
-$lang['Disable_HTML_post'] = 'Wy³±cz HTML w tym po¶cie';
-$lang['Disable_BBCode_post'] = 'Wy³±cz BBCode w tym po¶cie';
-$lang['Disable_Smilies_post'] = 'Wy³±cz U¶mieszki w tym po¶cie';
+$lang['Disable_HTML_post'] = 'WyÅ‚Ä…cz HTML w tym poÅ›cie';
+$lang['Disable_BBCode_post'] = 'WyÅ‚Ä…cz BBCode w tym poÅ›cie';
+$lang['Disable_Smilies_post'] = 'WyÅ‚Ä…cz UÅ›mieszki w tym poÅ›cie';
 
 $lang['HTML_is_ON'] = 'HTML: <u>TAK</u>';
 $lang['HTML_is_OFF'] = 'HTML: <u>NIE</u>';
 $lang['BBCode_is_ON'] = '%sBBCode%s: <u>TAK</u>';
 $lang['BBCode_is_OFF'] = '%sBBCode%s: <u>NIE</u>';
-$lang['Smilies_are_ON'] = 'U¶mieszki: <u>TAK</u>';
-$lang['Smilies_are_OFF'] = 'U¶mieszki: <u>NIE</u>';
+$lang['Smilies_are_ON'] = 'UÅ›mieszki: <u>TAK</u>';
+$lang['Smilies_are_OFF'] = 'UÅ›mieszki: <u>NIE</u>';
 
-$lang['Attach_signature'] = 'Dodaj podpis (mo¿e byæ zmieniony w profilu)';
-$lang['Notify'] = 'Powiadom mnie gdy kto¶ odpowie';
+$lang['Attach_signature'] = 'Dodaj podpis (moÅ¼e byÄ‡ zmieniony w profilu)';
+$lang['Notify'] = 'Powiadom mnie gdy ktoÅ› odpowie';
 
-$lang['Stored'] = 'Wiadomo¶æ zosta³a zapisana';
-$lang['Deleted'] = 'Wiadomo¶æ zosta³a usuniêta';
-$lang['Poll_delete'] = 'Ankieta zosta³a usuniêta';
-$lang['Vote_cast'] = 'Twój g³os zosta³ zapisany';
+$lang['Stored'] = 'WiadomoÅ›Ä‡ zostaÅ‚a zapisana';
+$lang['Deleted'] = 'WiadomoÅ›Ä‡ zostaÅ‚a usuniÄ™ta';
+$lang['Poll_delete'] = 'Ankieta zostaÅ‚a usuniÄ™ta';
+$lang['Vote_cast'] = 'TwÃ³j gÅ‚os zostaÅ‚ zapisany';
 
 $lang['Topic_reply_notification'] = 'Powiadomienie o Odpowiedzi';
 
 $lang['bbcode_b_help'] = 'Tekst pogrubiony: [b]tekst[/b] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_i_help'] = 'Tekst kursyw±: [i]tekst[/i] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_u_help'] = 'Tekst podkre¶lony: [u]tekst[/u] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_i_help'] = 'Tekst kursywÄ…: [i]tekst[/i] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_u_help'] = 'Tekst podkreÅ›lony: [u]tekst[/u] Rada: zaznacz tekst i kliknij';
 $lang['bbcode_q_help'] = 'Cytat: [quote]tekst[/quote] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_c_help'] = 'Poka¿ kod: [code]kod[/code] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_c_help'] = 'PokaÅ¼ kod: [code]kod[/code] Rada: zaznacz tekst i kliknij';
 $lang['bbcode_l_help'] = 'Lista: [list]tekst[/list] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_o_help'] = 'Lista uporz±dkowana: [list=]tekst[/list] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_o_help'] = 'Lista uporzÄ…dkowana: [list=]tekst[/list] Rada: zaznacz tekst i kliknij';
 $lang['bbcode_p_help'] = 'Wstaw obrazek: [img]http://adres_obrazka[/img] Rada: Kliknij i wpisz adres';
-$lang['bbcode_w_help'] = '[url]http://adres[/url] Rada: Kliknij wpisz nazwê i adres';
+$lang['bbcode_w_help'] = '[url]http://adres[/url] Rada: Kliknij wpisz nazwÄ™ i adres';
 $lang['bbcode_a_help'] = 'Zamknij wszystkie otwarte tagi bbCode';
 $lang['bbcode_s_help'] = 'Kolor czcionki: [color=red]tekst[/color] Rada: zaznacz tekst i wybierz kolor';
-$lang['bbcode_f_help'] = 'Rozmiar czcionki: [size=x-small]ma³y tekst[/size] Rada: zaznacz tekst i wybierz rozmiar';
-$lang['bbcode_yt_help'] = "Umie¶æ link do filmiku miêdzy tagami: [youtube][/youtube]"; // YouTube Tag
+$lang['bbcode_f_help'] = 'Rozmiar czcionki: [size=x-small]maÅ‚y tekst[/size] Rada: zaznacz tekst i wybierz rozmiar';
+$lang['bbcode_yt_help'] = "UmieÅ›Ä‡ link do filmiku miÄ™dzy tagami: [youtube][/youtube]"; // YouTube Tag
 $lang['Emoticons'] = 'Ikony Emocji';
-$lang['More_emoticons'] = 'Wiêcej Ikon';
+$lang['More_emoticons'] = 'WiÄ™cej Ikon';
 
 $lang['Font_color'] = 'Kolor';
-$lang['color_default'] = 'Domy¶lny';
+$lang['color_default'] = 'DomyÅ›lny';
 $lang['color_dark_red'] = 'Ciemnoczerwony';
 $lang['color_red'] = 'Czerwony';
-$lang['color_orange'] = 'Pomarañczowy';
-$lang['color_brown'] = 'Br±zowy';
-$lang['color_yellow'] = '¿ó³ty';
+$lang['color_orange'] = 'PomaraÅ„czowy';
+$lang['color_brown'] = 'BrÄ…zowy';
+$lang['color_yellow'] = 'Å¼Ã³Å‚ty';
 $lang['color_green'] = 'Zielony';
 $lang['color_olive'] = 'Oliwkowy';
-$lang['color_cyan'] = 'B³êkitny';
+$lang['color_cyan'] = 'BÅ‚Ä™kitny';
 $lang['color_blue'] = 'Niebieski';
 $lang['color_dark_blue'] = 'Ciemnoniebieski';
 $lang['color_indigo'] = 'Purpurowy';
 $lang['color_violet'] = 'Fioletowy';
-$lang['color_white'] = 'Bia³y';
+$lang['color_white'] = 'BiaÅ‚y';
 $lang['color_black'] = 'Czarny';
 
 $lang['Font_size'] = 'Rozmiar';
 $lang['font_tiny'] = 'Minimalny';
-$lang['font_small'] = 'Ma³y';
+$lang['font_small'] = 'MaÅ‚y';
 $lang['font_normal'] = 'Normalny';
-$lang['font_large'] = 'Du¿y';
+$lang['font_large'] = 'DuÅ¼y';
 $lang['font_huge'] = 'Ogromny';
 
 $lang['Close_Tags'] = 'Zamknij Tagi';
-$lang['Styles_tip'] = 'Rada: Style mog± byæ stosowane szybko do zaznaczonego tekstu';
+$lang['Styles_tip'] = 'Rada: Style mogÄ… byÄ‡ stosowane szybko do zaznaczonego tekstu';
 
 
 //
 // Private Messaging
 //
-$lang['Private_Messaging'] = 'Prywatne Wiadomo¶ci';
+$lang['Private_Messaging'] = 'Prywatne WiadomoÅ›ci';
 
-$lang['Login_check_pm'] = 'Zaloguj&nbsp;siê,&nbsp;by&nbsp;sprawdziæ&nbsp;wiadomo¶ci';
-$lang['New_pms'] = 'Masz %d <span class=\'pm\'>*<b>nowe</b>*</span> wiadomo¶ci';
-$lang['New_pm'] = 'Masz %d <span class=\'pm\'>*<b>now±</b>*</span> wiadomo¶æ';
-$lang['No_new_pm'] = 'Nie&nbsp;masz&nbsp;wiadomo¶ci';
-$lang['Unread_pms'] = 'Masz %d nieprzeczytanych wiadomo¶ci';
-$lang['Unread_pm'] = 'Masz %d nieprzeczytan± wiadomo¶æ';
-$lang['No_unread_pm'] = 'Nie masz nieprzeczytanych wiadomo¶ci';
-$lang['You_new_pm'] = 'Nowa prywatna wiadomo¶æ czeka na Ciebie w Skrzynce';
-$lang['You_new_pms'] = 'Nowe prywatne wiadomo¶ci czekaj± na Ciebie w Skrzynce';
-$lang['You_no_new_pm'] = 'Nie ma dla Ciebie ¿adnych nowych prywatnych wiadomo¶ci';
-$lang['Unread_message'] = 'Nowa wiadomo¶æ';
-$lang['Read_message'] = 'Przeczytana wiadomo¶æ';
+$lang['Login_check_pm'] = 'Zaloguj&nbsp;siÄ™,&nbsp;by&nbsp;sprawdziÄ‡&nbsp;wiadomoÅ›ci';
+$lang['New_pms'] = 'Masz %d <span class=\'pm\'>*<b>nowe</b>*</span> wiadomoÅ›ci';
+$lang['New_pm'] = 'Masz %d <span class=\'pm\'>*<b>nowÄ…</b>*</span> wiadomoÅ›Ä‡';
+$lang['No_new_pm'] = 'Nie&nbsp;masz&nbsp;wiadomoÅ›ci';
+$lang['Unread_pms'] = 'Masz %d nieprzeczytanych wiadomoÅ›ci';
+$lang['Unread_pm'] = 'Masz %d nieprzeczytanÄ… wiadomoÅ›Ä‡';
+$lang['No_unread_pm'] = 'Nie masz nieprzeczytanych wiadomoÅ›ci';
+$lang['You_new_pm'] = 'Nowa prywatna wiadomoÅ›Ä‡ czeka na Ciebie w Skrzynce';
+$lang['You_new_pms'] = 'Nowe prywatne wiadomoÅ›ci czekajÄ… na Ciebie w Skrzynce';
+$lang['You_no_new_pm'] = 'Nie ma dla Ciebie Å¼adnych nowych prywatnych wiadomoÅ›ci';
+$lang['Unread_message'] = 'Nowa wiadomoÅ›Ä‡';
+$lang['Read_message'] = 'Przeczytana wiadomoÅ›Ä‡';
 
-$lang['Read_pm'] = 'Odczytaj wiadomo¶æ';
-$lang['Post_new_pm'] = 'Napisz wiadomo¶æ';
+$lang['Read_pm'] = 'Odczytaj wiadomoÅ›Ä‡';
+$lang['Post_new_pm'] = 'Napisz wiadomoÅ›Ä‡';
 $lang['Post_reply_pm'] = 'Odpowiedz na post';
-$lang['Post_quote_pm'] = 'Cytuj wiadomo¶æ';
-$lang['Edit_pm'] = 'Zmieñ wiadomo¶æ';
+$lang['Post_quote_pm'] = 'Cytuj wiadomoÅ›Ä‡';
+$lang['Edit_pm'] = 'ZmieÅ„ wiadomoÅ›Ä‡';
 
 $lang['Inbox'] = 'Skrzynka';
-$lang['Outbox'] = 'Do Wys³ania';
+$lang['Outbox'] = 'Do WysÅ‚ania';
 $lang['Savebox'] = 'Zapisane';
-$lang['Sentbox'] = 'Wys³ane';
+$lang['Sentbox'] = 'WysÅ‚ane';
 $lang['Flag'] = 'Flaga';
 $lang['Subject'] = 'Temat';
 $lang['From'] = 'Od';
 $lang['To'] = 'Do';
 $lang['Date'] = 'Data';
 $lang['Mark'] = 'Zaznacz';
-$lang['Sent'] = 'Wys³ana';
+$lang['Sent'] = 'WysÅ‚ana';
 $lang['Saved'] = 'Zapisana';
-$lang['Delete_marked'] = 'Usuñ Zaznaczone';
-$lang['Delete_all'] = 'Usuñ Wszystkie';
+$lang['Delete_marked'] = 'UsuÅ„ Zaznaczone';
+$lang['Delete_all'] = 'UsuÅ„ Wszystkie';
 $lang['Save_marked'] = 'Zapisz Zaznaczone';
-$lang['Save_message'] = 'Zapisz Wiadomo¶æ';
-$lang['Delete_message'] = 'Usuñ Wiadomo¶æ';
+$lang['Save_message'] = 'Zapisz WiadomoÅ›Ä‡';
+$lang['Delete_message'] = 'UsuÅ„ WiadomoÅ›Ä‡';
 
-$lang['Display_messages'] = 'Wy¶wietl wiadomo¶ci z ostatnich';
-$lang['All_Messages'] = 'Wszystkie Wiadomo¶ci';
+$lang['Display_messages'] = 'WyÅ›wietl wiadomoÅ›ci z ostatnich';
+$lang['All_Messages'] = 'Wszystkie WiadomoÅ›ci';
 
-$lang['No_messages_folder'] = 'Nie masz wiadomo¶ci w tym folderze';
+$lang['No_messages_folder'] = 'Nie masz wiadomoÅ›ci w tym folderze';
 
-$lang['PM_disabled'] = 'Prywatne Wiadomo¶ci zosta³y wy³±czone na tym forum';
-$lang['Cannot_send_privmsg'] = 'Administrator zabroni³ Ci wysy³aæ prywatnych wiadomo¶ci';
-$lang['No_to_user'] = 'Musisz wpisaæ nazwê u¿ytkownika aby wys³aæ tê wiadomo¶æ';
+$lang['PM_disabled'] = 'Prywatne WiadomoÅ›ci zostaÅ‚y wyÅ‚Ä…czone na tym forum';
+$lang['Cannot_send_privmsg'] = 'Administrator zabroniÅ‚ Ci wysyÅ‚aÄ‡ prywatnych wiadomoÅ›ci';
+$lang['No_to_user'] = 'Musisz wpisaÄ‡ nazwÄ™ uÅ¼ytkownika aby wysÅ‚aÄ‡ tÄ™ wiadomoÅ›Ä‡';
 
-$lang['Disable_HTML_pm'] = 'Wy³±cz HTML w tej wiadomo¶ci';
-$lang['Disable_BBCode_pm'] = 'Wy³±cz BBCode w tej wiadomo¶ci';
-$lang['Disable_Smilies_pm'] = 'Wy³±cz U¶mieszki w tej wiadomo¶ci';
+$lang['Disable_HTML_pm'] = 'WyÅ‚Ä…cz HTML w tej wiadomoÅ›ci';
+$lang['Disable_BBCode_pm'] = 'WyÅ‚Ä…cz BBCode w tej wiadomoÅ›ci';
+$lang['Disable_Smilies_pm'] = 'WyÅ‚Ä…cz UÅ›mieszki w tej wiadomoÅ›ci';
 
-$lang['Message_sent'] = 'Wiadomo¶æ zosta³a wys³ana';
+$lang['Message_sent'] = 'WiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana';
 
-$lang['Click_return_inbox'] = 'Kliknij %sTutaj%s aby powróciæ do Skrzynki';
-$lang['Click_return_index'] = 'Kliknij %sTutaj%s aby powróciæ do Strony G³ównej';
+$lang['Click_return_inbox'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ do Skrzynki';
+$lang['Click_return_index'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ do Strony GÅ‚Ã³wnej';
 
-$lang['Send_a_new_message'] = 'Wy¶lij now± prywatn± wiadomo¶æ';
-$lang['Send_a_reply'] = 'Odpowiedz na prywatn± wiadomo¶æ';
-$lang['Edit_message'] = 'Zmieñ prywatn± wiadomo¶æ';
+$lang['Send_a_new_message'] = 'WyÅ›lij nowÄ… prywatnÄ… wiadomoÅ›Ä‡';
+$lang['Send_a_reply'] = 'Odpowiedz na prywatnÄ… wiadomoÅ›Ä‡';
+$lang['Edit_message'] = 'ZmieÅ„ prywatnÄ… wiadomoÅ›Ä‡';
 
-$lang['Notification_subject'] = 'Nadesz³a nowa Prywatna Wiadomo¶æ';
+$lang['Notification_subject'] = 'NadeszÅ‚a nowa Prywatna WiadomoÅ›Ä‡';
 
-$lang['Find_username'] = 'Znajd¼ u¿ytkownika';
-$lang['Find'] = 'Znajd¼';
-$lang['No_match'] = 'Nie znaleziono pasuj±cych';
+$lang['Find_username'] = 'ZnajdÅº uÅ¼ytkownika';
+$lang['Find'] = 'ZnajdÅº';
+$lang['No_match'] = 'Nie znaleziono pasujÄ…cych';
 
-$lang['No_post_id'] = 'Nie wybrano postów';
+$lang['No_post_id'] = 'Nie wybrano postÃ³w';
 $lang['No_such_folder'] = 'Nie istnieje taki folder';
 
 $lang['Mark_all'] = 'Zaznacz wszystkie';
 $lang['Unmark_all'] = 'Odznacz wszystkie';
 
-$lang['Confirm_delete_pm'] = 'Czy na pewno chcesz usun±æ tê wiadomo¶æ?';
-$lang['Confirm_delete_pms'] = 'Czy na pewno chcesz usun±æ te wiadomo¶ci?';
+$lang['Confirm_delete_pm'] = 'Czy na pewno chcesz usunÄ…Ä‡ tÄ™ wiadomoÅ›Ä‡?';
+$lang['Confirm_delete_pms'] = 'Czy na pewno chcesz usunÄ…Ä‡ te wiadomoÅ›ci?';
 
-$lang['Inbox_size'] = 'Wiadomo¶ci w Skrzynce zajmuj± %d%%';
-$lang['Sentbox_size'] = 'Wys³ane wiadomo¶ci zajmuj± %d%%';
-$lang['Savebox_size'] = 'Zapisane wiadomo¶ci zajmuj± %d%%';
+$lang['Inbox_size'] = 'WiadomoÅ›ci w Skrzynce zajmujÄ… %d%%';
+$lang['Sentbox_size'] = 'WysÅ‚ane wiadomoÅ›ci zajmujÄ… %d%%';
+$lang['Savebox_size'] = 'Zapisane wiadomoÅ›ci zajmujÄ… %d%%';
 
-$lang['Click_view_privmsg'] = 'Kliknij %sTutaj%s aby odwiedziæ twoj± Skrzynkê';
+$lang['Click_view_privmsg'] = 'Kliknij %sTutaj%s aby odwiedziÄ‡ twojÄ… SkrzynkÄ™';
 
 
 //
@@ -492,31 +492,31 @@ $lang['Click_view_privmsg'] = 'Kliknij %sTutaj%s aby odwiedziæ twoj± Skrzynkê';
 $lang['Preferences'] = 'Preferencje';
 
 $lang['Website'] = 'Strona WWW';
-$lang['Location'] = 'Sk±d';
+$lang['Location'] = 'SkÄ…d';
 $lang['Email_address'] = 'Adres email';
-$lang['Send_private_message'] = 'Wy¶lij prywatn± wiadomo¶æ';
+$lang['Send_private_message'] = 'WyÅ›lij prywatnÄ… wiadomoÅ›Ä‡';
 $lang['Interests'] = 'Zainteresowania';
 $lang['Poster_rank'] = 'Ranga';
 
-$lang['Total_posts'] = 'Postów';
-$lang['User_post_pct_stats'] = '%d%% z ca³o¶ci';
-$lang['User_post_day_stats'] = '%.2f postów dziennie';
-$lang['Search_user_posts'] = 'Znajd¼ wszystkie posty %s';
+$lang['Total_posts'] = 'PostÃ³w';
+$lang['User_post_pct_stats'] = '%d%% z caÅ‚oÅ›ci';
+$lang['User_post_day_stats'] = '%.2f postÃ³w dziennie';
+$lang['Search_user_posts'] = 'ZnajdÅº wszystkie posty %s';
 
-$lang['No_user_id_specified'] = 'Wybrany u¿ytkownik nie istnieje';
+$lang['No_user_id_specified'] = 'Wybrany uÅ¼ytkownik nie istnieje';
 
 $lang['Date_format'] = 'Format Daty';
 
-$lang['Confirm_password'] = 'Potwierd¼ Has³o';
+$lang['Confirm_password'] = 'PotwierdÅº HasÅ‚o';
 
 $lang['Avatar'] = 'Avatar';
 
-$lang['No_user_specified'] = 'Nie okre¶lono ¿adnego u¿ytkownika';
-$lang['Flood_email_limit'] = 'Nie mo¿esz teraz wys³aæ kolejnego email\'a. Spróbuj ponownie za jaki¶ czas.';
-$lang['Email_sent'] = 'Email zosta³ wys³any';
-$lang['Send_email'] = 'Wy¶lij email';
-$lang['Empty_subject_email'] = 'Musisz okre¶liæ temat dla email\'a';
-$lang['Empty_message_email'] = 'Musisz wpisaæ wiadomo¶æ do wys³ania';
+$lang['No_user_specified'] = 'Nie okreÅ›lono Å¼adnego uÅ¼ytkownika';
+$lang['Flood_email_limit'] = 'Nie moÅ¼esz teraz wysÅ‚aÄ‡ kolejnego email\'a. SprÃ³buj ponownie za jakiÅ› czas.';
+$lang['Email_sent'] = 'Email zostaÅ‚ wysÅ‚any';
+$lang['Send_email'] = 'WyÅ›lij email';
+$lang['Empty_subject_email'] = 'Musisz okreÅ›liÄ‡ temat dla email\'a';
+$lang['Empty_message_email'] = 'Musisz wpisaÄ‡ wiadomoÅ›Ä‡ do wysÅ‚ania';
 
 //
 // Memberslist
@@ -524,65 +524,65 @@ $lang['Empty_message_email'] = 'Musisz wpisaæ wiadomo¶æ do wys³ania';
 $lang['Select_sort_method'] = 'Metoda sortowania';
 $lang['Sort'] = 'Sortuj';
 $lang['Sort_Top_Ten'] = '10 najaktywniejszych';
-$lang['Sort_Joined'] = 'Data przy³±czenia';
-$lang['Sort_Username'] = 'Nazwa u¿ytkownika';
-$lang['Sort_Ascending'] = 'Rosn±co';
-$lang['Sort_Descending'] = 'Malej±co';
+$lang['Sort_Joined'] = 'Data przyÅ‚Ä…czenia';
+$lang['Sort_Username'] = 'Nazwa uÅ¼ytkownika';
+$lang['Sort_Ascending'] = 'RosnÄ…co';
+$lang['Sort_Descending'] = 'MalejÄ…co';
 
 //
 // Group control panel
 //
 $lang['Group_Control_Panel'] = 'Panel Kontrolny Grupy';
-$lang['Group_member_details'] = 'Cz³onkostwo w Grupach';
+$lang['Group_member_details'] = 'CzÅ‚onkostwo w Grupach';
 
 $lang['Group_Information'] = 'Informacje o Grupie';
 $lang['Group_name'] = 'Nazwa Grupy';
 $lang['Group_description'] = 'Opis Grupy';
-$lang['Group_membership'] = 'Twoje cz³onkostwo';
-$lang['Group_Members'] = 'Cz³onkowie Grupy';
+$lang['Group_membership'] = 'Twoje czÅ‚onkostwo';
+$lang['Group_Members'] = 'CzÅ‚onkowie Grupy';
 $lang['Group_Moderator'] = 'Moderator Grupy';
-$lang['Pending_members'] = 'Cz³onkowie Oczekuj±cy';
+$lang['Pending_members'] = 'CzÅ‚onkowie OczekujÄ…cy';
 
 $lang['Group_type'] = 'Typ grupy';
 $lang['Group_open'] = 'Grupa otwarta';
-$lang['Group_closed'] = 'Grupa zamkniêta';
+$lang['Group_closed'] = 'Grupa zamkniÄ™ta';
 $lang['Group_hidden'] = 'Grupa ukryta';
 
-$lang['Memberships_pending'] = 'Oczekujesz na przyjêcie';
+$lang['Memberships_pending'] = 'Oczekujesz na przyjÄ™cie';
 
-$lang['No_groups_exist'] = '¿adna Grupa nie Istnieje';
+$lang['No_groups_exist'] = 'Å¼adna Grupa nie Istnieje';
 $lang['Group_not_exist'] = 'Taka grupa nie istnieje';
 
-$lang['Join_group'] = 'Do³±cz';
-$lang['No_group_members'] = 'Ta grupa nie ma cz³onków';
-$lang['Group_hidden_members'] = 'Ta grupa jest ukryta, nie mo¿esz zobaczyæ listy jej cz³onków';
-$lang['Group_joined'] = 'Zosta³' .  (($he) ? 'e' : 'a') . '¶ do³±czony do tej grupy<br />Zostaniesz powiadomionu kiedy Twoje cz³onkostwo zostanie zaakceptowane przez moderatora';
-$lang['Group_request'] = 'Pro¶ba o przy³±czenie do grupy %s';
-$lang['Group_added'] = 'Zosta³' .  (($he) ? 'e' : 'a') . '¶ dodany do grupy %s';
-$lang['Already_member_group'] = 'Jeste¶ ju¿ cz³onkiem tej grupy';
-$lang['User_is_member_group'] = 'U¿ytkownik jest ju¿ cz³onkiem tej grupy';
+$lang['Join_group'] = 'DoÅ‚Ä…cz';
+$lang['No_group_members'] = 'Ta grupa nie ma czÅ‚onkÃ³w';
+$lang['Group_hidden_members'] = 'Ta grupa jest ukryta, nie moÅ¼esz zobaczyÄ‡ listy jej czÅ‚onkÃ³w';
+$lang['Group_joined'] = 'ZostaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› doÅ‚Ä…czony do tej grupy<br />Zostaniesz powiadomionu kiedy Twoje czÅ‚onkostwo zostanie zaakceptowane przez moderatora';
+$lang['Group_request'] = 'ProÅ›ba o przyÅ‚Ä…czenie do grupy %s';
+$lang['Group_added'] = 'ZostaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› dodany do grupy %s';
+$lang['Already_member_group'] = 'JesteÅ› juÅ¼ czÅ‚onkiem tej grupy';
+$lang['User_is_member_group'] = 'UÅ¼ytkownik jest juÅ¼ czÅ‚onkiem tej grupy';
 $lang['Group_type_updated'] = 'Zaktualizowano typ grupy';
 
-$lang['Could_not_anon_user'] = 'Anonimowy nie mo¿e byæ cz³onkiem grupy';
+$lang['Could_not_anon_user'] = 'Anonimowy nie moÅ¼e byÄ‡ czÅ‚onkiem grupy';
 
-$lang['Confirm_unsub'] = 'Czy na pewno chcesz opu¶ciæ t± grupê?';
-$lang['Confirm_unsub_pending'] = 'Twoje cz³onkostwo w tej grupie nie zosta³o jeszcze zaakceptowane, czy na pewno chcesz je zakoñczyæ?';
+$lang['Confirm_unsub'] = 'Czy na pewno chcesz opuÅ›ciÄ‡ tÄ… grupÄ™?';
+$lang['Confirm_unsub_pending'] = 'Twoje czÅ‚onkostwo w tej grupie nie zostaÅ‚o jeszcze zaakceptowane, czy na pewno chcesz je zakoÅ„czyÄ‡?';
 
-$lang['Unsub_success'] = 'Przesta³' .  (($he) ? 'e' : 'a') . '¶ byæ cz³onkiem tej grupy.';
+$lang['Unsub_success'] = 'PrzestaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› byÄ‡ czÅ‚onkiem tej grupy.';
 
 $lang['Approve_selected'] = 'Zaakceptuj Wybrane';
-$lang['Deny_selected'] = 'Odrzuæ Wybrane';
-$lang['Remove_selected'] = 'Usuñ Wybrane';
-$lang['Add_member'] = 'Dodaj Cz³onka';
-$lang['Not_group_moderator'] = 'Nie jeste¶ moderatorem tej grupy i nie mo¿esz wykonaæ tego dzia³ania.';
+$lang['Deny_selected'] = 'OdrzuÄ‡ Wybrane';
+$lang['Remove_selected'] = 'UsuÅ„ Wybrane';
+$lang['Add_member'] = 'Dodaj CzÅ‚onka';
+$lang['Not_group_moderator'] = 'Nie jesteÅ› moderatorem tej grupy i nie moÅ¼esz wykonaÄ‡ tego dziaÅ‚ania.';
 
-$lang['Login_to_join'] = 'Zaloguj siê aby do³±czyæ do grupy lub zarz±dzaæ jej cz³onkostwem';
-$lang['This_open_group'] = 'To jest grupa otwarta, kliknij aby poprosiæ o cz³onkostwo';
-$lang['Member_this_group'] = 'Jeste¶ cz³onkiem tej grupy';
-$lang['Pending_this_group'] = 'Twoje cz³onkowstwo w tej grupie czeka na akceptacjê';
-$lang['Are_group_moderator'] = 'Jeste¶ moderatorem tej grupy';
+$lang['Login_to_join'] = 'Zaloguj siÄ™ aby doÅ‚Ä…czyÄ‡ do grupy lub zarzÄ…dzaÄ‡ jej czÅ‚onkostwem';
+$lang['This_open_group'] = 'To jest grupa otwarta, kliknij aby poprosiÄ‡ o czÅ‚onkostwo';
+$lang['Member_this_group'] = 'JesteÅ› czÅ‚onkiem tej grupy';
+$lang['Pending_this_group'] = 'Twoje czÅ‚onkowstwo w tej grupie czeka na akceptacjÄ™';
+$lang['Are_group_moderator'] = 'JesteÅ› moderatorem tej grupy';
 $lang['None'] = 'Brak';
-$lang['Unsubscribe'] = 'Opu¶æ';
+$lang['Unsubscribe'] = 'OpuÅ›Ä‡';
 $lang['View_Information'] = 'Zobacz Informacje';
 
 
@@ -592,34 +592,34 @@ $lang['View_Information'] = 'Zobacz Informacje';
 $lang['Search_query'] = 'Poszukiwane Zapytanie';
 $lang['Search_options'] = 'Opcje Wyszukiwania';
 
-$lang['Search_keywords'] = 'Szukaj S³ów Kluczowych';
-$lang['Search_keywords_explain'] = 'Mo¿esz u¿ywaæ <u>AND</u> aby okre¶laæ, które s³owa musz± znale¼æ siê w wynikach, <u>OR</u> dla tych, które mog± siê tam znale¼æ i <u>NOT</u> dla tych, które nie mog± wyst±piæ. Znak * zastêpuje dowolny ci±g znaków.<br />¿eby wyszukaæ wyra¿enie, wpisz je pomiêdzy <b>"</b>cudzys³owami<b>"</b><br />Nie bêd± znalezione znaki specjalne, za wyj±tkiem: <b>@ . - _</b>';
+$lang['Search_keywords'] = 'Szukaj SÅ‚Ã³w Kluczowych';
+$lang['Search_keywords_explain'] = 'MoÅ¼esz uÅ¼ywaÄ‡ <u>AND</u> aby okreÅ›laÄ‡, ktÃ³re sÅ‚owa muszÄ… znaleÅºÄ‡ siÄ™ w wynikach, <u>OR</u> dla tych, ktÃ³re mogÄ… siÄ™ tam znaleÅºÄ‡ i <u>NOT</u> dla tych, ktÃ³re nie mogÄ… wystÄ…piÄ‡. Znak * zastÄ™puje dowolny ciÄ…g znakÃ³w.<br />Å¼eby wyszukaÄ‡ wyraÅ¼enie, wpisz je pomiÄ™dzy <b>"</b>cudzysÅ‚owami<b>"</b><br />Nie bÄ™dÄ… znalezione znaki specjalne, za wyjÄ…tkiem: <b>@ . - _</b>';
 $lang['Search_author'] = 'Szukaj Autora';
-$lang['Search_author_explain'] = 'U¿yj * jako zamiennika dowolnego ci±gu znaków';
+$lang['Search_author_explain'] = 'UÅ¼yj * jako zamiennika dowolnego ciÄ…gu znakÃ³w';
 
-$lang['Search_for_any'] = 'Szukaj któregokolwiek s³owa lub wyra¿enia';
-$lang['Search_for_all'] = 'Szukaj wszystkich s³ów';
-$lang['Search_title_msg'] = 'Przeszukaj tytu³, opis i tekst wiadomo¶ci';
-$lang['Search_msg_only'] = 'Przeszukaj tylko tekst wiadomo¶ci';
-$lang['Search_title_only'] = 'Przeszukaj tylko tytu³ wiadomo¶ci';
+$lang['Search_for_any'] = 'Szukaj ktÃ³regokolwiek sÅ‚owa lub wyraÅ¼enia';
+$lang['Search_for_all'] = 'Szukaj wszystkich sÅ‚Ã³w';
+$lang['Search_title_msg'] = 'Przeszukaj tytuÅ‚, opis i tekst wiadomoÅ›ci';
+$lang['Search_msg_only'] = 'Przeszukaj tylko tekst wiadomoÅ›ci';
+$lang['Search_title_only'] = 'Przeszukaj tylko tytuÅ‚ wiadomoÅ›ci';
 $lang['Search_title_e_only'] = 'Przeszukaj tylko opis tematu';
 
-$lang['Return_first'] = 'Poka¿ pierwsze';
-$lang['characters_posts'] = 'znaków z postu';
+$lang['Return_first'] = 'PokaÅ¼ pierwsze';
+$lang['characters_posts'] = 'znakÃ³w z postu';
 
 $lang['Search_previous'] = 'Przeszukaj ostanie';
 
-$lang['Sort_by'] = 'Sortuj wed³ug';
-$lang['Sort_Time'] = 'Czas wys³ania';
-$lang['Sort_Topic_Title'] = 'Tytu³ tematu';
+$lang['Sort_by'] = 'Sortuj wedÅ‚ug';
+$lang['Sort_Time'] = 'Czas wysÅ‚ania';
+$lang['Sort_Topic_Title'] = 'TytuÅ‚ tematu';
 
-$lang['Display_results'] = 'Poka¿ wyniki jako';
-$lang['All_available'] = 'Wszystkie dostêpne';
-$lang['No_searchable_forums'] = 'Nie masz uprawnieñ do przeszukiwania któegokolwiek forum na tej stronie';
+$lang['Display_results'] = 'PokaÅ¼ wyniki jako';
+$lang['All_available'] = 'Wszystkie dostÄ™pne';
+$lang['No_searchable_forums'] = 'Nie masz uprawnieÅ„ do przeszukiwania ktÃ³egokolwiek forum na tej stronie';
 
-$lang['No_search_match'] = 'Nie znaleziono tematów ani postów pasuj±cych do Twoich kryteriów';
+$lang['No_search_match'] = 'Nie znaleziono tematÃ³w ani postÃ³w pasujÄ…cych do Twoich kryteriÃ³w';
 $lang['Found_search_match'] = 'Znaleziono %d wynik';
-$lang['Found_search_matches'] = 'Znalezionych wyników: %d';
+$lang['Found_search_matches'] = 'Znalezionych wynikÃ³w: %d';
 
 $lang['Close_window'] = 'Zamknij Okno';
 
@@ -628,24 +628,24 @@ $lang['Close_window'] = 'Zamknij Okno';
 // Auth related entries
 //
 // Note the %s will be replaced with one of the following \'user\' arrays
-$lang['Sorry_auth_announce'] = 'Tylko %s mog± pisaæ og³oszenia na tym forum.';
-$lang['Sorry_auth_sticky'] = 'Tylko %s mog± pisaæ tematy przyklejone na tym forum.';
-$lang['Sorry_auth_read'] = 'Tylko %s mog± czytaæ tematy na tym forum.';
-$lang['Sorry_auth_delete'] = 'Tylko %s mog± usuwaæ posty na tym forum.';
-$lang['Sorry_auth_post'] = 'Tylko %s mog± pisaæ nowe tematy na tym forum.'; 
-$lang['Sorry_auth_reply'] = 'Tylko %s mog± odpowiadaæ w tematach na tym forum.';
-$lang['Sorry_auth_edit'] = 'Tylko %s mog± edytowaæ posty na tym forum.'; 
-$lang['Sorry_auth_vote'] = 'Tylko %s mog± g³osowaæ w ankietach na tym forum.';
+$lang['Sorry_auth_announce'] = 'Tylko %s mogÄ… pisaÄ‡ ogÅ‚oszenia na tym forum.';
+$lang['Sorry_auth_sticky'] = 'Tylko %s mogÄ… pisaÄ‡ tematy przyklejone na tym forum.';
+$lang['Sorry_auth_read'] = 'Tylko %s mogÄ… czytaÄ‡ tematy na tym forum.';
+$lang['Sorry_auth_delete'] = 'Tylko %s mogÄ… usuwaÄ‡ posty na tym forum.';
+$lang['Sorry_auth_post'] = 'Tylko %s mogÄ… pisaÄ‡ nowe tematy na tym forum.'; 
+$lang['Sorry_auth_reply'] = 'Tylko %s mogÄ… odpowiadaÄ‡ w tematach na tym forum.';
+$lang['Sorry_auth_edit'] = 'Tylko %s mogÄ… edytowaÄ‡ posty na tym forum.'; 
+$lang['Sorry_auth_vote'] = 'Tylko %s mogÄ… gÅ‚osowaÄ‡ w ankietach na tym forum.';
 
 // These replace the %s in the above strings
-$lang['Auth_Registered_Users'] = '<b>zarejestrowani u¿ytkownicy</b>';
-$lang['Auth_Users_granted_access'] = '<b>u¿ytkownicy z uprawnieniami dostêpu</b>';
+$lang['Auth_Registered_Users'] = '<b>zarejestrowani uÅ¼ytkownicy</b>';
+$lang['Auth_Users_granted_access'] = '<b>uÅ¼ytkownicy z uprawnieniami dostÄ™pu</b>';
 $lang['Auth_Moderators'] = '<b>moderatorzy</b>';
 $lang['Auth_Administrators'] = '<b>administratorzy</b>';
 
-$lang['Not_Authorised'] = 'Nie posiadasz uprawnieñ';
+$lang['Not_Authorised'] = 'Nie posiadasz uprawnieÅ„';
 
-$lang['You_been_banned'] = 'Zosta³' .  (($he) ? 'e' : 'a') . '¶ wyrzucon' .  (($he) ? 'y' : 'a') . ' z tego forum<br />Skontaktuj siê z webmasterem lub administratorem forum je¿eli chcesz wyja¶niæ t± sytuacjê.';
+$lang['You_been_banned'] = 'ZostaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› wyrzucon' .  (($he) ? 'y' : 'a') . ' z tego forum<br />Skontaktuj siÄ™ z webmasterem lub administratorem forum jeÅ¼eli chcesz wyjaÅ›niÄ‡ tÄ… sytuacjÄ™.';
 
 
 //
@@ -653,29 +653,29 @@ $lang['You_been_banned'] = 'Zosta³' .  (($he) ? 'e' : 'a') . '¶ wyrzucon' .  (($
 //
 $lang['Reg_users_zero_online'] = 'Na Forum jest 0 Zarejestrowanych i ';
 $lang['Reg_users_online'] = 'Na forum jest %d Zarejestrowanych i ';
-$lang['Reg_user_online'] = 'Na forum jest %d Zarejestrowany u¿ytkownik i ';
-$lang['Hidden_users_zero_online'] = '0 Ukrytych u¿ytkowników';
-$lang['Hidden_users_online'] = '%d Ukrytych u¿ytkowników';
-$lang['Hidden_user_online'] = '%d Ukryty u¿ytkownik';
-$lang['Guest_users_zero_online'] = 'Na Forum jest 0 Go¶ci';
-$lang['Guest_users_online'] = 'Na Forum jest %d Go¶ci';
-$lang['Guest_user_online'] = 'Na Forum jest %d Go¶æ';
-$lang['No_users_browsing'] = 'Obecnie nie ma ¿adnych u¿ytkowników na tym forum';
+$lang['Reg_user_online'] = 'Na forum jest %d Zarejestrowany uÅ¼ytkownik i ';
+$lang['Hidden_users_zero_online'] = '0 Ukrytych uÅ¼ytkownikÃ³w';
+$lang['Hidden_users_online'] = '%d Ukrytych uÅ¼ytkownikÃ³w';
+$lang['Hidden_user_online'] = '%d Ukryty uÅ¼ytkownik';
+$lang['Guest_users_zero_online'] = 'Na Forum jest 0 GoÅ›ci';
+$lang['Guest_users_online'] = 'Na Forum jest %d GoÅ›ci';
+$lang['Guest_user_online'] = 'Na Forum jest %d GoÅ›Ä‡';
+$lang['No_users_browsing'] = 'Obecnie nie ma Å¼adnych uÅ¼ytkownikÃ³w na tym forum';
 
 $lang['Online_explain'] = '';
 
 $lang['Forum_Location'] = 'Lokalizacja';
 $lang['Last_updated'] = 'Na forum';
 
-$lang['Forum_index'] = 'Strona G³ówna';
-$lang['Logging_on'] = 'Loguje siê';
-$lang['Posting_message'] = 'Pisze wiadomo¶æ';
+$lang['Forum_index'] = 'Strona GÅ‚Ã³wna';
+$lang['Logging_on'] = 'Loguje siÄ™';
+$lang['Posting_message'] = 'Pisze wiadomoÅ›Ä‡';
 $lang['Searching_forums'] = 'Przeszukuje fora';
-$lang['Viewing_profile'] = 'Ogl±da profil';
-$lang['Viewing_online'] = 'Przegl±da listê obecnych na forum';
-$lang['Viewing_member_list'] = 'Ogl±da listê u¿ytkowników';
-$lang['Viewing_priv_msgs'] = 'Ogl±da Prywatne Wiadomo¶ci';
-$lang['Viewing_FAQ'] = 'Ogl±da FAQ';
+$lang['Viewing_profile'] = 'OglÄ…da profil';
+$lang['Viewing_online'] = 'PrzeglÄ…da listÄ™ obecnych na forum';
+$lang['Viewing_member_list'] = 'OglÄ…da listÄ™ uÅ¼ytkownikÃ³w';
+$lang['Viewing_priv_msgs'] = 'OglÄ…da Prywatne WiadomoÅ›ci';
+$lang['Viewing_FAQ'] = 'OglÄ…da FAQ';
 
 
 //
@@ -683,41 +683,41 @@ $lang['Viewing_FAQ'] = 'Ogl±da FAQ';
 //
 
 $lang['Select'] = 'Wybierz';
-$lang['Move'] = 'Przenie¶';
+$lang['Move'] = 'PrzenieÅ›';
 $lang['Lock'] = 'Zablokuj';
 $lang['Unlock'] = 'Odblokuj';
-$lang['Topics_Moved'] = 'Wybrane tematy zosta³y przeniesione';
+$lang['Topics_Moved'] = 'Wybrane tematy zostaÅ‚y przeniesione';
 
 //
 // Timezones ... for display on each page
 //
 
 $lang['datetime']['Sunday'] = 'Niedziela';
-$lang['datetime']['Monday'] = 'Poniedzia³ek';
+$lang['datetime']['Monday'] = 'PoniedziaÅ‚ek';
 $lang['datetime']['Tuesday'] = 'Wtorek';
-$lang['datetime']['Wednesday'] = '¦roda';
+$lang['datetime']['Wednesday'] = 'Åšroda';
 $lang['datetime']['Thursday'] = 'Czwartek';
-$lang['datetime']['Friday'] = 'Pi±tek';
+$lang['datetime']['Friday'] = 'PiÄ…tek';
 $lang['datetime']['Saturday'] = 'Sobota';
 $lang['datetime']['Sun'] = 'Nie';
 $lang['datetime']['Mon'] = 'Pon';
 $lang['datetime']['Tue'] = 'Wto';
-$lang['datetime']['Wed'] = '¦ro';
+$lang['datetime']['Wed'] = 'Åšro';
 $lang['datetime']['Thu'] = 'Czw';
-$lang['datetime']['Fri'] = 'Pi±';
+$lang['datetime']['Fri'] = 'PiÄ…';
 $lang['datetime']['Sat'] = 'Sob';
-$lang['datetime']['January'] = 'Styczeñ';
+$lang['datetime']['January'] = 'StyczeÅ„';
 $lang['datetime']['February'] = 'Luty';
 $lang['datetime']['March'] = 'Marzec';
-$lang['datetime']['April'] = 'Kwiecieñ';
+$lang['datetime']['April'] = 'KwiecieÅ„';
 $lang['datetime']['May'] = 'Maj';
 $lang['datetime']['June'] = 'Czerwiec';
 $lang['datetime']['July'] = 'Lipiec';
-$lang['datetime']['August'] = 'Sierpieñ';
-$lang['datetime']['September'] = 'Wrzesieñ';
-$lang['datetime']['October'] = 'Pa¼dziernik';
+$lang['datetime']['August'] = 'SierpieÅ„';
+$lang['datetime']['September'] = 'WrzesieÅ„';
+$lang['datetime']['October'] = 'PaÅºdziernik';
 $lang['datetime']['November'] = 'Listopad';
-$lang['datetime']['December'] = 'Grudzieñ';
+$lang['datetime']['December'] = 'GrudzieÅ„';
 $lang['datetime']['Jan'] = 'Sty';
 $lang['datetime']['Feb'] = 'Lut';
 $lang['datetime']['Mar'] = 'Mar';
@@ -727,7 +727,7 @@ $lang['datetime']['Jun'] = 'Cze';
 $lang['datetime']['Jul'] = 'Lip';
 $lang['datetime']['Aug'] = 'Sie';
 $lang['datetime']['Sep'] = 'Wrz';
-$lang['datetime']['Oct'] = 'Pa¼';
+$lang['datetime']['Oct'] = 'PaÅº';
 $lang['datetime']['Nov'] = 'Lis';
 $lang['datetime']['Dec'] = 'Gru';
 
@@ -738,10 +738,10 @@ $lang['datetime']['Dec'] = 'Gru';
 $lang['Information'] = 'Informacja';
 $lang['Critical_Information'] = 'Istotna Informacja';
 
-$lang['General_Error'] = 'B³±d Ogólny';
-$lang['Critical_Error'] = 'B³±d Krytyczny';
-$lang['An_error_occured'] = 'Wyst±pi³ B³±d';
-$lang['A_critical_error'] = 'Wyst±pi³ Krytyczny B³±d';
+$lang['General_Error'] = 'BÅ‚Ä…d OgÃ³lny';
+$lang['Critical_Error'] = 'BÅ‚Ä…d Krytyczny';
+$lang['An_error_occured'] = 'WystÄ…piÅ‚ BÅ‚Ä…d';
+$lang['A_critical_error'] = 'WystÄ…piÅ‚ Krytyczny BÅ‚Ä…d';
 
 //
 // Modified addons
@@ -753,124 +753,124 @@ $lang['4_Days'] = '4 Dni';
 $lang['5_Days'] = '5 Dni';
 $lang['6_Days'] = '6 Dni';
 $lang['left'] = 'z lewej';
-$lang['center'] = 'na ¶rodku';
+$lang['center'] = 'na Å›rodku';
 $lang['right'] = 'z prawej';
 $lang['registered_have'] = 'Mamy';
-$lang['registered_users'] = 'zarejestrowanych u¿ytkowników';
-$lang['users_write'] = 'Nasi u¿ytkownicy napisali';
-$lang['posts'] = 'postów';
-$lang['topics'] = 'tematów';
+$lang['registered_users'] = 'zarejestrowanych uÅ¼ytkownikÃ³w';
+$lang['users_write'] = 'Nasi uÅ¼ytkownicy napisali';
+$lang['posts'] = 'postÃ³w';
+$lang['topics'] = 'tematÃ³w';
 $lang['Search_new_unread'] = 'Zobacz posty nieprzeczytane';
 $lang['Search_new'] = 'Zobacz posty od ostatniej wizyty';
 $lang['Quick_register'] = 'Szybka rejestracja';
-$lang['visitors_txt'] = 'To forum odwiedzono ju¿';
+$lang['visitors_txt'] = 'To forum odwiedzono juÅ¼';
 $lang['visitors_txt2'] = 'razy';
 $lang['Sticky_topic'] = 'Przyklej ten temat';
-$lang['Announce_topic'] = 'Oznacz jako og³oszenie';
+$lang['Announce_topic'] = 'Oznacz jako ogÅ‚oszenie';
 $lang['Normal_topic'] = 'Oznacz jako normalny';
 $lang['Sticky'] = 'Przyklejony';
-$lang['Announce'] = 'Og³oszenie';
+$lang['Announce'] = 'OgÅ‚oszenie';
 $lang['Normalise'] = 'Normalny';
 $lang['Mark_topic_unread'] = 'Oznacz temat jako nieczytany';
 $lang['Mark_topic_read'] = 'Oznacz temat jako przeczytany';
 $lang['Board_navigation'] = 'Menu';
 $lang['Statistics'] = 'Statystyki';
 $lang['Comments'] = 'Komentarze';
-$lang['Read_Full'] = 'Czytaj ca³o¶æ';
+$lang['Read_Full'] = 'Czytaj caÅ‚oÅ›Ä‡';
 $lang['View_comments'] = 'Zobacz komentarze';
-$lang['Post_your_comment'] = 'Dodaj swój komentarz';
+$lang['Post_your_comment'] = 'Dodaj swÃ³j komentarz';
 $lang['Welcome'] = 'Witamy';
-$lang['Remember_me'] = 'Zapamiêtaj';
+$lang['Remember_me'] = 'ZapamiÄ™taj';
 $lang['Poll'] = 'Ankieta';
-$lang['Login_to_vote'] = 'Musisz siê zalogowaæ ¿eby oddaæ g³os';
-$lang['Vote'] = 'G³osuj';
+$lang['Login_to_vote'] = 'Musisz siÄ™ zalogowaÄ‡ Å¼eby oddaÄ‡ gÅ‚os';
+$lang['Vote'] = 'GÅ‚osuj';
 $lang['Who_is_Chatting'] = 'Kto jest na czacie';
-$lang['bbcode_y_help'] = 'Wy¶rodkowanie: [center]tekst[/center] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_e_help'] = 'Zanikaj±cy tekst: [fade]text[/fade] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_y_help'] = 'WyÅ›rodkowanie: [center]tekst[/center] Rada: zaznacz tekst i kliknij';
+$lang['bbcode_e_help'] = 'ZanikajÄ…cy tekst: [fade]text[/fade] Rada: zaznacz tekst i kliknij';
 $lang['bbcode_k_help'] = 'Przewijany tekst: [scroll]tekst[/scroll] Rada: zaznacz tekst i kliknij';
-$lang['bbcode_s2_help'] = 'Cieñ: [shadow=red]text[/shadow] Rada: zaznacz tekst i wybierz kolor';
-$lang['bbcode_g_help'] = 'Ogieñ: [glow=red]text[/glow] Rada: zaznacz tekst i wybierz kolor';
+$lang['bbcode_s2_help'] = 'CieÅ„: [shadow=red]text[/shadow] Rada: zaznacz tekst i wybierz kolor';
+$lang['bbcode_g_help'] = 'OgieÅ„: [glow=red]text[/glow] Rada: zaznacz tekst i wybierz kolor';
 $lang['bbcode_h_help'] = 'Ukryj: [hide]tekst[/hide] Rada: zaznacz tekst i kliknij';
-$lang['Shadow_color'] = 'Cieñ';
-$lang['Glow_color'] = 'Ogieñ';
-$lang['write_link_text'] = 'Wpisz tekst który bêdzie pokazywany jako nazwa linku';
+$lang['Shadow_color'] = 'CieÅ„';
+$lang['Glow_color'] = 'OgieÅ„';
+$lang['write_link_text'] = 'Wpisz tekst ktÃ³ry bÄ™dzie pokazywany jako nazwa linku';
 $lang['write_address'] = 'Podaj adres';
 $lang['img_address'] = 'Podaj adres do obrazka';
 $lang['stream_address'] = 'Podaj adres pliku';
-$lang['GG'] = 'Gadu-Gadu u¿ytkownika :: %s';
-$lang['STAT_GG'] = 'Status Gadu-Gadu u¿ytkownika';
-$lang['GG_wait'] = 'Wiadomo¶æ oczekuje w kolejce na odebranie.<br />Zostanie dostarczona gdy adresat w³±czy gadu-gadu<br /> lub adresat ma w tej chwili status <b>"niewidoczny"</b> b±d¼ "tylko dla znajomych".';
-$lang['GG_full'] = 'Skrzynka odbiorcza adresata jest pe³na, wiadomo¶æ nie zosta³a dostarczona.';
-$lang['GG_send'] = 'Wiadomo¶æ zosta³a dostarczona do adresata';
-$lang['GG_not_send'] = 'Wiadomo¶æ nie zosta³a dostarczona, spróbuj jeszcze raz (od¶wie¿ strone).';
-$lang['How_Many_Chatters'] = 'Na czacie jest <B>%d</B> u¿ytkowników';
+$lang['GG'] = 'Gadu-Gadu uÅ¼ytkownika :: %s';
+$lang['STAT_GG'] = 'Status Gadu-Gadu uÅ¼ytkownika';
+$lang['GG_wait'] = 'WiadomoÅ›Ä‡ oczekuje w kolejce na odebranie.<br />Zostanie dostarczona gdy adresat wÅ‚Ä…czy gadu-gadu<br /> lub adresat ma w tej chwili status <b>"niewidoczny"</b> bÄ…dÅº "tylko dla znajomych".';
+$lang['GG_full'] = 'Skrzynka odbiorcza adresata jest peÅ‚na, wiadomoÅ›Ä‡ nie zostaÅ‚a dostarczona.';
+$lang['GG_send'] = 'WiadomoÅ›Ä‡ zostaÅ‚a dostarczona do adresata';
+$lang['GG_not_send'] = 'WiadomoÅ›Ä‡ nie zostaÅ‚a dostarczona, sprÃ³buj jeszcze raz (odÅ›wieÅ¼ strone).';
+$lang['How_Many_Chatters'] = 'Na czacie jest <B>%d</B> uÅ¼ytkownikÃ³w';
 $lang['Who_Are_Chatting'] = '<B>%s</B>';
-$lang['Click_to_join_chat'] = 'Kliknij by wej¶æ na czat';
+$lang['Click_to_join_chat'] = 'Kliknij by wejÅ›Ä‡ na czat';
 $lang['ChatBox'] = 'ChatRoom';
-$lang['log_out_chat'] = 'Wylogowa³' .  (($he) ? 'e' : 'a') . '¶ siê z czata';
-$lang['Login_to_join_chat'] = 'Zaloguj siê by wej¶æ na czat';
+$lang['log_out_chat'] = 'WylogowaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› siÄ™ z czata';
+$lang['Login_to_join_chat'] = 'Zaloguj siÄ™ by wejÅ›Ä‡ na czat';
 $lang['Last_visit'] = 'Ostatnia wizyta';
 $lang['Never'] = 'Nigdy';
-$lang['Sort_Last_visit'] = 'Data ostatniej aktywno¶ci';
-$lang['Page_loading_wait'] = '£adowanie strony... proszê czekaæ!';
-$lang['Page_loading_stop'] = 'Je¶li strona nie chce siê za³adowaæ kliknij <span onclick="hideLoadingPage()" style="cursor: pointer">Tutaj<\/span>';
-$lang['Quick_Reply'] = 'Szybka odpowied¼';
+$lang['Sort_Last_visit'] = 'Data ostatniej aktywnoÅ›ci';
+$lang['Page_loading_wait'] = 'Åadowanie strony... proszÄ™ czekaÄ‡!';
+$lang['Page_loading_stop'] = 'JeÅ›li strona nie chce siÄ™ zaÅ‚adowaÄ‡ kliknij <span onclick="hideLoadingPage()" style="cursor: pointer">Tutaj<\/span>';
+$lang['Quick_Reply'] = 'Szybka odpowiedÅº';
 $lang['QuoteSelelected'] = 'Cytowanie selektywne';
 $lang['QuoteSelelectedEmpty'] = 'Zaznacz najpierw tekst';
 $lang['Quick_Reply_smilies'] = 'Wszystkie emotikony';
-$lang['No_birthday_specify'] = 'Nie okre¶lono';
+$lang['No_birthday_specify'] = 'Nie okreÅ›lono';
 $lang['Age'] = 'Wiek';
-$lang['Wrong_birthday_format'] = 'Data urodzenia nie mie¶ci sie w dopuszczalnych granicach';
-$lang['Birthday_greeting_today'] = '!!!! WSZYSTKIEGO NAJLEPSZEGO !!!!<br /><br /> Z okazji Twoich %s urodzin!<br /> ¿yczymy Ci wszystkiego co najlepsze zarówno w ¿yciu prywatnym, jak i tutaj w Internecie!<br /><br /> U¿ytkownicy i administratorzy forum';//%s is substituted with the users age
-$lang['Birthday_greeting_prev'] = 'Sk³adamy Ci gratulacje z okazji %s urodzin.<br /><br /> U¿ytkownicy i administratorzy forum';//%s is substituted with the users age, and birthday 
+$lang['Wrong_birthday_format'] = 'Data urodzenia nie mieÅ›ci sie w dopuszczalnych granicach';
+$lang['Birthday_greeting_today'] = '!!!! WSZYSTKIEGO NAJLEPSZEGO !!!!<br /><br /> Z okazji Twoich %s urodzin!<br /> Å¼yczymy Ci wszystkiego co najlepsze zarÃ³wno w Å¼yciu prywatnym, jak i tutaj w Internecie!<br /><br /> UÅ¼ytkownicy i administratorzy forum';//%s is substituted with the users age
+$lang['Birthday_greeting_prev'] = 'SkÅ‚adamy Ci gratulacje z okazji %s urodzin.<br /><br /> UÅ¼ytkownicy i administratorzy forum';//%s is substituted with the users age, and birthday 
 $lang['Greeting_Messaging'] = 'Gratulacje!';
-$lang['Birthday_today'] = 'U¿ytkownicy obchodz±cy dzi¶ urodziny:';
-$lang['Birthday_week'] = 'U¿ytkownicy obchodz±cy urodziny w ci±gu nastêpnych %d dni:';
-$lang['Nobirthday_week'] = 'Nikt nie ma urodzin przez nastêpne %d dni';
-$lang['Nobirthday_today'] = 'Nikt nie ma dzi¶ urodzin.';
+$lang['Birthday_today'] = 'UÅ¼ytkownicy obchodzÄ…cy dziÅ› urodziny:';
+$lang['Birthday_week'] = 'UÅ¼ytkownicy obchodzÄ…cy urodziny w ciÄ…gu nastÄ™pnych %d dni:';
+$lang['Nobirthday_week'] = 'Nikt nie ma urodzin przez nastÄ™pne %d dni';
+$lang['Nobirthday_today'] = 'Nikt nie ma dziÅ› urodzin.';
 $lang['Year'] = 'Rok';
-$lang['Month'] = 'Miesi±c';
-$lang['Day'] = 'Dzieñ';
-$lang['send_congratulations'] = 'z³ó¿ ¿yczenia';
-$lang['congratulations_send'] = '¿yczenia dla u¿ytkownika zosta³y wys³ane.';
-$lang['congratulations_send_no'] = 'Temu u¿ytkownikowi wysy³a³' .  (($he) ? 'e' : 'a') . '¶ ju¿ ¿yczenia';
-$lang['l_whoisonline'] = 'zobacz szczegó³owo';
-$lang['new_topicsss'] = 'Nowych tematów:';
-$lang['new_postsss'] = 'Nowych postów:';
-$lang['unread_topicsss'] = 'Nieczytanych tematów';
-$lang['unread_postsss'] = 'Nieczytanych postów';
+$lang['Month'] = 'MiesiÄ…c';
+$lang['Day'] = 'DzieÅ„';
+$lang['send_congratulations'] = 'zÅ‚Ã³Å¼ Å¼yczenia';
+$lang['congratulations_send'] = 'Å¼yczenia dla uÅ¼ytkownika zostaÅ‚y wysÅ‚ane.';
+$lang['congratulations_send_no'] = 'Temu uÅ¼ytkownikowi wysyÅ‚aÅ‚' .  (($he) ? 'e' : 'a') . 'Å› juÅ¼ Å¼yczenia';
+$lang['l_whoisonline'] = 'zobacz szczegÃ³Å‚owo';
+$lang['new_topicsss'] = 'Nowych tematÃ³w:';
+$lang['new_postsss'] = 'Nowych postÃ³w:';
+$lang['unread_topicsss'] = 'Nieczytanych tematÃ³w';
+$lang['unread_postsss'] = 'Nieczytanych postÃ³w';
 $lang['Board_style'] = 'Styl forum';
 $lang['l_level'] = 'Poziom';
 $lang['Ignore_list'] = 'Lista ignorowanych';
-$lang['Ignore_users'] = 'Ten u¿ytkownik jest na twojej li¶cie ignorowanych';
-$lang['Ignore_add'] = 'Dodaj u¿ytkownika do listy ignorowanych';
-$lang['Ignore_delete'] = 'Usuñ u¿ytkownika z listy ignorowanych';
-$lang['Ignore_added'] = 'U¿ytkownik dodany do listy ignorowanych';
-$lang['Ignore_deleted'] = 'U¿ytkownik usuniêty z listy ignorowanych';
+$lang['Ignore_users'] = 'Ten uÅ¼ytkownik jest na twojej liÅ›cie ignorowanych';
+$lang['Ignore_add'] = 'Dodaj uÅ¼ytkownika do listy ignorowanych';
+$lang['Ignore_delete'] = 'UsuÅ„ uÅ¼ytkownika z listy ignorowanych';
+$lang['Ignore_added'] = 'UÅ¼ytkownik dodany do listy ignorowanych';
+$lang['Ignore_deleted'] = 'UÅ¼ytkownik usuniÄ™ty z listy ignorowanych';
 $lang['Ignore_submit'] = 'Dodaj do listy ignorowanych';
-$lang['Ignore_exists'] = 'U¿ytkownik jest ju¿ na twojej li¶cie ignorowanych';
-$lang['Click_return_ignore'] = 'Kliknij %sTutaj%s ¿eby przej¶æ do swojej listy ignorowanych';
-$lang['Ignore_user_warn'] = 'Nie mo¿esz siê samemu ignorowaæ!';
-$lang['Post_user_ignored'] = 'U¿ytkownik zosta³ dodany do twojej listy <b>ignorowanych</b>.';
-$lang['Click_view_ignore'] = 'Kliknij %sTutaj%s ¿eby zobaczyæ jego post.<br />';
+$lang['Ignore_exists'] = 'UÅ¼ytkownik jest juÅ¼ na twojej liÅ›cie ignorowanych';
+$lang['Click_return_ignore'] = 'Kliknij %sTutaj%s Å¼eby przejÅ›Ä‡ do swojej listy ignorowanych';
+$lang['Ignore_user_warn'] = 'Nie moÅ¼esz siÄ™ samemu ignorowaÄ‡!';
+$lang['Post_user_ignored'] = 'UÅ¼ytkownik zostaÅ‚ dodany do twojej listy <b>ignorowanych</b>.';
+$lang['Click_view_ignore'] = 'Kliknij %sTutaj%s Å¼eby zobaczyÄ‡ jego post.<br />';
 $lang['Search_for'] = 'Szukaj w tym dziale';
 $lang['cicq'] = 'ICQ';
 
 $lang['Print_View'] = 'Wersja do druku';
-$lang['Wrong_reg_key'] = 'Nieprawid³owy kod!';
+$lang['Wrong_reg_key'] = 'NieprawidÅ‚owy kod!';
 $lang['Validation'] = 'Uwierzytelnianie';
 $lang['Msg_Icon_No_Icon'] = 'Bez';
 $lang['messageicon'] = 'Ikona tematu';
 $lang['postmsgicon'] = 'Ikona Tematu/Postu';
-$lang['Topic_view_users'] = 'Kto przegl±da³ temat';
-$lang['Topic_time'] = 'Ostatnio ogl±dany';
-$lang['Topic_count'] = 'Ogl±dany';
-$lang['Topic_global_announcement'] = '<b>Wa¿ne og³oszenie:</b>';
-$lang['Post_global_announcement'] = 'Wa¿ne og³oszenie';
+$lang['Topic_view_users'] = 'Kto przeglÄ…daÅ‚ temat';
+$lang['Topic_time'] = 'Ostatnio oglÄ…dany';
+$lang['Topic_count'] = 'OglÄ…dany';
+$lang['Topic_global_announcement'] = '<b>WaÅ¼ne ogÅ‚oszenie:</b>';
+$lang['Post_global_announcement'] = 'WaÅ¼ne ogÅ‚oszenie';
 $lang['Forum_not_exist'] = 'Nie znaleziono forum';
-$lang['Enter_forum_password'] = 'Podaj has³o dzia³u';
-$lang['Incorrect_forum_password'] = 'B³êdne has³o';
-$lang['Only_alpha_num_chars'] = 'Has³o mo¿e zawieraæ od 3 do 20 znaków z zakresu: (A-Z, a-z, 0-9)';
+$lang['Enter_forum_password'] = 'Podaj hasÅ‚o dziaÅ‚u';
+$lang['Incorrect_forum_password'] = 'BÅ‚Ä™dne hasÅ‚o';
+$lang['Only_alpha_num_chars'] = 'HasÅ‚o moÅ¼e zawieraÄ‡ od 3 do 20 znakÃ³w z zakresu: (A-Z, a-z, 0-9)';
 $lang['Album'] = 'Album';
 $lang['Personal_Gallery_Of_User'] = 'Prywatna galeria %s';
 $lang['l_whois'] = 'Whois';
@@ -880,21 +880,21 @@ $lang['Junior'] = 'Junior Admin';
 $lang['Period'] = 'Na forum od <b>%d</b> dni';
 $lang['Topic_bookmark'] = 'Dodaj temat do Ulubionych';
 $lang['Day_users'] = 'Przez ostatnie %s godziny byli na forum:';
-$lang['last_visitors_more'] = 'Pe³na lista';
-$lang['search_keywords_error'] = 'U¿y³e¶ za du¿o s³ów przy próbie szukania. <br>Mo¿esz ich wykorzystaæ (maksymalnie): <b>%s</b>.';
+$lang['last_visitors_more'] = 'PeÅ‚na lista';
+$lang['search_keywords_error'] = 'UÅ¼yÅ‚eÅ› za duÅ¼o sÅ‚Ã³w przy prÃ³bie szukania. <br>MoÅ¼esz ich wykorzystaÄ‡ (maksymalnie): <b>%s</b>.';
 $lang['hidden_user'] = 'Ukryte';
-$lang['post_expire'] = 'Post wyga¶nie:';
-$lang['topic_expire'] = 'Wyga¶nie';
+$lang['post_expire'] = 'Post wygaÅ›nie:';
+$lang['topic_expire'] = 'WygaÅ›nie';
 $lang['expire_unlimit'] = 'Bez limitu';
-$lang['l_expire_p'] = 'Czas wa¿no¶ci postu/tematu';
+$lang['l_expire_p'] = 'Czas waÅ¼noÅ›ci postu/tematu';
 $lang['Tree_width_topic'] = 'Skok drzewa tematu w pixelach';
-$lang['l_expire_p_e'] = 'Wybierz, po ilu dniach post ma byæ automatycznie usuniêty. Je¶li jest to nowy temat, zostanie usuniêty w ca³o¶ci.';
-$lang['expire_e'] = 'Ustaw, po ilu dniach temat ma byæ skasowany';
-$lang['announce-stick'] = 'Przyklejanie tematów, oznaczanie jako og³oszenie lub jako globalne og³oszenie';
+$lang['l_expire_p_e'] = 'Wybierz, po ilu dniach post ma byÄ‡ automatycznie usuniÄ™ty. JeÅ›li jest to nowy temat, zostanie usuniÄ™ty w caÅ‚oÅ›ci.';
+$lang['expire_e'] = 'Ustaw, po ilu dniach temat ma byÄ‡ skasowany';
+$lang['announce-stick'] = 'Przyklejanie tematÃ³w, oznaczanie jako ogÅ‚oszenie lub jako globalne ogÅ‚oszenie';
 $lang['Merge_post'] = 'Scalaj posty w tym temacie';
 $lang['Merge_posts'] = 'Scalaj wybrane posty';
-$lang['post_expire_q'] = 'Wyga¶nie za';
-$lang['Password_not_complex'] = 'Has³o ';
+$lang['post_expire_q'] = 'WygaÅ›nie za';
+$lang['Password_not_complex'] = 'HasÅ‚o ';
 $lang['Downloads2'] = 'Download';
 $lang['See_all'] = 'Zobacz wszystkie';
 $lang['Ignore_mini'] = 'Ignoruj';
@@ -904,74 +904,74 @@ $lang['quote_mini'] = 'Cytuj';
 $lang['edit_mini'] = 'Edytuj';
 $lang['mini_reply'] = 'ODPOWIEDZ';
 $lang['mini_newtopic'] = 'NOWY TEMAT';
-$lang['mini_locked'] = 'ZAMKNIÊTY';
+$lang['mini_locked'] = 'ZAMKNIÄ˜TY';
 
-$lang['too_long_word'] = 'Za d³ugie s³owo';
-$lang['login_to_shoutcast'] = 'Musisz siê zalogowaæ ¿eby wys³aæ wiadomo¶æ lub wysy³anie wiadomo¶ci jest mo¿liwe tylko dla Administratorów i Moderatorów';
-$lang['sb_banned_send'] = 'Nie mo¿esz wysy³aæ wiadomo¶ci';
-$lang['l_alert_sb'] = 'Czy na pewno chcesz usun±æ wiadomo¶æ?';
-$lang['l_refresh_sb'] = 'Shoutbox otrzyma³ 100 pustych odpowiedzi od serwera, aby kontynuowaæ naci¶nij ten przycisk.';
-$lang['sb_restriction'] = 'Shoutbox zosta³ wy³±czony lub otrzyma¶eœ bana.';
+$lang['too_long_word'] = 'Za dÅ‚ugie sÅ‚owo';
+$lang['login_to_shoutcast'] = 'Musisz siÄ™ zalogowaÄ‡ Å¼eby wysÅ‚aÄ‡ wiadomoÅ›Ä‡ lub wysyÅ‚anie wiadomoÅ›ci jest moÅ¼liwe tylko dla AdministratorÃ³w i ModeratorÃ³w';
+$lang['sb_banned_send'] = 'Nie moÅ¼esz wysyÅ‚aÄ‡ wiadomoÅ›ci';
+$lang['l_alert_sb'] = 'Czy na pewno chcesz usunÄ…Ä‡ wiadomoÅ›Ä‡?';
+$lang['l_refresh_sb'] = 'Shoutbox otrzymaÅ‚ 100 pustych odpowiedzi od serwera, aby kontynuowaÄ‡ naciÅ›nij ten przycisk.';
+$lang['sb_restriction'] = 'Shoutbox zostaÅ‚ wyÅ‚Ä…czony lub otrzymaÅ›eÂœ bana.';
 $lang['l_cancel_sb'] = 'Anuluj';
 $lang['l_edit_sb'] = 'Zapisz';
-$lang['emotki'] = 'Bu¼ki';
-$lang['Email_explain'] = 'Je¿eli twój mail to np. janek@jan.pl to w pierwsze pole wpisz janek, a w drugie jan.pl';
+$lang['emotki'] = 'BuÅºki';
+$lang['Email_explain'] = 'JeÅ¼eli twÃ³j mail to np. janek@jan.pl to w pierwsze pole wpisz janek, a w drugie jan.pl';
 
-$lang['banned_forum'] = 'Administrator zablokowa³ Tobie mo¿liwo¶æ pisania w tym forum';
+$lang['banned_forum'] = 'Administrator zablokowaÅ‚ Tobie moÅ¼liwoÅ›Ä‡ pisania w tym forum';
 
-$lang['edit_time_past'] = 'Nie mo¿esz juz zmieniæ swojego postu. Post mo¿na zmieniaæ przez <b>%d</b> minut, Od momentu jego wys³ania';
-$lang['This_closed_group'] = 'To jest zamkniêta grupa, %s';
+$lang['edit_time_past'] = 'Nie moÅ¼esz juz zmieniÄ‡ swojego postu. Post moÅ¼na zmieniaÄ‡ przez <b>%d</b> minut, Od momentu jego wysÅ‚ania';
+$lang['This_closed_group'] = 'To jest zamkniÄ™ta grupa, %s';
 $lang['This_hidden_group'] = 'To jest ukryta grupa, %s';
-$lang['No_more'] = 'nowi u¿ytkownicy nie bêd± przyjmowani';
-$lang['No_add_allowed'] = 'automatyczne przyjmowanie u¿ytkowników nie jest dozwolone';
-$lang['Join_auto'] = 'Mo¿esz do³±czyæ do grupy je¶li ilo¶æ twoich postów osi±gnie wystarczaj±c± warto¶æ';
+$lang['No_more'] = 'nowi uÅ¼ytkownicy nie bÄ™dÄ… przyjmowani';
+$lang['No_add_allowed'] = 'automatyczne przyjmowanie uÅ¼ytkownikÃ³w nie jest dozwolone';
+$lang['Join_auto'] = 'MoÅ¼esz doÅ‚Ä…czyÄ‡ do grupy jeÅ›li iloÅ›Ä‡ twoich postÃ³w osiÄ…gnie wystarczajÄ…cÄ… wartoÅ›Ä‡';
 $lang['Permissions'] = 'Zezwolenia';
 $lang['quote_image'] = 'Obrazek';
-$lang['Gender'] = 'P³eæ';
-$lang['Male'] = 'Mê¿czyzna';
+$lang['Gender'] = 'PÅ‚eÄ‡';
+$lang['Male'] = 'MÄ™Å¼czyzna';
 $lang['Female'] = 'Kobieta';
 $lang['No_gender_specify'] = 'Nie wiadomo :)';
-$lang['not_gg_account'] = 'Brak numeru lub has³a bramki GG. Poinformuj administratora';
+$lang['not_gg_account'] = 'Brak numeru lub hasÅ‚a bramki GG. Poinformuj administratora';
 $lang['not_gg_addresat'] = 'Brak adresata';
-$lang['wrong_gg_addresat'] = 'Z³y format numeru adresata';
-$lang['not_gg_msg'] = 'Brak tre¶ci wiadomo¶ci';
-$lang['gg_too_long'] = 'D³ugo¶æ wiadomo¶ci nie mo¿e przekraczaæ 1800 znaków';
-$lang['topic_expire_mod'] = 'Wyga¶nie za: ';
+$lang['wrong_gg_addresat'] = 'ZÅ‚y format numeru adresata';
+$lang['not_gg_msg'] = 'Brak treÅ›ci wiadomoÅ›ci';
+$lang['gg_too_long'] = 'DÅ‚ugoÅ›Ä‡ wiadomoÅ›ci nie moÅ¼e przekraczaÄ‡ 1800 znakÃ³w';
+$lang['topic_expire_mod'] = 'WygaÅ›nie za: ';
 $lang['Forum_link_visited'] = 'Odwiedzono %d razy';
 $lang['Redirect'] = 'Przeniesienie';
 $lang['Never'] = 'Nigdy';
-$lang['login_require'] = 'Dostêp do tej czê¶ci forum wymaga zalogowania siê.';
-$lang['login_require_register'] = 'Je¿eli nie jeste¶ jeszcze zarejestrowany, kliknij %sTutaj%s ¿eby przej¶æ do formularza rejestracyjnego.';
+$lang['login_require'] = 'DostÄ™p do tej czÄ™Å›ci forum wymaga zalogowania siÄ™.';
+$lang['login_require_register'] = 'JeÅ¼eli nie jesteÅ› jeszcze zarejestrowany, kliknij %sTutaj%s Å¼eby przejÅ›Ä‡ do formularza rejestracyjnego.';
 
-$lang['Click_return_custom_sending'] = 'Kliknij %sTutaj%s aby powróciæ do wysy³ania ¿yczeñ';
-$lang['choose_congratulations_format'] = 'Wybierz rodzaj ¿yczeñ:';
+$lang['Click_return_custom_sending'] = 'Kliknij %sTutaj%s aby powrÃ³ciÄ‡ do wysyÅ‚ania Å¼yczeÅ„';
+$lang['choose_congratulations_format'] = 'Wybierz rodzaj Å¼yczeÅ„:';
 $lang['congratulations_format_standart'] = 'Standardowe';
-$lang['congratulations_format_standart_e'] = 'Wysy³ane od razu po klikniêciu';
-$lang['congratulations_format_custom'] = 'W³asne';
-$lang['congratulations_format_custom_e'] = 'Mo¿esz wpisaæ swoj± tre¶æ';
+$lang['congratulations_format_standart_e'] = 'WysyÅ‚ane od razu po klikniÄ™ciu';
+$lang['congratulations_format_custom'] = 'WÅ‚asne';
+$lang['congratulations_format_custom_e'] = 'MoÅ¼esz wpisaÄ‡ swojÄ… treÅ›Ä‡';
 $lang['generate_time'] = 'Strona wygenerowana w';
 $lang['second'] = 'sekundy';
 $lang['seconds'] = 'sekund';
-$lang['Warnings'] = 'Ostrze¿enia u¿ytkowników';
-$lang['Warnings_viewtopic'] = 'Ostrze¿eñ';
-$lang['warnings_banned_info'] = '<b>Masz zakaz wstêpu na forum !</b><br /><br />Na swoim koncie masz ostrze¿eñ: <b>%s</b> o ³±cznej warto¶ci: <b>%s</b>. Warto¶æ po której u¿ytkownik jest banowany to: <b>%s</b><br /><br />Ostatnie ostrze¿enie dosta³' .  (($he) ? 'e' : 'a') . '¶: <b>%s</b><br />Powód: <i>%s</i>';
-$lang['disallow_posting'] = 'Przekroczy³' .  (($he) ? 'e' : 'a') . '¶ limit ostrze¿eñ. Nie mo¿esz pisaæ nowych postów ani tematów.<br /><br />Kliknij %sTutaj%s ¿eby przej¶æ do strony ostrze¿eñ.';
-$lang['warnings_lastwar_info'] = '<b>Dosta³' .  (($he) ? 'e' : 'a') . '¶ ostrze¿enie !</b><br /><br />Kliknij %sTutaj%s ¿eby je zobaczyæ.<br /><br />Mo¿e byæ konieczne ponowne zalogowanie.';
-$lang['support'] = '<br /><br />Je¶li nie potrafisz znale¼æ rozwi±zania tego problemu,<br />mo¿esz spróbowaæ poszukaæ, lub zadaæ pytanie na forum: <a href="http://www.przemo.org/phpBB2/" target="_blank">http://www.przemo.org/phpBB2/</a>';
-$lang['poster_posts'] = 'Bra³' .  (($he) ? 'e' : 'a') . '¶ udzia³ w tej dyskusji';
-$lang['Sort_per_letter'] = 'Poka¿ u¿ytkowników na literê';
+$lang['Warnings'] = 'OstrzeÅ¼enia uÅ¼ytkownikÃ³w';
+$lang['Warnings_viewtopic'] = 'OstrzeÅ¼eÅ„';
+$lang['warnings_banned_info'] = '<b>Masz zakaz wstÄ™pu na forum !</b><br /><br />Na swoim koncie masz ostrzeÅ¼eÅ„: <b>%s</b> o Å‚Ä…cznej wartoÅ›ci: <b>%s</b>. WartoÅ›Ä‡ po ktÃ³rej uÅ¼ytkownik jest banowany to: <b>%s</b><br /><br />Ostatnie ostrzeÅ¼enie dostaÅ‚' .  (($he) ? 'e' : 'a') . 'Å›: <b>%s</b><br />PowÃ³d: <i>%s</i>';
+$lang['disallow_posting'] = 'PrzekroczyÅ‚' .  (($he) ? 'e' : 'a') . 'Å› limit ostrzeÅ¼eÅ„. Nie moÅ¼esz pisaÄ‡ nowych postÃ³w ani tematÃ³w.<br /><br />Kliknij %sTutaj%s Å¼eby przejÅ›Ä‡ do strony ostrzeÅ¼eÅ„.';
+$lang['warnings_lastwar_info'] = '<b>DostaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› ostrzeÅ¼enie !</b><br /><br />Kliknij %sTutaj%s Å¼eby je zobaczyÄ‡.<br /><br />MoÅ¼e byÄ‡ konieczne ponowne zalogowanie.';
+$lang['support'] = '<br /><br />JeÅ›li nie potrafisz znaleÅºÄ‡ rozwiÄ…zania tego problemu,<br />moÅ¼esz sprÃ³bowaÄ‡ poszukaÄ‡, lub zadaÄ‡ pytanie na forum: <a href="http://www.przemo.org/phpBB2/" target="_blank">http://www.przemo.org/phpBB2/</a>';
+$lang['poster_posts'] = 'BraÅ‚' .  (($he) ? 'e' : 'a') . 'Å› udziaÅ‚ w tej dyskusji';
+$lang['Sort_per_letter'] = 'PokaÅ¼ uÅ¼ytkownikÃ³w na literÄ™';
 $lang['Others'] = 'inna';
 $lang['All'] = 'wszystkich';
-$lang['ignore_topic_added'] = 'Wybrany temat/tematy zosta³y dodane do listy ignorowanych.<br />Nie bêdziesz ich widzia³' .  (($he) ? '' : 'a') . ' w li¶cie tematów, oraz w li¶cie tematów nieprzeczytanych (lub "od ostatniej wizyty" w zale¿no¶ci od ustawieñ forum)<br /><br />Kliknij %sTutaj%s ¿eby zobaczyæ swoj± liste ignorowanych tematów.<br /><br />Kliknij %sTutaj%s ¿eby wróciæ na stronê g³ówn±.';
-$lang['ignore_topic_unignored'] = 'Wybrany temat/tematy zosta³y usuniête z twojej listy ignorowanych tematów.<br /><br />Kliknij %sTutaj%s ¿eby zobaczyæ swoj± liste ignorowanych tematów.<br /><br />Kliknij %sTutaj%s ¿eby wróciæ na stronê g³ówn±.';
+$lang['ignore_topic_added'] = 'Wybrany temat/tematy zostaÅ‚y dodane do listy ignorowanych.<br />Nie bÄ™dziesz ich widziaÅ‚' .  (($he) ? '' : 'a') . ' w liÅ›cie tematÃ³w, oraz w liÅ›cie tematÃ³w nieprzeczytanych (lub "od ostatniej wizyty" w zaleÅ¼noÅ›ci od ustawieÅ„ forum)<br /><br />Kliknij %sTutaj%s Å¼eby zobaczyÄ‡ swojÄ… liste ignorowanych tematÃ³w.<br /><br />Kliknij %sTutaj%s Å¼eby wrÃ³ciÄ‡ na stronÄ™ gÅ‚Ã³wnÄ….';
+$lang['ignore_topic_unignored'] = 'Wybrany temat/tematy zostaÅ‚y usuniÄ™te z twojej listy ignorowanych tematÃ³w.<br /><br />Kliknij %sTutaj%s Å¼eby zobaczyÄ‡ swojÄ… liste ignorowanych tematÃ³w.<br /><br />Kliknij %sTutaj%s Å¼eby wrÃ³ciÄ‡ na stronÄ™ gÅ‚Ã³wnÄ….';
 $lang['ignore_mark'] = 'Ignoruj zaznaczone tematy';
 $lang['ignore_topics'] = 'Ignorowane tematy';
-$lang['list_ignore'] = 'Lista tematów które ignorujesz';
-$lang['list_ignore_e'] = 'Z listy automatycznie s± kasowane tematy w których nie pojawi³a siê odpowied¼ przez ostatnie 3 miesi±ce';
-$lang['ignore_list_empty'] = 'Nie ignorujesz ¿adnego tematu.<br /><br />Kliknij %sTutaj%s ¿eby wróciæ na stronê g³ówn±.';
+$lang['list_ignore'] = 'Lista tematÃ³w ktÃ³re ignorujesz';
+$lang['list_ignore_e'] = 'Z listy automatycznie sÄ… kasowane tematy w ktÃ³rych nie pojawiÅ‚a siÄ™ odpowiedÅº przez ostatnie 3 miesiÄ…ce';
+$lang['ignore_list_empty'] = 'Nie ignorujesz Å¼adnego tematu.<br /><br />Kliknij %sTutaj%s Å¼eby wrÃ³ciÄ‡ na stronÄ™ gÅ‚Ã³wnÄ….';
 $lang['ignore_topic'] = 'Ignoruj ten temat';
 $lang['current_topic_ignore'] = 'Ignorujesz ten temat';
-$lang['bbcode_ct_help'] = 'Kolor tematu, widoczny w widoku tematów';
+$lang['bbcode_ct_help'] = 'Kolor tematu, widoczny w widoku tematÃ³w';
 $lang['topic_color'] = 'Kolor tematu';
 $lang['15_min'] = '15 Minut';
 $lang['30_min'] = '30 Minut';
@@ -980,145 +980,145 @@ $lang['2_Hour'] = '2 Godzin';
 $lang['6_Hour'] = '6 Godzin';
 $lang['12_Hour'] = '12 Godzin';
 $lang['icons'] = 'Wszystkie ikony postu/tematu';
-$lang['your_posts'] = 'twoich postów';
+$lang['your_posts'] = 'twoich postÃ³w';
 $lang['replys_last_post'] = 'odpowiedzi od czasu twojego ostatniego postu';
-$lang['unread_posts'] = 'postów nieprzeczytanych';
-$lang['not_poster_post'] = 'Nie bra³' .  (($he) ? 'e' : 'a') . '¶ udzia³u w tej dyskusji';
-$lang['lang_q_quote_e'] = 'Po zaznaczeniu czê¶ci tekstu który chcesz cytowaæ i klikniêciu tutaj, tekst wraz ze znacznikami BBCode pojawi siê na dole w szybkiej odpowiedzi. Mo¿esz u¿yæ kilkukrotnie.';
-$lang['ignore_topic_submit_e'] = 'Dodaje zaznaczone wy¿ej tematy do twojej listy ignorowanych tematów. Nie bêd± one wy¶wietlane w widoku forum, oraz w wynikach wyszukiwania.';
-$lang['data'] = 'Administrator forum narusza zasady korzystania ze skryptu forum dyskusyjnego <a href="http://www.przemo.org/phpBB2/">phpBB modified by Przemo</a><br />Forum zosta³o zablokowane !<br /><br />Wiêcej informacji mo¿na uzyskaæ pisz±c na e-mail: przemo@przemo.org';
-$lang['more_topicicons'] = 'Masz do wyboru wiêksz± ilo¶æ ikon, po klikniêciu w to pole, otworzy siê okno z dodatkowymi ikonami.';
+$lang['unread_posts'] = 'postÃ³w nieprzeczytanych';
+$lang['not_poster_post'] = 'Nie braÅ‚' .  (($he) ? 'e' : 'a') . 'Å› udziaÅ‚u w tej dyskusji';
+$lang['lang_q_quote_e'] = 'Po zaznaczeniu czÄ™Å›ci tekstu ktÃ³ry chcesz cytowaÄ‡ i klikniÄ™ciu tutaj, tekst wraz ze znacznikami BBCode pojawi siÄ™ na dole w szybkiej odpowiedzi. MoÅ¼esz uÅ¼yÄ‡ kilkukrotnie.';
+$lang['ignore_topic_submit_e'] = 'Dodaje zaznaczone wyÅ¼ej tematy do twojej listy ignorowanych tematÃ³w. Nie bÄ™dÄ… one wyÅ›wietlane w widoku forum, oraz w wynikach wyszukiwania.';
+$lang['data'] = 'Administrator forum narusza zasady korzystania ze skryptu forum dyskusyjnego <a href="http://www.przemo.org/phpBB2/">phpBB modified by Przemo</a><br />Forum zostaÅ‚o zablokowane !<br /><br />WiÄ™cej informacji moÅ¼na uzyskaÄ‡ piszÄ…c na e-mail: przemo@przemo.org';
+$lang['more_topicicons'] = 'Masz do wyboru wiÄ™kszÄ… iloÅ›Ä‡ ikon, po klikniÄ™ciu w to pole, otworzy siÄ™ okno z dodatkowymi ikonami.';
 $lang['online_minutes'] = 'Jest na forum minut: <b>%s</b>';
 $lang['online_hours'] = 'Jest na forum godzin: <b>%s</b>';
 $lang['Viewing_topic'] = 'Czyta temat';
-$lang['gg_header_info_pm'] = 'Otrzyma³' .  (($he) ? 'e' : 'a') . '¶ now± prywatn± wiadomo¶æ od: %s';
-$lang['gg_notify_topic'] = 'W obserwowanym przez Ciebie temacie: "%s" u¿ytkownik: %s napisa³ odpowied¼';
+$lang['gg_header_info_pm'] = 'OtrzymaÅ‚' .  (($he) ? 'e' : 'a') . 'Å› nowÄ… prywatnÄ… wiadomoÅ›Ä‡ od: %s';
+$lang['gg_notify_topic'] = 'W obserwowanym przez Ciebie temacie: "%s" uÅ¼ytkownik: %s napisaÅ‚ odpowiedÅº';
 $lang['l_notify_gg_privmsg'] = 'Link do twojej skrzynki: %s';
-$lang['l_notify_gg_topic'] = '¿eby zobaczyæ temat kliknij: %s';
-$lang['generate_queries'] = 'Zapytañ do SQL';
+$lang['l_notify_gg_topic'] = 'Å¼eby zobaczyÄ‡ temat kliknij: %s';
+$lang['generate_queries'] = 'ZapytaÅ„ do SQL';
 $lang['unread_post'] = 'Nieczytany post';
-$lang['refresh'] = 'Od¶wie¿';
-$lang['new_board_topic'] = 'Na forum %s u¿ytkownik %s napisa³ nowy temat: %s';
-$lang['new_board_post'] = 'Na forum %s u¿ytkownik %s napisa³ odpowied¼ w temacie: %s';
-$lang['Search_post_time'] = 'Wy¶wietl posty z ostatnich:</span><br /><span class="gensmall">Wy¶wietla posty napisane w ci±gu ostatniego wybranego czasu. Mo¿na wybraæ metodê wy¶wietlania: Posty i Tematy';
-$lang['user_not_allowpm'] = 'Nie mo¿esz wys³aæ prywatnej wiadomo¶ci do tego u¿ytkownika. U¿ytkownik wy³±czy³ prywatne wiadomo¶ci.';
-$lang['open_all_new_window'] = 'Otwórz wszystkie w nowych oknach';
+$lang['refresh'] = 'OdÅ›wieÅ¼';
+$lang['new_board_topic'] = 'Na forum %s uÅ¼ytkownik %s napisaÅ‚ nowy temat: %s';
+$lang['new_board_post'] = 'Na forum %s uÅ¼ytkownik %s napisaÅ‚ odpowiedÅº w temacie: %s';
+$lang['Search_post_time'] = 'WyÅ›wietl posty z ostatnich:</span><br /><span class="gensmall">WyÅ›wietla posty napisane w ciÄ…gu ostatniego wybranego czasu. MoÅ¼na wybraÄ‡ metodÄ™ wyÅ›wietlania: Posty i Tematy';
+$lang['user_not_allowpm'] = 'Nie moÅ¼esz wysÅ‚aÄ‡ prywatnej wiadomoÅ›ci do tego uÅ¼ytkownika. UÅ¼ytkownik wyÅ‚Ä…czyÅ‚ prywatne wiadomoÅ›ci.';
+$lang['open_all_new_window'] = 'OtwÃ³rz wszystkie w nowych oknach';
 
 $lang['s_email_friend'] = 'Powiadom znajomego o tym temacie';
-$lang['s_email_friend_f_name'] = 'Imiê znajomego:';
+$lang['s_email_friend_f_name'] = 'ImiÄ™ znajomego:';
 $lang['s_email_friend_f_email'] = 'Email znajomego:';
 $lang['s_email_friend_title'] = '%s zobacz temat na: %s';
-$lang['s_email_friend_message'] = 'Przeczyta³' .  (($he) ? 'e' : 'a') . 'm temat %s na %s i pomy¶la³' .  (($he) ? 'e' : 'a') . 'm, ¿e musisz go zobaczyæ! Naprawdê warto! Tutaj jest link: %s';
+$lang['s_email_friend_message'] = 'PrzeczytaÅ‚' .  (($he) ? 'e' : 'a') . 'm temat %s na %s i pomyÅ›laÅ‚' .  (($he) ? 'e' : 'a') . 'm, Å¼e musisz go zobaczyÄ‡! NaprawdÄ™ warto! Tutaj jest link: %s';
 
 $lang['mstr'] = 'Automatyczna naprawa tabeli w bazie SQL';
-$lang['rrtf'] = "Tabela %s uleg³a uszkodzeniu, próba automatycznej naprawy nie powiod³a siê:\n%s\n%s\nSpróbuj naprawiæ tabelê rêcznie wykonuj±c zapytanie: REPAIR TABLE %s";
-$lang['rrts'] = "Tabela %s uleg³a uszkodzeniu, próba automatycznej naprawy prawdopodobnie powiod³a siê:\n%s\n Je¶li nie, spróbuj wykonac zapytanie rêcznie: REPAIR TABLE %s";
-$lang['rrsum'] = 'Wyst±pi³ drobny problem techniczny, skrypt dokona³ próby naprawy i wys³a³ powiadomienie do Administratora forum<br />Sprobuj od¶wie¿yæ stronê';
+$lang['rrtf'] = "Tabela %s ulegÅ‚a uszkodzeniu, prÃ³ba automatycznej naprawy nie powiodÅ‚a siÄ™:\n%s\n%s\nSprÃ³buj naprawiÄ‡ tabelÄ™ rÄ™cznie wykonujÄ…c zapytanie: REPAIR TABLE %s";
+$lang['rrts'] = "Tabela %s ulegÅ‚a uszkodzeniu, prÃ³ba automatycznej naprawy prawdopodobnie powiodÅ‚a siÄ™:\n%s\n JeÅ›li nie, sprÃ³buj wykonac zapytanie rÄ™cznie: REPAIR TABLE %s";
+$lang['rrsum'] = 'WystÄ…piÅ‚ drobny problem techniczny, skrypt dokonaÅ‚ prÃ³by naprawy i wysÅ‚aÅ‚ powiadomienie do Administratora forum<br />Sprobuj odÅ›wieÅ¼yÄ‡ stronÄ™';
 
-$lang['Report_no_access'] = 'Nie masz mo¿liwo¶ci u¿ywania tej opcji';
-$lang['Report_disabled'] = 'Post tego u¿ytkownika nie mo¿e zostaæ zg³oszony';
-$lang['Report_post_already_reported'] = 'Ten post zosta³ ju¿ zg³oszony wcze¶niej';
-$lang['Report_post_self'] = 'Nie mo¿esz zg³aszaæ swoich postów';
-$lang['Report_already_removed'] = 'Ten post zosta³ usuniêty';
-$lang['Report_no_posts'] = 'Nie ma zg³oszonych ¿adnych postów';
-$lang['Report_no_title'] = 'Brak tytu³u';
-$lang['Reporter'] = 'Zg³aszaj±cy';
-$lang['Report_posts'] = 'Zg³oszone posty';
-$lang['Report_popup_text'] = 'Nastêpuj±ce posty zosta³y zg³oszone:';
-$lang['Report_deleted'] = 'Zg³oszenie usuniête.';
-$lang['Report_post_reported'] = 'Zg³oszenie zosta³o wys³ane. Dziêkujemy.';
-$lang['Report_post'] = 'Zg³o¶ ten post do Moderatora i Administratora';
-$lang['Report_del'] = 'Usuñ zg³oszenie';
-$lang['Report_no_popup'] = 'Otwórz popup o zg³oszonych postach';
-$lang['Report_no_mail'] = 'Powiadom na e-mail o zg³oszonych postach';
-$lang['Report_reload_window'] = 'Od¶wie¿ okno';
-$lang['Report_no_auth'] = 'Nie mo¿esz zg³osiæ postów, ta funkcja zosta³a Ci odebrana, lub nie jestes zalogowany.';
-$lang['Report_open_popup'] = 'Otwórz popup zg³oszeñ';
-$lang['Report_list'] = 'Lista zg³oszeñ';
+$lang['Report_no_access'] = 'Nie masz moÅ¼liwoÅ›ci uÅ¼ywania tej opcji';
+$lang['Report_disabled'] = 'Post tego uÅ¼ytkownika nie moÅ¼e zostaÄ‡ zgÅ‚oszony';
+$lang['Report_post_already_reported'] = 'Ten post zostaÅ‚ juÅ¼ zgÅ‚oszony wczeÅ›niej';
+$lang['Report_post_self'] = 'Nie moÅ¼esz zgÅ‚aszaÄ‡ swoich postÃ³w';
+$lang['Report_already_removed'] = 'Ten post zostaÅ‚ usuniÄ™ty';
+$lang['Report_no_posts'] = 'Nie ma zgÅ‚oszonych Å¼adnych postÃ³w';
+$lang['Report_no_title'] = 'Brak tytuÅ‚u';
+$lang['Reporter'] = 'ZgÅ‚aszajÄ…cy';
+$lang['Report_posts'] = 'ZgÅ‚oszone posty';
+$lang['Report_popup_text'] = 'NastÄ™pujÄ…ce posty zostaÅ‚y zgÅ‚oszone:';
+$lang['Report_deleted'] = 'ZgÅ‚oszenie usuniÄ™te.';
+$lang['Report_post_reported'] = 'ZgÅ‚oszenie zostaÅ‚o wysÅ‚ane. DziÄ™kujemy.';
+$lang['Report_post'] = 'ZgÅ‚oÅ› ten post do Moderatora i Administratora';
+$lang['Report_del'] = 'UsuÅ„ zgÅ‚oszenie';
+$lang['Report_no_popup'] = 'OtwÃ³rz popup o zgÅ‚oszonych postach';
+$lang['Report_no_mail'] = 'Powiadom na e-mail o zgÅ‚oszonych postach';
+$lang['Report_reload_window'] = 'OdÅ›wieÅ¼ okno';
+$lang['Report_no_auth'] = 'Nie moÅ¼esz zgÅ‚osiÄ‡ postÃ³w, ta funkcja zostaÅ‚a Ci odebrana, lub nie jestes zalogowany.';
+$lang['Report_open_popup'] = 'OtwÃ³rz popup zgÅ‚oszeÅ„';
+$lang['Report_list'] = 'Lista zgÅ‚oszeÅ„';
 $lang['added'] = 'Dodano';
-$lang['Voted_show'] = 'G³osowañ: '; // it means :  users that voted  (the number of voters will follow)
-$lang['Results_after'] = 'Wynik bêdzie pokazany po zakoñczeniu trwania ankiety';
-$lang['Poll_expires'] = 'Zakoñczenie ankiety za: ';
+$lang['Voted_show'] = 'GÅ‚osowaÅ„: '; // it means :  users that voted  (the number of voters will follow)
+$lang['Results_after'] = 'Wynik bÄ™dzie pokazany po zakoÅ„czeniu trwania ankiety';
+$lang['Poll_expires'] = 'ZakoÅ„czenie ankiety za: ';
 $lang['Minutes'] = 'Minut';
-$lang['Max_vote'] = 'Maksimum "zaznaczeñ"';
+$lang['Max_vote'] = 'Maksimum "zaznaczeÅ„"';
 $lang['Max_vote_explain'] = '[ Wpisz 1 lub pozostaw puste dla jednego "zaznaczenia" ]';
 $lang['Max_voting_1_explain'] = 'Wybierz tylko ';
 $lang['Max_voting_2_explain'] = ' odpowiedzi';
-$lang['Max_voting_3_explain'] = ' (wiêcej odpowiedzi bêdzie ignorowane)';
+$lang['Max_voting_3_explain'] = ' (wiÄ™cej odpowiedzi bÄ™dzie ignorowane)';
 $lang['Vhide'] = 'Ukryj';
 $lang['Hide_vote'] = 'Wynik';
-$lang['Tothide_vote'] = 'Sumê g³osów';
-$lang['Hide_vote_explain'] = ' [ Ukrycie do czasu zakoñczenia ankiety ]';
+$lang['Tothide_vote'] = 'SumÄ™ gÅ‚osÃ³w';
+$lang['Hide_vote_explain'] = ' [ Ukrycie do czasu zakoÅ„czenia ankiety ]';
 $lang['rname'] = 'Szybka rejestracja';
 
-$lang['helped_confirm'] = 'Jeste¶ ' .  (($he) ? 'autorem' : 'autork±') . ' tego tematu, je¿eli ta odpowied¼ Ci pomog³a, mo¿esz dodaæ jeden punkt "POMÓG£" temu u¿ytkownikowi<br /><br />Kliknij %sTUTAJ%s aby dodaæ punkt, lub kliknij %sTUTAJ%s aby anulowaæ i powróciæ do tematu';
-$lang['helped_delete_confirm'] = 'Jeste¶ ' .  (($he) ? 'pewien' : 'pewna') . ' ¿e chcesz usun±æ punkt "POMÓG£" dla tego postu ?<br /><br />Kliknij %sTUTAJ%s je¿eli chcesz usun±æ punkt, lub %sTUTAJ%s aby powróciæ do tematu';
-$lang['helped_added'] = 'Punkt zosta³ dodany<br /><br />Kliknij %sTUTAJ%s aby powrócic do tematu.';
-$lang['He_helped'] = 'Je¿eli ten post pomóg³ Ci, kliknij aby dodaæ punkt temu u¿ytkownikowi';
-$lang['He_helped_delete'] = 'Usuñ punkt \'pomóg³\' dla tego postu';
+$lang['helped_confirm'] = 'JesteÅ› ' .  (($he) ? 'autorem' : 'autorkÄ…') . ' tego tematu, jeÅ¼eli ta odpowiedÅº Ci pomogÅ‚a, moÅ¼esz dodaÄ‡ jeden punkt "POMÃ“GÅ" temu uÅ¼ytkownikowi<br /><br />Kliknij %sTUTAJ%s aby dodaÄ‡ punkt, lub kliknij %sTUTAJ%s aby anulowaÄ‡ i powrÃ³ciÄ‡ do tematu';
+$lang['helped_delete_confirm'] = 'JesteÅ› ' .  (($he) ? 'pewien' : 'pewna') . ' Å¼e chcesz usunÄ…Ä‡ punkt "POMÃ“GÅ" dla tego postu ?<br /><br />Kliknij %sTUTAJ%s jeÅ¼eli chcesz usunÄ…Ä‡ punkt, lub %sTUTAJ%s aby powrÃ³ciÄ‡ do tematu';
+$lang['helped_added'] = 'Punkt zostaÅ‚ dodany<br /><br />Kliknij %sTUTAJ%s aby powrÃ³cic do tematu.';
+$lang['He_helped'] = 'JeÅ¼eli ten post pomÃ³gÅ‚ Ci, kliknij aby dodaÄ‡ punkt temu uÅ¼ytkownikowi';
+$lang['He_helped_delete'] = 'UsuÅ„ punkt \'pomÃ³gÅ‚\' dla tego postu';
 $lang['help_1'] = ' raz';
 $lang['help_more'] = ' razy';
-$lang['postrow_help'] = '<b>Pomóg³:</b> ';
-$lang['postrow_help_she'] = '<b>Pomog³a:</b> ';
-$lang['helped'] = 'Pomóg³';
-$lang['Joined_she'] = 'Do³±czy³a';
-$lang['that_same_msg'] = 'Nie mo¿esz wys³aæ dwóch takich samych wiadomo¶ci !';
-$lang['Total_vots'] = 'G³osów';
-$lang['Seeker'] = 'Szukaj u¿ytkowników';
-$lang['No_split_post'] = 'Nie ³±cz tego postu';
-$lang['too_many_voting'] = 'W tej sondzie maksymaln± warto¶ci± oddanych g³osów jest: <b>%s</b>, Ty zaznaczy³' .  (($he) ? 'e' : 'a') . '¶ <b> %s</b>.<br />G³os nie zosta³ oddany, wróæ i zag³osuj jeszcze raz.';
-$lang['failed_sending_email'] = 'B³ad wysy³ania email\'a<br />Mo¿e zosta³ podany z³y adres e-mail, w przeciwnym razie Administrator pownien sprawdziæ przyczynê lub wy³aczyæ wysy³anie email\'i przez forum.';
+$lang['postrow_help'] = '<b>PomÃ³gÅ‚:</b> ';
+$lang['postrow_help_she'] = '<b>PomogÅ‚a:</b> ';
+$lang['helped'] = 'PomÃ³gÅ‚';
+$lang['Joined_she'] = 'DoÅ‚Ä…czyÅ‚a';
+$lang['that_same_msg'] = 'Nie moÅ¼esz wysÅ‚aÄ‡ dwÃ³ch takich samych wiadomoÅ›ci !';
+$lang['Total_vots'] = 'GÅ‚osÃ³w';
+$lang['Seeker'] = 'Szukaj uÅ¼ytkownikÃ³w';
+$lang['No_split_post'] = 'Nie Å‚Ä…cz tego postu';
+$lang['too_many_voting'] = 'W tej sondzie maksymalnÄ… wartoÅ›ciÄ… oddanych gÅ‚osÃ³w jest: <b>%s</b>, Ty zaznaczyÅ‚' .  (($he) ? 'e' : 'a') . 'Å› <b> %s</b>.<br />GÅ‚os nie zostaÅ‚ oddany, wrÃ³Ä‡ i zagÅ‚osuj jeszcze raz.';
+$lang['failed_sending_email'] = 'BÅ‚ad wysyÅ‚ania email\'a<br />MoÅ¼e zostaÅ‚ podany zÅ‚y adres e-mail, w przeciwnym razie Administrator pownien sprawdziÄ‡ przyczynÄ™ lub wyÅ‚aczyÄ‡ wysyÅ‚anie email\'i przez forum.';
 
-$lang['Print_topic'] = 'To jest tylko wersja do druku, aby zobaczyæ pe³n± wersjê tematu, kliknij TUTAJ';
+$lang['Print_topic'] = 'To jest tylko wersja do druku, aby zobaczyÄ‡ peÅ‚nÄ… wersjÄ™ tematu, kliknij TUTAJ';
 
-$lang['notify_message'] = 'Twój %s napisany przez Ciebie na: %s, zosta³ usuniêty przez Administratora lub Moderatora%s';
-$lang['your_post'] = ' Twój post:';
-$lang['Reason'] = 'Powód';
-$lang['subject_notify_delete'] = 'Twój %s zosta³ usuniêty';
+$lang['notify_message'] = 'TwÃ³j %s napisany przez Ciebie na: %s, zostaÅ‚ usuniÄ™ty przez Administratora lub Moderatora%s';
+$lang['your_post'] = ' TwÃ³j post:';
+$lang['Reason'] = 'PowÃ³d';
+$lang['subject_notify_delete'] = 'TwÃ³j %s zostaÅ‚ usuniÄ™ty';
 $lang['topic_link'] = "\n\rLink do tematu: %s";
-$lang['forum_service'] = 'Obs³uga forum';
-$lang['confirm_report_post'] = 'Czy na pewno chcesz zg³osiæ ten post do Moderatora i Administratora?';
+$lang['forum_service'] = 'ObsÅ‚uga forum';
+$lang['confirm_report_post'] = 'Czy na pewno chcesz zgÅ‚osiÄ‡ ten post do Moderatora i Administratora?';
 $lang['Accept'] = 'Zaakceptuj';
-$lang['Reject'] = 'Odrzuæ';
-$lang['Accept-reject'] = 'Zaakceptuj/Odrzuæ wybrane';
-$lang['Post_no_approved'] = 'Oczekuje na akceptacjê';
-$lang['Loser_protect'] = 'UWAGA! Próbujesz odpowiedziec w temacie na <b>%s</b> stronie tematu, temat zawiera stron <b>%s</b>.<br />Przeczytaj ca³y temat aby w nim odpowiedzieæ!<br /><br />Kliknij %sTutaj%s aby przej¶æ do nastêpnej strony tematu.<br />Kliknij %sTutaj%s je¶li jeste¶ przekonanan' .  (($he) ? 'y' : 'a') . ', ¿e chcesz odpowiedzieæ nie czytaj±c ca³ego tematu.';
-$lang['User_deleted'] = 'Usuniêty';
-$lang['Account_delete'] = 'Usuniêcie konta na %s';
-$lang['User_report_post'] = 'U¿ytkownik zg³osi³ post';
+$lang['Reject'] = 'OdrzuÄ‡';
+$lang['Accept-reject'] = 'Zaakceptuj/OdrzuÄ‡ wybrane';
+$lang['Post_no_approved'] = 'Oczekuje na akceptacjÄ™';
+$lang['Loser_protect'] = 'UWAGA! PrÃ³bujesz odpowiedziec w temacie na <b>%s</b> stronie tematu, temat zawiera stron <b>%s</b>.<br />Przeczytaj caÅ‚y temat aby w nim odpowiedzieÄ‡!<br /><br />Kliknij %sTutaj%s aby przejÅ›Ä‡ do nastÄ™pnej strony tematu.<br />Kliknij %sTutaj%s jeÅ›li jesteÅ› przekonanan' .  (($he) ? 'y' : 'a') . ', Å¼e chcesz odpowiedzieÄ‡ nie czytajÄ…c caÅ‚ego tematu.';
+$lang['User_deleted'] = 'UsuniÄ™ty';
+$lang['Account_delete'] = 'UsuniÄ™cie konta na %s';
+$lang['User_report_post'] = 'UÅ¼ytkownik zgÅ‚osiÅ‚ post';
 $lang['Birthday_subject'] = 'Wszystkiego najlepszego z okazji twoich %s urodzin!!!';
 $lang['Subject_e'] = 'Opis tematu';
-$lang['Subject_e_info'] = 'nieobowi±zkowy';
-$lang['show_ignore_topics'] = 'Poka¿ ignorowane tematy';
-$lang['footer'] = 'Stopka forum zosta³a zmodyfikowana, forum nie bêdzie dzia³aæ prawid³owo!<br />Ustaw prawid³owo stopkê w pliku overall_footer.tpl, musi byæ ona widoczna w przegladarce, nie mo¿e zawieraæ "sztuczek" maskujacych.<br /><br />Wzór: <b>Powered by &lt;a href=&quot;http://www.phpbb.com&quot; target=&quot;_blank&quot; class=&quot;copyright&quot;&gt;phpBB&lt;/a&gt; modified by &lt;a href=&quot;http://www.przemo.org/phpBB2/&quot; class=&quot;copyright&quot; target=&quot;_blank&quot;&gt;Przemo&lt;/a&gt; &amp;copy; 2003 phpBB Group</b>';
-$lang['db_backup_done'] = 'W tym momencie forum rozpoczê³o tworzenie kopii zapasowej bazy danych.<br />Proszê wróciæ na forum za minutê.';
-$lang['Freak_undo'] = 'Ctrl+Z aby cofn±æ';
+$lang['Subject_e_info'] = 'nieobowiÄ…zkowy';
+$lang['show_ignore_topics'] = 'PokaÅ¼ ignorowane tematy';
+$lang['footer'] = 'Stopka forum zostaÅ‚a zmodyfikowana, forum nie bÄ™dzie dziaÅ‚aÄ‡ prawidÅ‚owo!<br />Ustaw prawidÅ‚owo stopkÄ™ w pliku overall_footer.tpl, musi byÄ‡ ona widoczna w przegladarce, nie moÅ¼e zawieraÄ‡ "sztuczek" maskujacych.<br /><br />WzÃ³r: <b>Powered by &lt;a href=&quot;http://www.phpbb.com&quot; target=&quot;_blank&quot; class=&quot;copyright&quot;&gt;phpBB&lt;/a&gt; modified by &lt;a href=&quot;http://www.przemo.org/phpBB2/&quot; class=&quot;copyright&quot; target=&quot;_blank&quot;&gt;Przemo&lt;/a&gt; &amp;copy; 2003 phpBB Group</b>';
+$lang['db_backup_done'] = 'W tym momencie forum rozpoczÄ™Å‚o tworzenie kopii zapasowej bazy danych.<br />ProszÄ™ wrÃ³ciÄ‡ na forum za minutÄ™.';
+$lang['Freak_undo'] = 'Ctrl+Z aby cofnÄ…Ä‡';
 $lang['Today'] = 'Dzisiaj';
 $lang['Yesterday'] = 'Wczoraj';
-$lang['TA_Locked'] = 'Zamkniêty';
+$lang['TA_Locked'] = 'ZamkniÄ™ty';
 $lang['TA_Unocked'] = 'Otwarty';
-$lang['TA_Moved'] = 'Przesuniêty';
+$lang['TA_Moved'] = 'PrzesuniÄ™ty';
 $lang['TA_Expired'] = 'Wygaszony';
 $lang['TA_Who'] = 'przez';
-$lang['TA_Delete'] = 'Usuñ t± informacjê';
+$lang['TA_Delete'] = 'UsuÅ„ tÄ… informacjÄ™';
 $lang['Comment_post'] = 'Dopisz komentarz do postu';
 $lang['Comment_added'] = 'Komentarz dodany przez: %s';
-$lang['Topic_important'] = 'Warto¶æ merytoryczna';
+$lang['Topic_important'] = 'WartoÅ›Ä‡ merytoryczna';
 $lang['First_post'] = 'Pierwszy post';
 $lang['Post_history'] = 'Historia edycji postu';
-$lang['Custom_Rank'] = 'Tytu³ u¿ytkownika';
-$lang['Your_topic_moved'] = 'Twój temat na %s zosta³ przesuniêty';
-$lang['Your_topic_moved_message'] = 'Napisany przez Ciebie temat: "%s" w forum: "%s" zosta³ przesuniêty do forum: "%s" Link do tematu: %s %s';
-$lang['Important_topics'] = 'Wa¿ne tematy';
+$lang['Custom_Rank'] = 'TytuÅ‚ uÅ¼ytkownika';
+$lang['Your_topic_moved'] = 'TwÃ³j temat na %s zostaÅ‚ przesuniÄ™ty';
+$lang['Your_topic_moved_message'] = 'Napisany przez Ciebie temat: "%s" w forum: "%s" zostaÅ‚ przesuniÄ™ty do forum: "%s" Link do tematu: %s %s';
+$lang['Important_topics'] = 'WaÅ¼ne tematy';
 $lang['View_next_unread_posts'] = 'Zobacz kolejne nieczytane posty';
-$lang['Go'] = 'Id¼';
+$lang['Go'] = 'IdÅº';
 $lang['adv_person'] = 'Zaproszone osoby';
-$lang['adv_person_link'] = 'Aby zaprosiæ znajomego na to forum, skopiuj ten link: %s';
-$lang['Invalid_session'] = 'Sesja po³±czenia wygas³a lub numer ID sesji jest nieprawid³owy.<br />Spróbuj ponownie.';
-$lang['Not_admin'] = 'Nie posiadasz uprawnieñ administratora.';
-$lang['Posting_disabled'] = 'Pisanie postów i tematów zosta³o wy³±czone.';
-$lang['Registering_disabled'] = 'Rejestracja zosta³a wy³±czona.';
-$lang['Pruning_unread_posts'] = 'Twoje konto przekroczy³o maksymaln± ilo¶æ nieprzeczytanych postów: <b>%s</b> Zosta³y usuniête informacje o nieczytanych postach z wyj±tkiem postów napisanych przez ostatnie: <b>%s</b> dni<br />Ilo¶æ usuniêtych nieczytanych postów: <b>%s</b><br /><br />Aby nie otrzymywaæ tego komunikatu, przeczytaj oznaczone tematy, lub oznacz wszystkie jako przeczytane.<br />W ka¿dej chwili mo¿esz skorzystaæ z wyszukiwarki postów aby odszukaæ posty napisane w ci±gu ostatniego wybranego czasu.';
+$lang['adv_person_link'] = 'Aby zaprosiÄ‡ znajomego na to forum, skopiuj ten link: %s';
+$lang['Invalid_session'] = 'Sesja poÅ‚Ä…czenia wygasÅ‚a lub numer ID sesji jest nieprawidÅ‚owy.<br />SprÃ³buj ponownie.';
+$lang['Not_admin'] = 'Nie posiadasz uprawnieÅ„ administratora.';
+$lang['Posting_disabled'] = 'Pisanie postÃ³w i tematÃ³w zostaÅ‚o wyÅ‚Ä…czone.';
+$lang['Registering_disabled'] = 'Rejestracja zostaÅ‚a wyÅ‚Ä…czona.';
+$lang['Pruning_unread_posts'] = 'Twoje konto przekroczyÅ‚o maksymalnÄ… iloÅ›Ä‡ nieprzeczytanych postÃ³w: <b>%s</b> ZostaÅ‚y usuniÄ™te informacje o nieczytanych postach z wyjÄ…tkiem postÃ³w napisanych przez ostatnie: <b>%s</b> dni<br />IloÅ›Ä‡ usuniÄ™tych nieczytanych postÃ³w: <b>%s</b><br /><br />Aby nie otrzymywaÄ‡ tego komunikatu, przeczytaj oznaczone tematy, lub oznacz wszystkie jako przeczytane.<br />W kaÅ¼dej chwili moÅ¼esz skorzystaÄ‡ z wyszukiwarki postÃ³w aby odszukaÄ‡ posty napisane w ciÄ…gu ostatniego wybranego czasu.';
 //
 // That's all Folks!
 // -------------------------------------------------

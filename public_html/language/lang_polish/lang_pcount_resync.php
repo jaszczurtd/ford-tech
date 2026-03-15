@@ -17,23 +17,23 @@
  *
  ***************************************************************************/
 
-$lang['Resync_page_desc_simple'] = 'W wielu przypadkach licznik postów u¿ytkowników nie odzwierciedla prawdziwej ilo¶ci postów któr± u¿ytkownik ma na forum. Podczas kasowania tematu, postu licznik postów u¿ytkowników jest zmniejszany. Jednak w przypadku gdy kasujemy ca³e forum, lub forum ma ustawione czyszczenie, licznik postów u¿ytkowników celowo nie jest zmniejszany.<br />To narzêdzie umo¿liwia synchronizacje licznika postów wszystkich u¿ytkowników do rzeczywistej warto¶ci.<br />Synchronizacjê mo¿na wykonaæ w trybie prostym, dla wszystkich forów i wszystkich u¿ytkowników, oraz w trybie zaawansowanym, wybieraj±c forum (dla for z du¿± ilo¶ci± postów i u¿ytkowników), lub u¿ytkownika.<br /><b>Uwaga</b> Funkcja ta synchronizuje równie¿ (tylko w trybie prostym) niektóre tabele w których istnieje u¿ytkownik, którego nie ma w tabeli u¿ytkowników, oraz przywraca moderatorom usuniêtych grup poziom zwyk³ego u¿ytkownika, je¿eli w danej chwili nie s± moderatorami.';
+$lang['Resync_page_desc_simple'] = 'W wielu przypadkach licznik postÃ³w uÅ¼ytkownikÃ³w nie odzwierciedla prawdziwej iloÅ›ci postÃ³w ktÃ³rÄ… uÅ¼ytkownik ma na forum. Podczas kasowania tematu, postu licznik postÃ³w uÅ¼ytkownikÃ³w jest zmniejszany. Jednak w przypadku gdy kasujemy caÅ‚e forum, lub forum ma ustawione czyszczenie, licznik postÃ³w uÅ¼ytkownikÃ³w celowo nie jest zmniejszany.<br />To narzÄ™dzie umoÅ¼liwia synchronizacje licznika postÃ³w wszystkich uÅ¼ytkownikÃ³w do rzeczywistej wartoÅ›ci.<br />SynchronizacjÄ™ moÅ¼na wykonaÄ‡ w trybie prostym, dla wszystkich forÃ³w i wszystkich uÅ¼ytkownikÃ³w, oraz w trybie zaawansowanym, wybierajÄ…c forum (dla for z duÅ¼Ä… iloÅ›ciÄ… postÃ³w i uÅ¼ytkownikÃ³w), lub uÅ¼ytkownika.<br /><b>Uwaga</b> Funkcja ta synchronizuje rÃ³wnieÅ¼ (tylko w trybie prostym) niektÃ³re tabele w ktÃ³rych istnieje uÅ¼ytkownik, ktÃ³rego nie ma w tabeli uÅ¼ytkownikÃ³w, oraz przywraca moderatorom usuniÄ™tych grup poziom zwykÅ‚ego uÅ¼ytkownika, jeÅ¼eli w danej chwili nie sÄ… moderatorami.';
 $lang['Resync_page_desc_adv'] = '';
 
 $lang['Resync_batch_mode'] = 'Batch mode';
 $lang['Resync_batch_number'] = 'Batch Number';
 $lang['Resync_batch_amount'] = 'Resyncs per Batch';
-$lang['Resync_finished'] = 'Zakoñczone';
+$lang['Resync_finished'] = 'ZakoÅ„czone';
 
-$lang['Resync_completed'] = 'Synchronizacja zakoñczona pomy¶lnie';
+$lang['Resync_completed'] = 'Synchronizacja zakoÅ„czona pomyÅ›lnie';
 
 $lang['Resync_question'] = 'Synchronizacja?';
 
-$lang['Resync_check_all'] = 'Zaznacz aby zsynchronizowaæ liczniki wszystkich u¿ytkowników:';
+$lang['Resync_check_all'] = 'Zaznacz aby zsynchronizowaÄ‡ liczniki wszystkich uÅ¼ytkownikÃ³w:';
 
 $lang['Resync_do'] = 'Synchronizacja';
 
-$lang['Resync_redirect'] = '<br /><br />Wróæ do <a href="%s">Synchronizacji u¿ytkowników</a><br /><br />Wróæ do <a href="%s">Panelu Administracyjnego</a>.';
-$lang['Resync_invalid'] = 'B³êdne ustawienia - Brak u¿ytkowników do synchronizacji';
+$lang['Resync_redirect'] = '<br /><br />WrÃ³Ä‡ do <a href="%s">Synchronizacji uÅ¼ytkownikÃ³w</a><br /><br />WrÃ³Ä‡ do <a href="%s">Panelu Administracyjnego</a>.';
+$lang['Resync_invalid'] = 'BÅ‚Ä™dne ustawienia - Brak uÅ¼ytkownikÃ³w do synchronizacji';
 
 ?>

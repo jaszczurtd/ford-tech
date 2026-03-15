@@ -95,7 +95,7 @@ function split_words($entry, $mode = 'post')
 {
 	// If you experience problems with the new method, uncomment this block.
 /*	
-	$rex = ( $mode == 'post' ) ? "/\b([\w±µ-ÿ][\w±µ-ÿ']*[\w±µ-ÿ]+|[\w±µ-ÿ]+?)\b/" : '/(\*?[a-z0-9±µ-ÿ]+\*?)|\b([a-z0-9±µ-ÿ]+)\b/';
+	$rex = ( $mode == 'post' ) ? "/\b([\wï¿½ï¿½-ï¿½][\wï¿½ï¿½-ï¿½']*[\wï¿½ï¿½-ï¿½]+|[\wï¿½ï¿½-ï¿½]+?)\b/" : '/(\*?[a-z0-9ï¿½ï¿½-ï¿½]+\*?)|\b([a-z0-9ï¿½ï¿½-ï¿½]+)\b/';
 	preg_match_all($rex, $entry, $split_entries);
 
 	return $split_entries[1];
@@ -172,7 +172,7 @@ function add_search_words($mode, $post_id, $post_text, $post_title = '', $post_t
 					WHERE word_text IN ($word_text_sql)";
 				if ( !($result = $db->sql_query($sql)) )
 				{
-					message_die(GENERAL_ERROR, 'Could not select words', '', __LINE__, __FILE__, $sql);
+					return;
 				}
 
 				while ( $row = $db->sql_fetchrow($result) )
@@ -209,7 +209,7 @@ function add_search_words($mode, $post_id, $post_text, $post_title = '', $post_t
 							VALUES ('" . $word[$i] . "', 0)";
 						if( !$db->sql_query($sql) )
 						{
-							message_die(GENERAL_ERROR, 'Could not insert new word', '', __LINE__, __FILE__, $sql);
+							return;
 						}
 						break;
 				}
@@ -234,7 +234,7 @@ function add_search_words($mode, $post_id, $post_text, $post_title = '', $post_t
 
 			if ( !$db->sql_query($sql) )
 			{
-				message_die(GENERAL_ERROR, 'Could not insert new word', '', __LINE__, __FILE__, $sql);
+				return;
 			}
 		}
 	}
@@ -260,10 +260,7 @@ function add_search_words($mode, $post_id, $post_text, $post_title = '', $post_t
 				SELECT $post_id, word_id, $title_match
 					FROM " . SEARCH_WORD_TABLE . "
 					WHERE word_text IN ($match_sql)";
-			if ( !$db->sql_query($sql) )
-			{
-				message_die(GENERAL_ERROR, 'Could not insert new word matches', '', __LINE__, __FILE__, $sql);
-			}
+			$db->sql_query($sql);
 		}
 	}
 
@@ -320,7 +317,7 @@ function remove_common($mode, $fraction, $word_id_list = array())
 
 		if ( !($result = $db->sql_query($sql)) )
 		{
-			message_die(GENERAL_ERROR, 'Could not obtain common word list', '', __LINE__, __FILE__, $sql);
+			return;
 		}
 
 		$common_word_id = '';
@@ -337,14 +334,14 @@ function remove_common($mode, $fraction, $word_id_list = array())
 				WHERE word_id IN ($common_word_id)";
 			if ( !$db->sql_query($sql) )
 			{
-				message_die(GENERAL_ERROR, 'Could not delete word list entry', '', __LINE__, __FILE__, $sql);
+				return;
 			}
 
 			$sql = "DELETE FROM " . SEARCH_MATCH_TABLE . "
 				WHERE word_id IN ($common_word_id)";
 			if ( !$db->sql_query($sql) )
 			{
-				message_die(GENERAL_ERROR, 'Could not delete word match entry', '', __LINE__, __FILE__, $sql);
+				return;
 			}
 		}
 	}
@@ -393,7 +390,7 @@ function remove_search_post($post_id_sql)
 							WHERE word_id IN ($word_id_sql)";
 						if ( !$db->sql_query($sql) )
 						{
-							message_die(GENERAL_ERROR, 'Could not delete word list entry', '', __LINE__, __FILE__, $sql);
+							return;
 						}
 
 						$words_removed = $db->sql_affectedrows();
@@ -418,7 +415,7 @@ function remove_search_post($post_id_sql)
 				)";
 			if ( !$db->sql_query($sql) )
 			{
-				message_die(GENERAL_ERROR, 'Could not delete old words from word table', '', __LINE__, __FILE__, $sql);
+				return;
 			}
 
 			$words_removed = $db->sql_affectedrows();

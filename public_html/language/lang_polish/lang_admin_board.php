@@ -23,169 +23,169 @@ $he = ($userdata['user_gender'] != 2) ? true : false;
 
 $lang['ccount'] = 'Licznik wizyt';
 $lang['Max_filesize'] = 'Maksymalny rozmiar pliku Avataru';
-$lang['Max_filesize_explain'] = 'Dla obrazków wysy³anych na serwer';
+$lang['Max_filesize_explain'] = 'Dla obrazkÃ³w wysyÅ‚anych na serwer';
 $lang['Max_avatar_size'] = 'Maksymalne Rozmiary Avataru';
-$lang['Max_avatar_size_explain'] = '(Wysoko¶æ x Szeroko¶æ w pikselach)';
-$lang['Avatar_settings'] = 'Ustawienia Avatarów';
-$lang['Allow_local'] = 'W³±cz galeriê Avatarów';
-$lang['Allow_remote'] = 'W³±cz zdalne Avatary';
-$lang['Allow_remote_explain'] = 'Avatary bêd± wy¶wietlane z innych serwerów';
-$lang['Allow_upload'] = 'W³±cz wysy³anie Avatarów';
-$lang['Avatar_storage_path'] = '¦cie¿ka Zapisu Avatarów';
-$lang['Avatar_storage_path_explain'] = '¦cie¿ka od katalogu g³ównego phpBB, np. images/avatars';
-$lang['Avatar_gallery_path'] = '¦cie¿ka Galerii Avatarów';
-$lang['Avatar_gallery_path_explain'] = '¦cie¿ka od katalogu g³ównego phpBB dla wcze¶niej ³adowanych plików, np. images/avatars/gallery';
-$lang['header'] = 'Wy³±cz oryginalny nag³ówek';
-$lang['header_e'] = 'Wy³±cza oryginalny nag³ówek forum, kiedy chcemy u¿yæ tylko w³asnego nag³ówka (banner nag³ówkowy z linkami)';
+$lang['Max_avatar_size_explain'] = '(WysokoÅ›Ä‡ x SzerokoÅ›Ä‡ w pikselach)';
+$lang['Avatar_settings'] = 'Ustawienia AvatarÃ³w';
+$lang['Allow_local'] = 'WÅ‚Ä…cz galeriÄ™ AvatarÃ³w';
+$lang['Allow_remote'] = 'WÅ‚Ä…cz zdalne Avatary';
+$lang['Allow_remote_explain'] = 'Avatary bÄ™dÄ… wyÅ›wietlane z innych serwerÃ³w';
+$lang['Allow_upload'] = 'WÅ‚Ä…cz wysyÅ‚anie AvatarÃ³w';
+$lang['Avatar_storage_path'] = 'ÅšcieÅ¼ka Zapisu AvatarÃ³w';
+$lang['Avatar_storage_path_explain'] = 'ÅšcieÅ¼ka od katalogu gÅ‚Ã³wnego phpBB, np. images/avatars';
+$lang['Avatar_gallery_path'] = 'ÅšcieÅ¼ka Galerii AvatarÃ³w';
+$lang['Avatar_gallery_path_explain'] = 'ÅšcieÅ¼ka od katalogu gÅ‚Ã³wnego phpBB dla wczeÅ›niej Å‚adowanych plikÃ³w, np. images/avatars/gallery';
+$lang['header'] = 'WyÅ‚Ä…cz oryginalny nagÅ‚Ã³wek';
+$lang['header_e'] = 'WyÅ‚Ä…cza oryginalny nagÅ‚Ã³wek forum, kiedy chcemy uÅ¼yÄ‡ tylko wÅ‚asnego nagÅ‚Ã³wka (banner nagÅ‚Ã³wkowy z linkami)';
 $lang['General_settings'] = 'Generalne Ustawienia Forum';
-$lang['Script_path_explain'] = '¦cie¿ka pod któr± znajduje siê phpBB2 relatywnie do nazwy domeny. Je¿eli domena wskazuje na docelowy katalog nie wpisuj tutaj tego katalogu!';
-$lang['Server_port_explain'] = 'Port na którym dzia³a twój serwer, zwykle 80, zmieñ tylko je¶li jest inny';
+$lang['Script_path_explain'] = 'ÅšcieÅ¼ka pod ktÃ³rÄ… znajduje siÄ™ phpBB2 relatywnie do nazwy domeny. JeÅ¼eli domena wskazuje na docelowy katalog nie wpisuj tutaj tego katalogu!';
+$lang['Server_port_explain'] = 'Port na ktÃ³rym dziaÅ‚a twÃ³j serwer, zwykle 80, zmieÅ„ tylko jeÅ›li jest inny';
 $lang['Site_name'] = 'Nazwa Strony';
 $lang['Site_desc'] = 'Opis Strony';
-$lang['Board_disable_explain'] = 'Wybierz opcjê do wy³±czenia, w polu tekstowym mo¿esz podaæ powód. Nie dotyczy Administratora';
+$lang['Board_disable_explain'] = 'Wybierz opcjÄ™ do wyÅ‚Ä…czenia, w polu tekstowym moÅ¼esz podaÄ‡ powÃ³d. Nie dotyczy Administratora';
 $lang['Max_poll_options'] = 'Maksymalna liczba opcji ankiety';
-$lang['Flood_Interval'] = 'Interwa³ Anty-Floodowy';
-$lang['Flood_Interval_explain'] = 'Ilo¶æ sekund, zanim mo¿na wys³aæ nowy post';
+$lang['Flood_Interval'] = 'InterwaÅ‚ Anty-Floodowy';
+$lang['Flood_Interval_explain'] = 'IloÅ›Ä‡ sekund, zanim moÅ¼na wysÅ‚aÄ‡ nowy post';
 $lang['Board_email_form'] = 'E-mail przez forum';
-$lang['Board_email_form_explain'] = 'U¿ytkownicy wysy³aj± e-mail\'e przez forum';
-$lang['Topics_per_page'] = 'Tematów na Stronê';
-$lang['Posts_per_page'] = 'Postów na Stronê';
-$lang['Hot_threshold'] = 'Postów do okre¶lenia Popularny';
-$lang['Default_style'] = 'Domy¶lny Styl';
-$lang['Override_style'] = 'Zignoruj Styl U¿ytkownika';
-$lang['Override_style_explain'] = 'Zamienia styl u¿ytkownika na domy¶lny';
-$lang['Default_language'] = 'Domy¶lny Jêzyk';
+$lang['Board_email_form_explain'] = 'UÅ¼ytkownicy wysyÅ‚ajÄ… e-mail\'e przez forum';
+$lang['Topics_per_page'] = 'TematÃ³w na StronÄ™';
+$lang['Posts_per_page'] = 'PostÃ³w na StronÄ™';
+$lang['Hot_threshold'] = 'PostÃ³w do okreÅ›lenia Popularny';
+$lang['Default_style'] = 'DomyÅ›lny Styl';
+$lang['Override_style'] = 'Zignoruj Styl UÅ¼ytkownika';
+$lang['Override_style_explain'] = 'Zamienia styl uÅ¼ytkownika na domyÅ›lny';
+$lang['Default_language'] = 'DomyÅ›lny JÄ™zyk';
 $lang['System_timezone'] = 'Strefa Czasowa Systemu';
-$lang['Enable_gzip'] = 'W³±cz Kompresjê GZip';
-$lang['Allow_HTML'] = 'Zezwól na HTML';
+$lang['Enable_gzip'] = 'WÅ‚Ä…cz KompresjÄ™ GZip';
+$lang['Allow_HTML'] = 'ZezwÃ³l na HTML';
 $lang['Allowed_tags'] = 'Dozwolone tagi HTML';
 $lang['Allowed_tags_explain'] = 'Oddziel znaczniki przecinkami';
-$lang['Smilies_path'] = '¦cie¿ka dostêpu do U¶mieszków';
-$lang['Allow_sig'] = 'Zezwól na Podpisy';
-$lang['Max_sig_length'] = 'Maksymalna d³ugo¶æ podpisu';
-$lang['Max_sig_length_explain'] = 'Maksymalna ilo¶æ znaków w podpisie u¿ytkownika';
-$lang['Allow_name_change'] = 'Zezwól na zmiany Nazw U¿ytkownika';
+$lang['Smilies_path'] = 'ÅšcieÅ¼ka dostÄ™pu do UÅ›mieszkÃ³w';
+$lang['Allow_sig'] = 'ZezwÃ³l na Podpisy';
+$lang['Max_sig_length'] = 'Maksymalna dÅ‚ugoÅ›Ä‡ podpisu';
+$lang['Max_sig_length_explain'] = 'Maksymalna iloÅ›Ä‡ znakÃ³w w podpisie uÅ¼ytkownika';
+$lang['Allow_name_change'] = 'ZezwÃ³l na zmiany Nazw UÅ¼ytkownika';
 
 $lang['COPPA_settings'] = 'Ustawienia COPPA';
 $lang['COPPA_fax'] = 'Numer Faxu COPPA';
 $lang['COPPA_mail'] = 'Adres Pocztowy COPPA';
-$lang['COPPA_mail_explain'] = 'To jest adres pocztowy, pod który rodzice bêd± przesy³ali formularze rejestracji COPPA';
+$lang['COPPA_mail_explain'] = 'To jest adres pocztowy, pod ktÃ³ry rodzice bÄ™dÄ… przesyÅ‚ali formularze rejestracji COPPA';
 
 $lang['Email_settings'] = 'Ustawienia E-mail\'i';
 $lang['Email_sig'] = 'Podpis pod E-mail';
-$lang['Email_sig_explain'] = 'Ten tekst bêdzie dodawany do ka¿dej wiadomo¶ci wysy³anej przez forum';
-$lang['Use_SMTP'] = 'U¿ywaj Serwera SMTP';
-$lang['Use_SMTP_explain'] = 'Wybierz TAK i ustaw odpowiednie parametry, je¶li chcesz aby wiadomo¶ci e-mail by³y przesy³ane przez odpowiedni serwer zamiast lokalnej funkcji mail()';
+$lang['Email_sig_explain'] = 'Ten tekst bÄ™dzie dodawany do kaÅ¼dej wiadomoÅ›ci wysyÅ‚anej przez forum';
+$lang['Use_SMTP'] = 'UÅ¼ywaj Serwera SMTP';
+$lang['Use_SMTP_explain'] = 'Wybierz TAK i ustaw odpowiednie parametry, jeÅ›li chcesz aby wiadomoÅ›ci e-mail byÅ‚y przesyÅ‚ane przez odpowiedni serwer zamiast lokalnej funkcji mail()';
 $lang['SMTP_server'] = 'Adres Serwera SMTP';
-$lang['SMTP_username'] = 'Nazwa U¿ytkownika SMTP';
-$lang['SMTP_username_explain'] = 'Wpisz nazwê tylko je¶li twój serwer SMTP tego wymaga';
-$lang['SMTP_password'] = 'Has³o SMTP';
-$lang['SMTP_password_explain'] = 'Wpisz has³o tylko je¶li twój serwer SMTP tego wymaga';
+$lang['SMTP_username'] = 'Nazwa UÅ¼ytkownika SMTP';
+$lang['SMTP_username_explain'] = 'Wpisz nazwÄ™ tylko jeÅ›li twÃ³j serwer SMTP tego wymaga';
+$lang['SMTP_password'] = 'HasÅ‚o SMTP';
+$lang['SMTP_password_explain'] = 'Wpisz hasÅ‚o tylko jeÅ›li twÃ³j serwer SMTP tego wymaga';
 
-$lang['Disable_privmsg'] = 'Prywatne Wiadomo¶ci';
-$lang['Inbox_limits'] = 'Maks. wiadomo¶ci w Skrzynce (Administrator ma x 6 a Moderator x 3)';
-$lang['Sentbox_limits'] = 'Maks. wiadomo¶ci w Wys³anych (Administrator ma x 6 a Moderator x 3)';
-$lang['Savebox_limits'] = 'Maks. wiadomo¶ci w Zapisanych (Administrator ma x 6 a Moderator x 3)';
+$lang['Disable_privmsg'] = 'Prywatne WiadomoÅ›ci';
+$lang['Inbox_limits'] = 'Maks. wiadomoÅ›ci w Skrzynce (Administrator ma x 6 a Moderator x 3)';
+$lang['Sentbox_limits'] = 'Maks. wiadomoÅ›ci w WysÅ‚anych (Administrator ma x 6 a Moderator x 3)';
+$lang['Savebox_limits'] = 'Maks. wiadomoÅ›ci w Zapisanych (Administrator ma x 6 a Moderator x 3)';
 
-$lang['Cookie_settings'] = 'Ustawienia Cookies i adresów';
-$lang['Cookie_settings_explain'] = '<span style=\'color: red\'>Kontroluj± w jaki sposób zdefiniowane zostanie cookie wys³ane do przegl±darki.<br />W wiêkszo¶ci przypadków powinny wystarczyæ warto¶ci domy¶lne. Je¶li zechcesz je zmieniæ rób to ostro¿nie, nieprawid³owe ustawienia mog± uniemo¿liwiæ logowanie, wej¶cie do panelu admina (error 404) lub d³ugie generowanie strony g³ównej lub panelu logowania.<br />Je¿eli Nazwa Domeny, Port Serwera lub ¦cie¿ka skryptu bêdzie podana nieprawid³owo mo¿e nie byæ dostêpu do Panelu Administracyjnego i ustawienia poprawnych warto¶ci! W takiej sytuacji bêdzie konieczna rêczna edycja poprzez PhpMyAdmina (tabela phpbb_config kolumny: domain_name, server_port, script_path) po zmianie nale¿y wyczy¶ciæ katalog /cache/ w celu odczytania aktualnych danych z bazy (podobnie jak podczas innych rêcznych zmian w bazie danych). Najlepiej zapisz sobie te informacje (mog± siê przydaæ np. podczas przenoszenia na inny serwer - w takich sytuacjach dane wype³niane w tym miejscu powinny byæ zmienione)<br /><b>Nie u¿ywaj ró¿nych domen bo mog± wyst±piæ problemy z logowaniem!</b></span><br />Przyk³ad: adres forum: <b>www.przemo.org/forum</b> lub <b>http://www.przemo.org/forum</b> nazwa domeny musi byæ: <b>www.przemo.org</b><br /> Drugi przyk³ad adres: <b>http://przemo.org/forum</b> nazwa domeny: <b>przemo.org</b><br />¦cie¿ka skryptu w obu przypadkach: <b>forum/</b> Je¿eli forum jest bezpo¶rednio pod domen± podaj: /';
+$lang['Cookie_settings'] = 'Ustawienia Cookies i adresÃ³w';
+$lang['Cookie_settings_explain'] = '<span style=\'color: red\'>KontrolujÄ… w jaki sposÃ³b zdefiniowane zostanie cookie wysÅ‚ane do przeglÄ…darki.<br />W wiÄ™kszoÅ›ci przypadkÃ³w powinny wystarczyÄ‡ wartoÅ›ci domyÅ›lne. JeÅ›li zechcesz je zmieniÄ‡ rÃ³b to ostroÅ¼nie, nieprawidÅ‚owe ustawienia mogÄ… uniemoÅ¼liwiÄ‡ logowanie, wejÅ›cie do panelu admina (error 404) lub dÅ‚ugie generowanie strony gÅ‚Ã³wnej lub panelu logowania.<br />JeÅ¼eli Nazwa Domeny, Port Serwera lub ÅšcieÅ¼ka skryptu bÄ™dzie podana nieprawidÅ‚owo moÅ¼e nie byÄ‡ dostÄ™pu do Panelu Administracyjnego i ustawienia poprawnych wartoÅ›ci! W takiej sytuacji bÄ™dzie konieczna rÄ™czna edycja poprzez PhpMyAdmina (tabela phpbb_config kolumny: domain_name, server_port, script_path) po zmianie naleÅ¼y wyczyÅ›ciÄ‡ katalog /cache/ w celu odczytania aktualnych danych z bazy (podobnie jak podczas innych rÄ™cznych zmian w bazie danych). Najlepiej zapisz sobie te informacje (mogÄ… siÄ™ przydaÄ‡ np. podczas przenoszenia na inny serwer - w takich sytuacjach dane wypeÅ‚niane w tym miejscu powinny byÄ‡ zmienione)<br /><b>Nie uÅ¼ywaj rÃ³Å¼nych domen bo mogÄ… wystÄ…piÄ‡ problemy z logowaniem!</b></span><br />PrzykÅ‚ad: adres forum: <b>www.przemo.org/forum</b> lub <b>http://www.przemo.org/forum</b> nazwa domeny musi byÄ‡: <b>www.przemo.org</b><br /> Drugi przykÅ‚ad adres: <b>http://przemo.org/forum</b> nazwa domeny: <b>przemo.org</b><br />ÅšcieÅ¼ka skryptu w obu przypadkach: <b>forum/</b> JeÅ¼eli forum jest bezpoÅ›rednio pod domenÄ… podaj: /';
 $lang['Cookie_name'] = 'Nazwa Cookie';
-$lang['Cookie_path'] = '¦cie¿ka Cookie';
+$lang['Cookie_path'] = 'ÅšcieÅ¼ka Cookie';
 $lang['Cookie_secure'] = 'Bezpieczne Cookie [ https ]';
-$lang['Cookie_secure_explain'] = 'Je¶li twój serwer obs³uguje SSL mo¿esz ustawiæ na w³±czone, w innym przypadku wy³±cz.';
-$lang['Session_length'] = 'D³ugo¶æ Sesji [ sekundy ]';
-$lang['Session_length_e'] = 'Aktualizacja informacji o obecno¶ci u¿ytkownika na forum jest zmieniana co 60 sekund, natomiast po przekroczeniu czasu nieobecno¶ci na forum przekraczaj±cego t± warto¶æ z prawej strony, dopisywana jest kolejna wizyta u¿ytkownika i zostaje wyzerowany czas obecno¶ci u¿ytkownika na forum. Sugerowana warto¶æ: 300-1500 sekund (5-25 minut)';
+$lang['Cookie_secure_explain'] = 'JeÅ›li twÃ³j serwer obsÅ‚uguje SSL moÅ¼esz ustawiÄ‡ na wÅ‚Ä…czone, w innym przypadku wyÅ‚Ä…cz.';
+$lang['Session_length'] = 'DÅ‚ugoÅ›Ä‡ Sesji [ sekundy ]';
+$lang['Session_length_e'] = 'Aktualizacja informacji o obecnoÅ›ci uÅ¼ytkownika na forum jest zmieniana co 60 sekund, natomiast po przekroczeniu czasu nieobecnoÅ›ci na forum przekraczajÄ…cego tÄ… wartoÅ›Ä‡ z prawej strony, dopisywana jest kolejna wizyta uÅ¼ytkownika i zostaje wyzerowany czas obecnoÅ›ci uÅ¼ytkownika na forum. Sugerowana wartoÅ›Ä‡: 300-1500 sekund (5-25 minut)';
 
 $lang['Enable_birthday_greeting'] = 'Powitanie urodzinowe';
-$lang['Birthday_greeting_expain'] = 'Wy¶wietla pop\'up z ¿yczeniami gdy osoba obchodz±ca w danym dniu urodziny wejdzie pierwszy raz na forum.';
-$lang['Max_user_age'] = 'Maksymalny wiek u¿ytkownika';
-$lang['Min_user_age'] = 'Minimalny wiek u¿ytkownika';
-$lang['Birthday_lookforward'] = 'Ile dni na przód pokazywaæ solenizantów';
-$lang['cagent'] = 'Pokazywanie systemu i przegl±darki.';
-$lang['cagente'] = 'Czy pokazywaæ w widoku tematów, system i przegl±darkê u¿ytkownika?';
-$lang['crestrict'] = 'Restrykcja dostêpu dla niezarejestrowanych';
-$lang['crestrict_e'] = 'Niezarejestrowani u¿ytkownicy nie mog± przegl±daæ listy u¿ytkowników i profilów';
-$lang['login_require'] = 'Restrykcja ca³kowita dostêpu dla niezarejestrowanych';
-$lang['login_require_e'] = 'Niezarejestrowani u¿ytkownicy nie mog± w ogóle przegl±daæ ¿adnej czê¶ci forum';
-$lang['Allow_custom_rank'] = 'Pozwól u¿ytkownikom wybraæ swoje tytu³y';
-$lang['Allow_custom_rank_explain'] = 'Ustaw ilo¶æ postów od jakiej mo¿na ustawiæ swój tytu³ (podaj np. 9999 by wy³±czyæ';
-$lang['Allow_avatar'] = 'Zezwól na avatary po napisaniu danej ilo¶ci postów';
-$lang['Allow_avatar_explain'] = 'Podaj warto¶æ od jakiej u¿ytkownik mo¿e u¿ywaæ avatarów';
-$lang['llevelp'] = 'Czy w profilu u¿ytkownika pokazywaæ jego Poziom ?';
-$lang['lyahoo'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "YIM" ?';
-$lang['lmsn'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "MSNM" ?';
-$lang['ljob'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zawód" ?';
-$lang['linter'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zainteresowania" ?';
-$lang['lemail'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zawsze pokazuj mój Adres E-mail" ? (Domy¶lnie jest w³±czone)';
-$lang['licq'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "ICQ" ?';
-$lang['clevelp'] = 'Poziom u¿ytkownika w profilu';
-$lang['lllogin'] = 'Czy w profilu oraz widoku u¿ytkowników pokazywaæ pole "Data ostatniej aktywno¶ci" ?';
-$lang['newest_e'] = 'Je¶li w³±czysz, to tytu³ tematu, bêdzie linkiem do tego tematu, lecz w miejsce w jakim ostatnio skoñczy³' .  (($he) ? 'e' : 'a') . '¶ czytaæ ten temat (bardzo wygodne).';
-$lang['lsearch'] = 'Czy w widoku listy tematów pokazywaæ pole "Szukaj w tym dziale" ?';
-$lang['newest'] = 'Tytu³ tematu linkiem do ostatniego nieczytanego postu';
-$lang['lgg'] = 'Czy w widoku tematu, profilu oraz podczas rejestracji pokazywaæ Gadu-Gadu?';
-$lang['lquick'] = 'Czy w widoku tematu pokazywaæ na dole strony, pole "Szybka odpowied¼" ?';
-$lang['lignore'] = 'Czy pokazywaæ przycisk do ignorowania u¿ytkowników?';
+$lang['Birthday_greeting_expain'] = 'WyÅ›wietla pop\'up z Å¼yczeniami gdy osoba obchodzÄ…ca w danym dniu urodziny wejdzie pierwszy raz na forum.';
+$lang['Max_user_age'] = 'Maksymalny wiek uÅ¼ytkownika';
+$lang['Min_user_age'] = 'Minimalny wiek uÅ¼ytkownika';
+$lang['Birthday_lookforward'] = 'Ile dni na przÃ³d pokazywaÄ‡ solenizantÃ³w';
+$lang['cagent'] = 'Pokazywanie systemu i przeglÄ…darki.';
+$lang['cagente'] = 'Czy pokazywaÄ‡ w widoku tematÃ³w, system i przeglÄ…darkÄ™ uÅ¼ytkownika?';
+$lang['crestrict'] = 'Restrykcja dostÄ™pu dla niezarejestrowanych';
+$lang['crestrict_e'] = 'Niezarejestrowani uÅ¼ytkownicy nie mogÄ… przeglÄ…daÄ‡ listy uÅ¼ytkownikÃ³w i profilÃ³w';
+$lang['login_require'] = 'Restrykcja caÅ‚kowita dostÄ™pu dla niezarejestrowanych';
+$lang['login_require_e'] = 'Niezarejestrowani uÅ¼ytkownicy nie mogÄ… w ogÃ³le przeglÄ…daÄ‡ Å¼adnej czÄ™Å›ci forum';
+$lang['Allow_custom_rank'] = 'PozwÃ³l uÅ¼ytkownikom wybraÄ‡ swoje tytuÅ‚y';
+$lang['Allow_custom_rank_explain'] = 'Ustaw iloÅ›Ä‡ postÃ³w od jakiej moÅ¼na ustawiÄ‡ swÃ³j tytuÅ‚ (podaj np. 9999 by wyÅ‚Ä…czyÄ‡';
+$lang['Allow_avatar'] = 'ZezwÃ³l na avatary po napisaniu danej iloÅ›ci postÃ³w';
+$lang['Allow_avatar_explain'] = 'Podaj wartoÅ›Ä‡ od jakiej uÅ¼ytkownik moÅ¼e uÅ¼ywaÄ‡ avatarÃ³w';
+$lang['llevelp'] = 'Czy w profilu uÅ¼ytkownika pokazywaÄ‡ jego Poziom ?';
+$lang['lyahoo'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "YIM" ?';
+$lang['lmsn'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "MSNM" ?';
+$lang['ljob'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "ZawÃ³d" ?';
+$lang['linter'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Zainteresowania" ?';
+$lang['lemail'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Zawsze pokazuj mÃ³j Adres E-mail" ? (DomyÅ›lnie jest wÅ‚Ä…czone)';
+$lang['licq'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "ICQ" ?';
+$lang['clevelp'] = 'Poziom uÅ¼ytkownika w profilu';
+$lang['lllogin'] = 'Czy w profilu oraz widoku uÅ¼ytkownikÃ³w pokazywaÄ‡ pole "Data ostatniej aktywnoÅ›ci" ?';
+$lang['newest_e'] = 'JeÅ›li wÅ‚Ä…czysz, to tytuÅ‚ tematu, bÄ™dzie linkiem do tego tematu, lecz w miejsce w jakim ostatnio skoÅ„czyÅ‚' .  (($he) ? 'e' : 'a') . 'Å› czytaÄ‡ ten temat (bardzo wygodne).';
+$lang['lsearch'] = 'Czy w widoku listy tematÃ³w pokazywaÄ‡ pole "Szukaj w tym dziale" ?';
+$lang['newest'] = 'TytuÅ‚ tematu linkiem do ostatniego nieczytanego postu';
+$lang['lgg'] = 'Czy w widoku tematu, profilu oraz podczas rejestracji pokazywaÄ‡ Gadu-Gadu?';
+$lang['lquick'] = 'Czy w widoku tematu pokazywaÄ‡ na dole strony, pole "Szybka odpowiedÅº" ?';
+$lang['lignore'] = 'Czy pokazywaÄ‡ przycisk do ignorowania uÅ¼ytkownikÃ³w?';
 $lang['cignore'] = 'Przycisk Ignoruj';
-$lang['lleveld'] = 'Czy w widoku tematu, pod przyciskami (profil, pw, e-mail) pokazaæ Poziom u¿ytkownika?';
-$lang['llevell'] = 'Czy w widoku tematu, pod avatarem u¿ytkownika, pokazaæ jego Poziom?';
-$lang['clevell'] = 'Poziom u¿ytkownika pod avatarem';
-$lang['cleveld'] = 'Poziom u¿ytkownika pod postem';
-$lang['lposts'] = 'Czy w widoku tematu, pod avatarem u¿ytkownika, pokazaæ ile ma postów?';
-$lang['lfrom'] = 'Czy w widoku tematu, pod avatarem u¿ytkownika, pokazaæ sk±d jest u¿ytkownik?';
-$lang['cposts'] = 'Ilo¶æ postów pod avatarem';
-$lang['cjoin'] = 'Data przy³±czenia u¿ytkownika pod avatarem';
-$lang['ljoin'] = 'Czy w widoku tematu, pod avatarem u¿ytkownika, pokazaæ jego Datê przy³±czenia ?';
+$lang['lleveld'] = 'Czy w widoku tematu, pod przyciskami (profil, pw, e-mail) pokazaÄ‡ Poziom uÅ¼ytkownika?';
+$lang['llevell'] = 'Czy w widoku tematu, pod avatarem uÅ¼ytkownika, pokazaÄ‡ jego Poziom?';
+$lang['clevell'] = 'Poziom uÅ¼ytkownika pod avatarem';
+$lang['cleveld'] = 'Poziom uÅ¼ytkownika pod postem';
+$lang['lposts'] = 'Czy w widoku tematu, pod avatarem uÅ¼ytkownika, pokazaÄ‡ ile ma postÃ³w?';
+$lang['lfrom'] = 'Czy w widoku tematu, pod avatarem uÅ¼ytkownika, pokazaÄ‡ skÄ…d jest uÅ¼ytkownik?';
+$lang['cposts'] = 'IloÅ›Ä‡ postÃ³w pod avatarem';
+$lang['cjoin'] = 'Data przyÅ‚Ä…czenia uÅ¼ytkownika pod avatarem';
+$lang['ljoin'] = 'Czy w widoku tematu, pod avatarem uÅ¼ytkownika, pokazaÄ‡ jego DatÄ™ przyÅ‚Ä…czenia ?';
 $lang['cfrom'] = 'Lokalizacja pod avatarem';
-$lang['cage'] = 'Wiek u¿ytkownika pod avatarem';
-$lang['lage'] = 'Czy w widoku tematu, pod avatarem u¿ytkownika, pokazaæ jego Wiek ?';
+$lang['cage'] = 'Wiek uÅ¼ytkownika pod avatarem';
+$lang['lage'] = 'Czy w widoku tematu, pod avatarem uÅ¼ytkownika, pokazaÄ‡ jego Wiek ?';
 $lang['lfriend'] = 'W widoku tematu, pokazuje link "Powiadom znajomego o tym temacie"';
-$lang['ltop'] = 'Pokazuje na stronie g³ównej, w polu danego dzia³u, ile nowych tematów napisano w danym dziale od twojej ostatniej wizyty';
-$lang['ctop'] = 'Nowych tematów?';
-$lang['lbirth'] = 'Wy¶wietla na dole strony g³ównej kto ma dzi¶ i w najbli¿szych dniach urodziny. Umo¿liwia wys³anie ¿yczeñ standardowych lub w³asnych.<br />Informacje oraz ilo¶æ dni aktualizowane co godzinê.';
-$lang['lcount'] = 'Pokazuje na dole strony g³ównej, licznik wizyt';
+$lang['ltop'] = 'Pokazuje na stronie gÅ‚Ã³wnej, w polu danego dziaÅ‚u, ile nowych tematÃ³w napisano w danym dziale od twojej ostatniej wizyty';
+$lang['ctop'] = 'Nowych tematÃ³w?';
+$lang['lbirth'] = 'WyÅ›wietla na dole strony gÅ‚Ã³wnej kto ma dziÅ› i w najbliÅ¼szych dniach urodziny. UmoÅ¼liwia wysÅ‚anie Å¼yczeÅ„ standardowych lub wÅ‚asnych.<br />Informacje oraz iloÅ›Ä‡ dni aktualizowane co godzinÄ™.';
+$lang['lcount'] = 'Pokazuje na dole strony gÅ‚Ã³wnej, licznik wizyt';
 $lang['cregist'] = 'Szybka rejestracja?';
-$lang['cstyles'] = 'Style na stronie g³ównej?';
-$lang['lstyles'] = 'W³±cza na stronie g³ównej ma³y pasek do szybkiej zmiany stylów forum';
+$lang['cstyles'] = 'Style na stronie gÅ‚Ã³wnej?';
+$lang['lstyles'] = 'WÅ‚Ä…cza na stronie gÅ‚Ã³wnej maÅ‚y pasek do szybkiej zmiany stylÃ³w forum';
 $lang['cstat'] = 'Statystyki?';
-$lang['lstat'] = 'Pokazuje w nag³ówku strony, link do statystyk?';
+$lang['lstat'] = 'Pokazuje w nagÅ‚Ã³wku strony, link do statystyk?';
 $lang['cload'] = 'Loading?';
-$lang['cdownload'] = 'W³±cz download';
-$lang['cdownload_e'] = 'W³±cza download i link w nag³ówku';
+$lang['cdownload'] = 'WÅ‚Ä…cz download';
+$lang['cdownload_e'] = 'WÅ‚Ä…cza download i link w nagÅ‚Ã³wku';
 $lang['auto_date'] = 'Automatyczna zmiana daty na czas letni/zimowy';
-$lang['cavatar'] = 'Avatar w nag³ówku?';
-$lang['cavatar_e'] = 'Gdy u¿ytkownik jest zalogowany, pokazuje jego avatar w nag³ówku';
-$lang['clog'] = 'Logowanie hostów i IP';
-$lang['clog_e'] = 'Czy logowaæ hosty i adresy IP do pliku? Mo¿e obci±¿yæ forum (Uwaga nale¿y co jaki¶ czas kontrolowaæ jego wielko¶æ)<br />Logowanie warto¶ci $_POST pozwala przechwyciæ warto¶ci wysy³ane przez formularze oraz ciasteczka, nie jest to mo¿liwe np. w zwyk³ych logach serwera.<BR />Warto¶ci te s± zawsze logowane w panelu admina, je¿eli tylko jest w³±czone logowanie.';
-$lang['lload'] = 'Po klikniêciu na link pokazuje "£adowanie strony... proszê czekaæ!" ';
-$lang['cchat'] = 'Przycisk Czat w nag³ówku';
-$lang['lchat'] = 'W nag³ówku strony, przycisk z linkiem do chata';
-$lang['lregist'] = 'Gdy na forum wejdzie u¿ytkownik nie zalogowany pokazuje u góry pola do szybkiej rejestracji';
+$lang['cavatar'] = 'Avatar w nagÅ‚Ã³wku?';
+$lang['cavatar_e'] = 'Gdy uÅ¼ytkownik jest zalogowany, pokazuje jego avatar w nagÅ‚Ã³wku';
+$lang['clog'] = 'Logowanie hostÃ³w i IP';
+$lang['clog_e'] = 'Czy logowaÄ‡ hosty i adresy IP do pliku? MoÅ¼e obciÄ…Å¼yÄ‡ forum (Uwaga naleÅ¼y co jakiÅ› czas kontrolowaÄ‡ jego wielkoÅ›Ä‡)<br />Logowanie wartoÅ›ci $_POST pozwala przechwyciÄ‡ wartoÅ›ci wysyÅ‚ane przez formularze oraz ciasteczka, nie jest to moÅ¼liwe np. w zwykÅ‚ych logach serwera.<BR />WartoÅ›ci te sÄ… zawsze logowane w panelu admina, jeÅ¼eli tylko jest wÅ‚Ä…czone logowanie.';
+$lang['lload'] = 'Po klikniÄ™ciu na link pokazuje "Åadowanie strony... proszÄ™ czekaÄ‡!" ';
+$lang['cchat'] = 'Przycisk Czat w nagÅ‚Ã³wku';
+$lang['lchat'] = 'W nagÅ‚Ã³wku strony, przycisk z linkiem do chata';
+$lang['lregist'] = 'Gdy na forum wejdzie uÅ¼ytkownik nie zalogowany pokazuje u gÃ³ry pola do szybkiej rejestracji';
 $lang['clogin_b'] = 'Na dole strony';
 $lang['lchat2'] = 'Na dole strony link do czata';
-$lang['lbbcode'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zawsze w³±czaj BBCode" ? (Domy¶lnie jest w³±czone)?';
-$lang['lhtml'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zawsze w³±czaj HTML" ? (Domy¶lnie jest w³±czone)';
-$lang['lsmiles'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Zawsze w³±czaj U¶mieszki" ? (Domy¶lnie jest w³±czone)';
-$lang['llang'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Jêzyk Forum" ?';
-$lang['ltimezone'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Strefa Czasowa" ?';
-$lang['lbstyle'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaæ pole "Styl Forum" ?';
-$lang['l_links'] = 'W³asne linki, w module Menu';
-$lang['l_links_e'] = '¯eby link by³ widoczny, musisz podaæ nazwê linka i adres. Adres zewnêtrzny, np. www.przemo.org musi zaczynaæ siê od http:// czyli http://www.przemo.org W innym przypadku link bêdzie wskazywa³ na: www.adres.twojego.forum.pl/www.przemo.orgl W przypadku plików w katalogu forum, podajemy tylko nazwê pliku np. statystyki.php';
-$lang['l_meta_refresh'] = 'Od¶wie¿anie';
-$lang['l_meta_refresh_e'] = 'Czas po jakim strona zostanie od¶wie¿ona po zmianie ustawieñ';
+$lang['lbbcode'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Zawsze wÅ‚Ä…czaj BBCode" ? (DomyÅ›lnie jest wÅ‚Ä…czone)?';
+$lang['lhtml'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Zawsze wÅ‚Ä…czaj HTML" ? (DomyÅ›lnie jest wÅ‚Ä…czone)';
+$lang['lsmiles'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Zawsze wÅ‚Ä…czaj UÅ›mieszki" ? (DomyÅ›lnie jest wÅ‚Ä…czone)';
+$lang['llang'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "JÄ™zyk Forum" ?';
+$lang['ltimezone'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Strefa Czasowa" ?';
+$lang['lbstyle'] = 'Czy podczas rejestracji oraz edycji profilu, pokazaÄ‡ pole "Styl Forum" ?';
+$lang['l_links'] = 'WÅ‚asne linki, w module Menu';
+$lang['l_links_e'] = 'Å»eby link byÅ‚ widoczny, musisz podaÄ‡ nazwÄ™ linka i adres. Adres zewnÄ™trzny, np. www.przemo.org musi zaczynaÄ‡ siÄ™ od http:// czyli http://www.przemo.org W innym przypadku link bÄ™dzie wskazywaÅ‚ na: www.adres.twojego.forum.pl/www.przemo.orgl W przypadku plikÃ³w w katalogu forum, podajemy tylko nazwÄ™ pliku np. statystyki.php';
+$lang['l_meta_refresh'] = 'OdÅ›wieÅ¼anie';
+$lang['l_meta_refresh_e'] = 'Czas po jakim strona zostanie odÅ›wieÅ¼ona po zmianie ustawieÅ„';
 $lang['Meta_keywords'] = 'META Keywords';
 $lang['Meta_keywords_explain'] = 'Keywords w tagach HTML <META KEYWORDS>';
 $lang['Meta_description'] = 'META Description';
 $lang['Meta_description_explain'] = 'Description w tagach HTML <META DESCRIPTION>';
-$lang['cvalidatee'] = 'Przy rejestracji wymaga graficznego uwierzytelniania, zabezpiecza przed flooduj±cymi robotami';
-$lang['l_addon_main_page'] = 'Ustawienia strony g³ównej';
-$lang['l_addon_viewforum'] = 'Ustawienia widoku listy tematów';
+$lang['cvalidatee'] = 'Przy rejestracji wymaga graficznego uwierzytelniania, zabezpiecza przed floodujÄ…cymi robotami';
+$lang['l_addon_main_page'] = 'Ustawienia strony gÅ‚Ã³wnej';
+$lang['l_addon_viewforum'] = 'Ustawienia widoku listy tematÃ³w';
 $lang['l_addon_viewtopic'] = 'Ustawienia widoku tematu';
 $lang['l_addon_posting'] = 'Ustawienia widoku podczas pisania postu';
 $lang['l_addon_profile'] = 'Ustawienia profilu';
-$lang['l_addon_main'] = 'Ustawienia dodatków';
+$lang['l_addon_main'] = 'Ustawienia dodatkÃ³w';
 $lang['l_restrictbbcode'] = 'BBcode dla niezarejestrowanych';
-$lang['l_restrictbbcode_e'] = 'Zezwala lub zabrania u¿ywania bbcode niezarejestrowanym u¿ytkownikom';
+$lang['l_restrictbbcode_e'] = 'Zezwala lub zabrania uÅ¼ywania bbcode niezarejestrowanym uÅ¼ytkownikom';
 $lang['l_sql'] = 'PhpMyAdmin';
 $lang['l_sql_e'] = 'Podaj adres do swojego PhpMyAdmina (Link w Menu nawigacji)';
 $lang['l_button_b'] = 'Button bbcode [b]';
@@ -202,226 +202,226 @@ $lang['l_button_s'] = 'Button bbcode [Scroll]';
 $lang['l_button_hi'] = 'Button bbcode [Hide]';
 $lang['l_color_box'] = 'JumpBox Kolor';
 $lang['l_size_box'] = 'JumpBox rozmiar';
-$lang['l_glow_box'] = 'JumpBoxy Ogieñ i Cieñ';
-$lang['l_freak'] = 'Przyciski stylów FrEaK i l33t';
+$lang['l_glow_box'] = 'JumpBoxy OgieÅ„ i CieÅ„';
+$lang['l_freak'] = 'Przyciski stylÃ³w FrEaK i l33t';
 
-$lang['Allow_custom_color'] = 'Zezwól na w³asne kolory nazw';
-$lang['Allow_custom_color_explain'] = 'Ustaw ilo¶æ postów od jakiej mo¿na u¿yæ koloru.';
-$lang['l_allow_custom_color_view'] = 'Wy³±cz tylko mo¿liwo¶æ zmiany kolorów nazw';
-$lang['l_allow_custom_color_view_e'] = 'U¿ytkownicy nie bêd± mogli zmieniaæ swoich kolorów. Bêdziesz m' .  (($he) ? 'óg³' : 'og³a') . ' je zmieniaæ w panelu admina, np. tylko moderatorom';
-$lang['Allow_custom_color_mod'] = 'Zezwól moderatorom na zmiany kolorów';
-$lang['Allow_custom_color_mod_e'] = 'Zezwól tylko moderatorom na zmiany kolorów swoich nazw, je¿eli ogólne zezwolenia s± wy³±czone';
-$lang['Allow_custom_rank_mod'] = 'Zezwól moderatorom na w³asne tytu³y';
-$lang['Allow_custom_rank_mod_e'] = 'Zezwól tylko moderatorom na ustawianie w³asnych tytu³ów, je¿eli ogólne zezwolenia s± wy³±czone (9999)';
+$lang['Allow_custom_color'] = 'ZezwÃ³l na wÅ‚asne kolory nazw';
+$lang['Allow_custom_color_explain'] = 'Ustaw iloÅ›Ä‡ postÃ³w od jakiej moÅ¼na uÅ¼yÄ‡ koloru.';
+$lang['l_allow_custom_color_view'] = 'WyÅ‚Ä…cz tylko moÅ¼liwoÅ›Ä‡ zmiany kolorÃ³w nazw';
+$lang['l_allow_custom_color_view_e'] = 'UÅ¼ytkownicy nie bÄ™dÄ… mogli zmieniaÄ‡ swoich kolorÃ³w. BÄ™dziesz m' .  (($he) ? 'Ã³gÅ‚' : 'ogÅ‚a') . ' je zmieniaÄ‡ w panelu admina, np. tylko moderatorom';
+$lang['Allow_custom_color_mod'] = 'ZezwÃ³l moderatorom na zmiany kolorÃ³w';
+$lang['Allow_custom_color_mod_e'] = 'ZezwÃ³l tylko moderatorom na zmiany kolorÃ³w swoich nazw, jeÅ¼eli ogÃ³lne zezwolenia sÄ… wyÅ‚Ä…czone';
+$lang['Allow_custom_rank_mod'] = 'ZezwÃ³l moderatorom na wÅ‚asne tytuÅ‚y';
+$lang['Allow_custom_rank_mod_e'] = 'ZezwÃ³l tylko moderatorom na ustawianie wÅ‚asnych tytuÅ‚Ã³w, jeÅ¼eli ogÃ³lne zezwolenia sÄ… wyÅ‚Ä…czone (9999)';
 
-$lang['ipview'] = 'Moderatorzy mog± widzieæ IP u¿ytkowników';
-$lang['show_badwords'] = 'Poka¿ oryginalne ocenzurowane s³owo administratorom i moderatorom';
-$lang['calbum'] = 'W³±cz galerie zdjêæ';
+$lang['ipview'] = 'Moderatorzy mogÄ… widzieÄ‡ IP uÅ¼ytkownikÃ³w';
+$lang['show_badwords'] = 'PokaÅ¼ oryginalne ocenzurowane sÅ‚owo administratorom i moderatorom';
+$lang['calbum'] = 'WÅ‚Ä…cz galerie zdjÄ™Ä‡';
 $lang['l_address_whois'] = 'Adres sprawdzania Whois';
-$lang['l_address_whois_e'] = 'Podaj adres strony wg. której bêdzie sprawdzane Whois. Pamiêtaj ¿eby podaæ http://';
-$lang['u_o_t_d'] = 'Pokazywaæ kto dzi¶ odwiedzi³ forum?';
-$lang['posticon_a'] = 'W³±cz ikony tematów/postów';
+$lang['l_address_whois_e'] = 'Podaj adres strony wg. ktÃ³rej bÄ™dzie sprawdzane Whois. PamiÄ™taj Å¼eby podaÄ‡ http://';
+$lang['u_o_t_d'] = 'PokazywaÄ‡ kto dziÅ› odwiedziÅ‚ forum?';
+$lang['posticon_a'] = 'WÅ‚Ä…cz ikony tematÃ³w/postÃ³w';
 $lang['GG_nr'] = 'Numer Gadu-Gadu';
-$lang['GG_pass'] = 'Has³o Gadu-Gadu';
+$lang['GG_pass'] = 'HasÅ‚o Gadu-Gadu';
 
-$lang['user_password_settings'] = 'Ustawienia zabezpieczenia hase³ u¿ytkowników';
+$lang['user_password_settings'] = 'Ustawienia zabezpieczenia haseÅ‚ uÅ¼ytkownikÃ³w';
 $lang['Max_login_error'] = 'Czasowa blokady konta';
-$lang['Max_login_error_explain'] = 'Podaj ilo¶æ mo¿liwych prób b³êdnego logowania, po których konto u¿ytkownika zostanie czasowo zablokowane.';
+$lang['Max_login_error_explain'] = 'Podaj iloÅ›Ä‡ moÅ¼liwych prÃ³b bÅ‚Ä™dnego logowania, po ktÃ³rych konto uÅ¼ytkownika zostanie czasowo zablokowane.';
 $lang['Block_time'] = 'Czas blokady';
-$lang['Block_time_explain'] = 'Podaj czas w minutach na jaki ma zostaæ zablokowane konto.';
-$lang['Password_complex'] = 'Has³o "mieszane"';
-$lang['Password_complex_explain'] = 'Has³o musi zawieraæ litery i cyfry, inne nie bêdzie przyjmowane podczas rejestracji.';
-$lang['Password_len'] = 'Minimalna d³ugo¶æ has³a';
+$lang['Block_time_explain'] = 'Podaj czas w minutach na jaki ma zostaÄ‡ zablokowane konto.';
+$lang['Password_complex'] = 'HasÅ‚o "mieszane"';
+$lang['Password_complex_explain'] = 'HasÅ‚o musi zawieraÄ‡ litery i cyfry, inne nie bÄ™dzie przyjmowane podczas rejestracji.';
+$lang['Password_len'] = 'Minimalna dÅ‚ugoÅ›Ä‡ hasÅ‚a';
 $lang['Password_len_explain'] = 'Zakres [ 1 - 32 ]';
-$lang['Password_not_login'] = 'Has³o inne ni¿ login';
-$lang['Password_not_login_explain'] = 'Has³o takie samo jak login, nie bêdzie przyjmowane podczas rejestracji.';
+$lang['Password_not_login'] = 'HasÅ‚o inne niÅ¼ login';
+$lang['Password_not_login_explain'] = 'HasÅ‚o takie samo jak login, nie bÄ™dzie przyjmowane podczas rejestracji.';
 
-$lang['del_email_not'] = 'Powiadom o usuniêciu konta';
-$lang['del_email_not_e'] = 'Wysy³a e-mail z informacj± o usuniêciu konta, do u¿ytkownika.';
-$lang['l_require_aim'] = 'Wymagaæ GG przy rejestracji';
-$lang['l_require_website'] = 'Wymagaæ WWW przy rejestracji';
-$lang['l_require_location'] = 'Wymagaæ "Sk±d" przy rejestracji';
-$lang['l_require_aim_e'] = 'Je¶li dasz TAK to wy³±cz szybk± rejestracjê na stronie g³ównej.';
-$lang['l_require_website_e'] = 'Je¶li dasz TAK to wy³±cz szybk± rejestracjê na stronie g³ównej.';
-$lang['l_require_location_e'] = 'Je¶li dasz TAK to wy³±cz szybk± rejestracjê na stronie g³ównej.';
-$lang['post_footer'] = 'Wy³±cz ikony pod postem';
-$lang['post_footer_e'] = 'Wy³±cza pod ka¿dym postem ikony takie jak: E-mail, WWW, Profil, PM, GG, oraz level mod i link "na górê strony" (Cytuj, Edytuj zostaj±)';
+$lang['del_email_not'] = 'Powiadom o usuniÄ™ciu konta';
+$lang['del_email_not_e'] = 'WysyÅ‚a e-mail z informacjÄ… o usuniÄ™ciu konta, do uÅ¼ytkownika.';
+$lang['l_require_aim'] = 'WymagaÄ‡ GG przy rejestracji';
+$lang['l_require_website'] = 'WymagaÄ‡ WWW przy rejestracji';
+$lang['l_require_location'] = 'WymagaÄ‡ "SkÄ…d" przy rejestracji';
+$lang['l_require_aim_e'] = 'JeÅ›li dasz TAK to wyÅ‚Ä…cz szybkÄ… rejestracjÄ™ na stronie gÅ‚Ã³wnej.';
+$lang['l_require_website_e'] = 'JeÅ›li dasz TAK to wyÅ‚Ä…cz szybkÄ… rejestracjÄ™ na stronie gÅ‚Ã³wnej.';
+$lang['l_require_location_e'] = 'JeÅ›li dasz TAK to wyÅ‚Ä…cz szybkÄ… rejestracjÄ™ na stronie gÅ‚Ã³wnej.';
+$lang['post_footer'] = 'WyÅ‚Ä…cz ikony pod postem';
+$lang['post_footer_e'] = 'WyÅ‚Ä…cza pod kaÅ¼dym postem ikony takie jak: E-mail, WWW, Profil, PM, GG, oraz level mod i link "na gÃ³rÄ™ strony" (Cytuj, Edytuj zostajÄ…)';
 $lang['graphic'] = 'Tekst zamiast ikon';
-$lang['graphic_e'] = 'W ka¿dym po¶cie, zamiast ikon (PM, Profil, WWW, Cytuj, Edytuj itp.) wy¶wietla tekst';
-$lang['max_sig_custom_rank'] = 'Maksymalna d³ugo¶æ tytu³u';
-$lang['max_sig_location'] = 'Maksymalna d³ugo¶æ lokalizacji';
+$lang['graphic_e'] = 'W kaÅ¼dym poÅ›cie, zamiast ikon (PM, Profil, WWW, Cytuj, Edytuj itp.) wyÅ›wietla tekst';
+$lang['max_sig_custom_rank'] = 'Maksymalna dÅ‚ugoÅ›Ä‡ tytuÅ‚u';
+$lang['max_sig_location'] = 'Maksymalna dÅ‚ugoÅ›Ä‡ lokalizacji';
 
-$lang['Signature_settings'] = 'Ustawienia podpisów';
-$lang['Allow_sig_image'] = 'Zezwól na obrazki w podpisie';
+$lang['Signature_settings'] = 'Ustawienia podpisÃ³w';
+$lang['Allow_sig_image'] = 'ZezwÃ³l na obrazki w podpisie';
 $lang['Max_sig_image_filesize'] = 'Maksymalny rozmiar obrazka w bajtach';
 $lang['Max_sig_image_size'] = 'Maksymalny rozmiar obrazka w pikselach';
-$lang['Sig_images_storage_path'] = '¦cie¿ka zapisu obrazków';
-$lang['Sig_images_storage_path_explain'] = '¦cie¿ka od katalogu g³ównego phpBB, np. images/signatures';
+$lang['Sig_images_storage_path'] = 'ÅšcieÅ¼ka zapisu obrazkÃ³w';
+$lang['Sig_images_storage_path_explain'] = 'ÅšcieÅ¼ka od katalogu gÅ‚Ã³wnego phpBB, np. images/signatures';
 
-$lang['hv_admin'] = 'Ukryj przegl±danie tematu przez admina';
-$lang['hv_admin_e'] = 'Gdy w³±czone, przegl±danie tematu przez admina nie bêdzie zliczane';
-$lang['he_admin'] = 'Ukryj edycjê tematu przez admina';
-$lang['he_admin_e'] = 'Gdy w³±czone, po edycji w³asnego postu przez admina nie bêdzie dodawana informacja o edycji';
-$lang['wv'] = 'Kto przegl±da³ temat';
-$lang['wv_admin'] = 'Kto przegl±da³ temat tylko dla admina i moderatorów';
-$lang['wv_admin_e'] = 'Link do widoku "Kto przegl±da³ temat" bêdzie tylko mo¿liwy dla administratorów i moderatorów';
+$lang['hv_admin'] = 'Ukryj przeglÄ…danie tematu przez admina';
+$lang['hv_admin_e'] = 'Gdy wÅ‚Ä…czone, przeglÄ…danie tematu przez admina nie bÄ™dzie zliczane';
+$lang['he_admin'] = 'Ukryj edycjÄ™ tematu przez admina';
+$lang['he_admin_e'] = 'Gdy wÅ‚Ä…czone, po edycji wÅ‚asnego postu przez admina nie bÄ™dzie dodawana informacja o edycji';
+$lang['wv'] = 'Kto przeglÄ…daÅ‚ temat';
+$lang['wv_admin'] = 'Kto przeglÄ…daÅ‚ temat tylko dla admina i moderatorÃ³w';
+$lang['wv_admin_e'] = 'Link do widoku "Kto przeglÄ…daÅ‚ temat" bÄ™dzie tylko moÅ¼liwy dla administratorÃ³w i moderatorÃ³w';
 $lang['edit_time'] = 'Czas edycji postu'; 
-$lang['edit_time_explain'] = 'Czas w minutach przez jaki mo¿na edytowaæ swoje posty od momentu ich wys³ania. Nie obowi±zuje Administratorów i Moderatorów. Wpisz 0 aby wy³±czyæ';
+$lang['edit_time_explain'] = 'Czas w minutach przez jaki moÅ¼na edytowaÄ‡ swoje posty od momentu ich wysÅ‚ania. Nie obowiÄ…zuje AdministratorÃ³w i ModeratorÃ³w. Wpisz 0 aby wyÅ‚Ä…czyÄ‡';
 $lang['read_tracking_c'] = 'Czyszczenie read history';
-$lang['read_tracking_c_e'] = 'W przypadku przenoszenia forum, lub potrzeby "odchudzenia bazy danych" mo¿esz skorzystaæ z tej funkcji aby wyczy¶ciæ tabelê read_history. Po wyczyszczeniu ka¿dy u¿ytkownik bêdzie mia³ oznaczone wszystkie tematy jako przeczytane.';
-$lang['read_tracking_days'] = 'Ile dni przetrzymywaæ nieczytane posty';
-$lang['read_tracking_days_e'] = 'Je¿eli u¿ytkownik nie odwiedzi³ forum przez podan± ilo¶æ dni, informacje o nieczytanych postach zostan± usuniête.';
-$lang['read_tracking_max_posts'] = 'Maksymalna ilo¶æ nieczytanych postów na u¿ytkownika';
-$lang['read_tracking_max_posts_e'] = 'Zostan± usuniête informacje o nieczytanych postach, je¿eli ich ilo¶æ przekroczy podan± warto¶æ. Nie dotyczy Administratorów, Junior Adminów, Moderatorów';
-$lang['read_tracking_without_days'] = 'Kasowanie nieczytanych z wyj±tkiem napisanych przez ostatnie X dni';
-$lang['read_tracking_without_days_e'] = 'Je¿eli ilo¶æ postów nieczytanych przekroczy maksymaln± warto¶æ, zostan± usuniête wszystkie z wyj±tkiem postów napisanych przez ostatnie X dni.<br />Proszê staraæ siê zadbaæ o to aby ilo¶æ postów nieczytanych w bazie by³a jak najmniejsza, zbyt du¿a ilo¶æ dla pojedynczych u¿ytkowników mo¿e wp³yn±æ niekorzystnie na generowane obci±¿enie.';
-$lang['l_gender'] = 'P³eæ u¿ytkowników';
-$lang['l_gender_e'] = 'Umo¿liwia ustawienie p³ci u¿ytkowników podczas rejestracji i w profilu. Widoczna tak¿e ikonka obok nazwy u¿ytkownika w widoku tematu';
-$lang['l_require_gender'] = 'Wymagaæ podania p³ci podczas rejestracji?';
-$lang['banner_top'] = 'Banner w nag³ówku forum';
-$lang['banner_top_e'] = 'Mo¿esz w³±czyæ banner nag³ówkowy forum, mo¿e to byæ równie¿ w³asny nag³ówek z linkami (kod HTML)<br /><a href="../images/dynamic.html" target="_blank">Obs³uga zamienników</a>';
+$lang['read_tracking_c_e'] = 'W przypadku przenoszenia forum, lub potrzeby "odchudzenia bazy danych" moÅ¼esz skorzystaÄ‡ z tej funkcji aby wyczyÅ›ciÄ‡ tabelÄ™ read_history. Po wyczyszczeniu kaÅ¼dy uÅ¼ytkownik bÄ™dzie miaÅ‚ oznaczone wszystkie tematy jako przeczytane.';
+$lang['read_tracking_days'] = 'Ile dni przetrzymywaÄ‡ nieczytane posty';
+$lang['read_tracking_days_e'] = 'JeÅ¼eli uÅ¼ytkownik nie odwiedziÅ‚ forum przez podanÄ… iloÅ›Ä‡ dni, informacje o nieczytanych postach zostanÄ… usuniÄ™te.';
+$lang['read_tracking_max_posts'] = 'Maksymalna iloÅ›Ä‡ nieczytanych postÃ³w na uÅ¼ytkownika';
+$lang['read_tracking_max_posts_e'] = 'ZostanÄ… usuniÄ™te informacje o nieczytanych postach, jeÅ¼eli ich iloÅ›Ä‡ przekroczy podanÄ… wartoÅ›Ä‡. Nie dotyczy AdministratorÃ³w, Junior AdminÃ³w, ModeratorÃ³w';
+$lang['read_tracking_without_days'] = 'Kasowanie nieczytanych z wyjÄ…tkiem napisanych przez ostatnie X dni';
+$lang['read_tracking_without_days_e'] = 'JeÅ¼eli iloÅ›Ä‡ postÃ³w nieczytanych przekroczy maksymalnÄ… wartoÅ›Ä‡, zostanÄ… usuniÄ™te wszystkie z wyjÄ…tkiem postÃ³w napisanych przez ostatnie X dni.<br />ProszÄ™ staraÄ‡ siÄ™ zadbaÄ‡ o to aby iloÅ›Ä‡ postÃ³w nieczytanych w bazie byÅ‚a jak najmniejsza, zbyt duÅ¼a iloÅ›Ä‡ dla pojedynczych uÅ¼ytkownikÃ³w moÅ¼e wpÅ‚ynÄ…Ä‡ niekorzystnie na generowane obciÄ…Å¼enie.';
+$lang['l_gender'] = 'PÅ‚eÄ‡ uÅ¼ytkownikÃ³w';
+$lang['l_gender_e'] = 'UmoÅ¼liwia ustawienie pÅ‚ci uÅ¼ytkownikÃ³w podczas rejestracji i w profilu. Widoczna takÅ¼e ikonka obok nazwy uÅ¼ytkownika w widoku tematu';
+$lang['l_require_gender'] = 'WymagaÄ‡ podania pÅ‚ci podczas rejestracji?';
+$lang['banner_top'] = 'Banner w nagÅ‚Ã³wku forum';
+$lang['banner_top_e'] = 'MoÅ¼esz wÅ‚Ä…czyÄ‡ banner nagÅ‚Ã³wkowy forum, moÅ¼e to byÄ‡ rÃ³wnieÅ¼ wÅ‚asny nagÅ‚Ã³wek z linkami (kod HTML)<br /><a href="../images/dynamic.html" target="_blank">ObsÅ‚uga zamiennikÃ³w</a>';
 $lang['banner_bottom'] = 'Banner w stopce forum';
-$lang['banner_bottom_e'] = 'Mo¿esz w³±czyæ banner w stopce forum, mo¿e to byæ równie¿ w³asna stopka z linkami (kod HTML)<br /><a href="../images/dynamic.html" target="_blank">Obs³uga zamienników</a>';
-$lang['Override_user_choices'] = 'Zignoruj ustawienia u¿ytkowników';
-$lang['not_edit_admin'] = 'Ochrona postów admina';
-$lang['not_edit_admin_e'] = 'W³±cza ochronê dla postów i sond admina, moderatorzy nie mog± ich usuwaæ ani edytowaæ';
-$lang['staff_forums'] = 'Widok dzia³ów';
-$lang['l_smilies_value'] = 'Ilo¶æ u¶mieszków';
-$lang['l_smilies_value_e'] = 'Podczas pisania wiadomo¶ci, warto¶ci <b>C</b>-ilo¶æ kolumn, <b>R</b>-ilo¶æ rzêdów, <b>CW</b>-ilo¶æ kolumn w oknie wszystkich emotikonów';
+$lang['banner_bottom_e'] = 'MoÅ¼esz wÅ‚Ä…czyÄ‡ banner w stopce forum, moÅ¼e to byÄ‡ rÃ³wnieÅ¼ wÅ‚asna stopka z linkami (kod HTML)<br /><a href="../images/dynamic.html" target="_blank">ObsÅ‚uga zamiennikÃ³w</a>';
+$lang['Override_user_choices'] = 'Zignoruj ustawienia uÅ¼ytkownikÃ³w';
+$lang['not_edit_admin'] = 'Ochrona postÃ³w admina';
+$lang['not_edit_admin_e'] = 'WÅ‚Ä…cza ochronÄ™ dla postÃ³w i sond admina, moderatorzy nie mogÄ… ich usuwaÄ‡ ani edytowaÄ‡';
+$lang['staff_forums'] = 'Widok dziaÅ‚Ã³w';
+$lang['l_smilies_value'] = 'IloÅ›Ä‡ uÅ›mieszkÃ³w';
+$lang['l_smilies_value_e'] = 'Podczas pisania wiadomoÅ›ci, wartoÅ›ci <b>C</b>-iloÅ›Ä‡ kolumn, <b>R</b>-iloÅ›Ä‡ rzÄ™dÃ³w, <b>CW</b>-iloÅ›Ä‡ kolumn w oknie wszystkich emotikonÃ³w';
 $lang['l_generate_time'] = 'Czas generowania strony';
-$lang['Enable_board_msg'] = 'W³±cz og³oszenie na forum';
-$lang['board_msg'] = 'Tre¶æ og³oszenia';
-$lang['board_msg_explain'] = 'Wpisz tre¶æ og³oszenia, mo¿na u¿ywaæ kodu HTML<br /><a href="../images/dynamic.html" target="_blank">Obs³uga zamienników</a>';
-$lang['board_msg_index'] = 'Na stronie g³ównej';
+$lang['Enable_board_msg'] = 'WÅ‚Ä…cz ogÅ‚oszenie na forum';
+$lang['board_msg'] = 'TreÅ›Ä‡ ogÅ‚oszenia';
+$lang['board_msg_explain'] = 'Wpisz treÅ›Ä‡ ogÅ‚oszenia, moÅ¼na uÅ¼ywaÄ‡ kodu HTML<br /><a href="../images/dynamic.html" target="_blank">ObsÅ‚uga zamiennikÃ³w</a>';
+$lang['board_msg_index'] = 'Na stronie gÅ‚Ã³wnej';
 $lang['board_msg_all'] = 'Na wszystkich stronach';
-$lang['width_forum'] = 'Sta³a szeroko¶æ forum';
-$lang['width_forum_e'] = 'Mo¿esz okre¶liæ sta³± szeroko¶æ forum, warto¶æ podaj±c w pikselach np. <b>900</b> Mo¿esz ustaliæ kolor t³a, kolor obramowania forum np: <b>#FF2121</b>, oraz szeroko¶æ obramowania.';
-$lang['width_table'] = 'Szeroko¶æ forum';
-$lang['width_color'] = 'Kolor1, Kolor2, Obramowanie (grubo¶æ w px)';
-$lang['show_rules'] = 'Pokazuj regulamin przed rejestracj±';
-$lang['gentime_admin'] = 'Czas generowania tylko dla adminów';
+$lang['width_forum'] = 'StaÅ‚a szerokoÅ›Ä‡ forum';
+$lang['width_forum_e'] = 'MoÅ¼esz okreÅ›liÄ‡ staÅ‚Ä… szerokoÅ›Ä‡ forum, wartoÅ›Ä‡ podajÄ…c w pikselach np. <b>900</b> MoÅ¼esz ustaliÄ‡ kolor tÅ‚a, kolor obramowania forum np: <b>#FF2121</b>, oraz szerokoÅ›Ä‡ obramowania.';
+$lang['width_table'] = 'SzerokoÅ›Ä‡ forum';
+$lang['width_color'] = 'Kolor1, Kolor2, Obramowanie (gruboÅ›Ä‡ w px)';
+$lang['show_rules'] = 'Pokazuj regulamin przed rejestracjÄ…';
+$lang['gentime_admin'] = 'Czas generowania tylko dla adminÃ³w';
 $lang['email_return_path'] = 'E-mail zwrotny';
 $lang['email_from'] = 'E-mail nadawcy';
-$lang['l_poster_posts'] = 'Oznaczaæ tematy w których bra³' .  (($he) ? 'e' : 'a') . '¶ udzia³';
-$lang['l_poster_posts_e'] = 'Przed tytu³em tematu, dodaje znaczek je¶li u¿ytkownik bra³ udzia³ w dyskusji, po najechaniu myszk± opis z ilo¶ci± postów u¿ytkownika jak± napisa³ w tym temacie';
+$lang['l_poster_posts'] = 'OznaczaÄ‡ tematy w ktÃ³rych braÅ‚' .  (($he) ? 'e' : 'a') . 'Å› udziaÅ‚';
+$lang['l_poster_posts_e'] = 'Przed tytuÅ‚em tematu, dodaje znaczek jeÅ›li uÅ¼ytkownik braÅ‚ udziaÅ‚ w dyskusji, po najechaniu myszkÄ… opis z iloÅ›ciÄ… postÃ³w uÅ¼ytkownika jakÄ… napisaÅ‚ w tym temacie';
 $lang['topic_color_all'] = 'Kolor tematu dla wszystkich';
-$lang['topic_color_mod'] = 'Kolor tematu dla moderatorów';
-$lang['conf_config'] = 'G³ówne';
+$lang['topic_color_mod'] = 'Kolor tematu dla moderatorÃ³w';
+$lang['conf_config'] = 'GÅ‚Ã³wne';
 $lang['conf_addons'] = 'Dodatkowe';
-$lang['conf_main_page'] = 'Strony g³ównej';
-$lang['conf_viewtopic'] = 'Widoku tematów';
+$lang['conf_main_page'] = 'Strony gÅ‚Ã³wnej';
+$lang['conf_viewtopic'] = 'Widoku tematÃ³w';
 $lang['conf_profile'] = 'Profilu';
 $lang['conf_posting'] = 'Pisania tematu';
-$lang['allow_img_bbcode'] = 'Wy³±cz bbcode [IMG] w podpisie';
-$lang['allow_img_bbcode_e'] = 'Wy³±cza bbcode [IMG] w podpisach, pozostawia mo¿liwo¶æ wys³ania obrazka podpisu na forum z ograniczon± wielko¶ci±, parametry obrazka poni¿ej<br />Je¿eli zezwolisz na u¿ywanie [IMG] bbcode u¿ytkownicy nie bêd± mogli wy³±czyæ widoku tych obrazków w podpisach';
+$lang['allow_img_bbcode'] = 'WyÅ‚Ä…cz bbcode [IMG] w podpisie';
+$lang['allow_img_bbcode_e'] = 'WyÅ‚Ä…cza bbcode [IMG] w podpisach, pozostawia moÅ¼liwoÅ›Ä‡ wysÅ‚ania obrazka podpisu na forum z ograniczonÄ… wielkoÅ›ciÄ…, parametry obrazka poniÅ¼ej<br />JeÅ¼eli zezwolisz na uÅ¼ywanie [IMG] bbcode uÅ¼ytkownicy nie bÄ™dÄ… mogli wyÅ‚Ä…czyÄ‡ widoku tych obrazkÃ³w w podpisach';
 $lang['cbirth'] = 'Info urodzinowe';
 $lang['cgg'] = 'Gadu-Gadu';
 $lang['csearch'] = 'Szukaj w tym dziale';
 $lang['cyahoo'] = 'Yahoo Messenger';
 $lang['cmsn'] = 'MSN Messenger';
-$lang['Photo_storage_path_explain'] = 'na przyk³ad: images/photos';
-$lang['Photo_storage_path'] = '¶cie¿ka do katalogu na serwerze';
-$lang['Allow_photo_upload'] = 'W³±cz wysy³anie zdjêcia';
-$lang['Photo_max_filesize'] = 'Maksymalny wielko¶æ zdjêcia(w bajtach)';
-$lang['Photo_max_filesize_explain'] = 'Dla wysy³anego zdjêcia';
-$lang['Max_photo_size'] = 'Maksymalny rozmiar zdjêcia (w pikselach)';
-$lang['Profile_photo_settings'] = 'Ustawienia zdjêcia w profilu';
-$lang['Allow_photo_remote'] = 'W³±cz zdalne dodawanie zdjêcia w profilu';
-$lang['Allow_photo_remote_explain'] = 'Odno¶nik do zewnêtrznego zdjêcia';
-$lang['max_sig_chars_admin_e'] = 'Razy jak± warto¶æ pomno¿yæ maksymaln± ilo¶æ znaków w podpisie dla admina';
-$lang['max_sig_chars_mod_e'] = 'Razy jak± warto¶æ pomno¿yæ maksymaln± ilo¶æ znaków w podpisie dla moderatorów';
-$lang['viewonline_e'] = 'Restrykcja ukrywania obecno¶ci na forum: 0 - wybór u¿ytkownika, 1 - u¿ytkownicy bêd± zawsze widoczni, 2 - u¿ytkownicy nie bêd± widoczni';
-$lang['restrict_smilies'] = 'U¶mieszki dla niezarejestrowanych';
-$lang['topic_preview'] = 'Podgl±d tematu';
-$lang['not_anonymous_posting_e'] = 'Wymagaæ podania nazwy podczas wysy³ania postów przez u¿ytkowników niezalogowanych';
-$lang['not_anonymous_quickreply'] = 'Szybka odpowied¼ ukryta dla niezalogowanych';
-$lang['l_expire_v'] = 'Automatyczne wygaszanie postów w szybkiej odpowiedzi';
-$lang['l_expire_v_e'] = 'Je¶li w³±czysz, posty napisane w panelu szybkiej odpowiedzi bêd± automatycznie wygasaæ po 2 dniach. Domy¶lne ustawienie: NIE';
-$lang['max_smilies'] = 'Ilo¶æ u¶mieszków w szybkiej odpowiedzi';
+$lang['Photo_storage_path_explain'] = 'na przykÅ‚ad: images/photos';
+$lang['Photo_storage_path'] = 'Å›cieÅ¼ka do katalogu na serwerze';
+$lang['Allow_photo_upload'] = 'WÅ‚Ä…cz wysyÅ‚anie zdjÄ™cia';
+$lang['Photo_max_filesize'] = 'Maksymalny wielkoÅ›Ä‡ zdjÄ™cia(w bajtach)';
+$lang['Photo_max_filesize_explain'] = 'Dla wysyÅ‚anego zdjÄ™cia';
+$lang['Max_photo_size'] = 'Maksymalny rozmiar zdjÄ™cia (w pikselach)';
+$lang['Profile_photo_settings'] = 'Ustawienia zdjÄ™cia w profilu';
+$lang['Allow_photo_remote'] = 'WÅ‚Ä…cz zdalne dodawanie zdjÄ™cia w profilu';
+$lang['Allow_photo_remote_explain'] = 'OdnoÅ›nik do zewnÄ™trznego zdjÄ™cia';
+$lang['max_sig_chars_admin_e'] = 'Razy jakÄ… wartoÅ›Ä‡ pomnoÅ¼yÄ‡ maksymalnÄ… iloÅ›Ä‡ znakÃ³w w podpisie dla admina';
+$lang['max_sig_chars_mod_e'] = 'Razy jakÄ… wartoÅ›Ä‡ pomnoÅ¼yÄ‡ maksymalnÄ… iloÅ›Ä‡ znakÃ³w w podpisie dla moderatorÃ³w';
+$lang['viewonline_e'] = 'Restrykcja ukrywania obecnoÅ›ci na forum: 0 - wybÃ³r uÅ¼ytkownika, 1 - uÅ¼ytkownicy bÄ™dÄ… zawsze widoczni, 2 - uÅ¼ytkownicy nie bÄ™dÄ… widoczni';
+$lang['restrict_smilies'] = 'UÅ›mieszki dla niezarejestrowanych';
+$lang['topic_preview'] = 'PodglÄ…d tematu';
+$lang['not_anonymous_posting_e'] = 'WymagaÄ‡ podania nazwy podczas wysyÅ‚ania postÃ³w przez uÅ¼ytkownikÃ³w niezalogowanych';
+$lang['not_anonymous_quickreply'] = 'Szybka odpowiedÅº ukryta dla niezalogowanych';
+$lang['l_expire_v'] = 'Automatyczne wygaszanie postÃ³w w szybkiej odpowiedzi';
+$lang['l_expire_v_e'] = 'JeÅ›li wÅ‚Ä…czysz, posty napisane w panelu szybkiej odpowiedzi bÄ™dÄ… automatycznie wygasaÄ‡ po 2 dniach. DomyÅ›lne ustawienie: NIE';
+$lang['max_smilies'] = 'IloÅ›Ä‡ uÅ›mieszkÃ³w w szybkiej odpowiedzi';
 $lang['portal_link'] = 'Portal link';
-$lang['portal_link_e'] = 'Gdy forum jest forum dla newsów lub sond w portalu link do strony g³ównej prowadzi do portalu';
-$lang['search_enable'] = 'W³±cz "Szukanie"';
-$lang['search_enable_e'] = 'Je¿eli wy³±czysz opcjê "Szukaj", podczas pisania nowych postów s³owa nie bêd± dodawane do bazy danych (zajmuj± one 50-60% bazy)';
-$lang['overlib'] = 'Dynamiczne opisy elementów strony (dymki)';
+$lang['portal_link_e'] = 'Gdy forum jest forum dla newsÃ³w lub sond w portalu link do strony gÅ‚Ã³wnej prowadzi do portalu';
+$lang['search_enable'] = 'WÅ‚Ä…cz "Szukanie"';
+$lang['search_enable_e'] = 'JeÅ¼eli wyÅ‚Ä…czysz opcjÄ™ "Szukaj", podczas pisania nowych postÃ³w sÅ‚owa nie bÄ™dÄ… dodawane do bazy danych (zajmujÄ… one 50-60% bazy)';
+$lang['overlib'] = 'Dynamiczne opisy elementÃ³w strony (dymki)';
 $lang['notify_gg'] = 'Powiadomienia na GG';
-$lang['notify_gg_e'] = 'Gdy na forum masz ustawion± bramkê GG, umo¿liwia u¿ytkownikom odbieranie powiadomieñ o odpowiedziach w obserwowanych tematach. Jednak gdy serwer Gadu-gadu bêdzie niedostêpny, wysy³anie nowych postów mo¿e trwaæ kilka sekund d³u¿ej.<br />';
+$lang['notify_gg_e'] = 'Gdy na forum masz ustawionÄ… bramkÄ™ GG, umoÅ¼liwia uÅ¼ytkownikom odbieranie powiadomieÅ„ o odpowiedziach w obserwowanych tematach. Jednak gdy serwer Gadu-gadu bÄ™dzie niedostÄ™pny, wysyÅ‚anie nowych postÃ³w moÅ¼e trwaÄ‡ kilka sekund dÅ‚uÅ¼ej.<br />';
 $lang['admin_notify_gg'] = 'Powiadomienia admina na GG';
-$lang['admin_notify_gg_e'] = 'W tym miejscu podaj±c numer(y) GG, bêd± na niego wysy³ane powiadomienia o nowych tematach na twoim forum. Kilka numerów oddziel przecinkami';
+$lang['admin_notify_gg_e'] = 'W tym miejscu podajÄ…c numer(y) GG, bÄ™dÄ… na niego wysyÅ‚ane powiadomienia o nowych tematach na twoim forum. Kilka numerÃ³w oddziel przecinkami';
 $lang['admin_notify_reply'] = 'Powiadomienia o odpowiedziach';
-$lang['admin_notify_reply_e'] = 'Powiadamia równie¿ o wszystkich odpowiedziach na twoim forum';
-$lang['admin_notify_message'] = 'Ca³a tre¶æ w powiadomieniach';
-$lang['admin_notify_message_e'] = 'W powiadomieniach admina, przesy³a ca³± tre¶æ postów';
-$lang['topic_start_date'] = 'Data rozpoczêcia tematu';
-$lang['topic_start_dateformat'] = 'Format daty rozpoczêcia tematu';
-$lang['topic_start_dateformat_e'] = 'Format daty w jakim bêdzie wy¶wietlana data napisania tematu, je¶li pozostawisz puste format bêdzie taki sam jak na forum.';
+$lang['admin_notify_reply_e'] = 'Powiadamia rÃ³wnieÅ¼ o wszystkich odpowiedziach na twoim forum';
+$lang['admin_notify_message'] = 'CaÅ‚a treÅ›Ä‡ w powiadomieniach';
+$lang['admin_notify_message_e'] = 'W powiadomieniach admina, przesyÅ‚a caÅ‚Ä… treÅ›Ä‡ postÃ³w';
+$lang['topic_start_date'] = 'Data rozpoczÄ™cia tematu';
+$lang['topic_start_dateformat'] = 'Format daty rozpoczÄ™cia tematu';
+$lang['topic_start_dateformat_e'] = 'Format daty w jakim bÄ™dzie wyÅ›wietlana data napisania tematu, jeÅ›li pozostawisz puste format bÄ™dzie taki sam jak na forum.';
 $lang['autorepair_tables'] = 'Autonaprawa tabel';
-$lang['autorepair_tables_e'] = 'Skrypt probuje automatycznie naprawiæ tabele SQL je¶li zostanie uszkodzona, wysy³a e-mail do administratora forum.';
-$lang['check_address'] = 'Sprawdzanie poprawno¶ci adresu';
-$lang['check_address_e'] = 'Sprawdza czy u¿ytkownicy ³±cz± siê na odpowiedni adres forum (z www. lub bez) wed³ug ustawieñ nazwy domeny, je¶li nie, przekierowuje na prawid³owy adres. Mo¿e wyeliminowaæ wiele nieprawid³owo¶ci podczas ³±czenia siê na z³y adres. Jednak przy nieprawid³owym ustawieniu domeny lub ¶cie¿ki skryptu, mo¿e uniemo¿liwiæ korzystanie z forum!';
+$lang['autorepair_tables_e'] = 'Skrypt probuje automatycznie naprawiÄ‡ tabele SQL jeÅ›li zostanie uszkodzona, wysyÅ‚a e-mail do administratora forum.';
+$lang['check_address'] = 'Sprawdzanie poprawnoÅ›ci adresu';
+$lang['check_address_e'] = 'Sprawdza czy uÅ¼ytkownicy Å‚Ä…czÄ… siÄ™ na odpowiedni adres forum (z www. lub bez) wedÅ‚ug ustawieÅ„ nazwy domeny, jeÅ›li nie, przekierowuje na prawidÅ‚owy adres. MoÅ¼e wyeliminowaÄ‡ wiele nieprawidÅ‚owoÅ›ci podczas Å‚Ä…czenia siÄ™ na zÅ‚y adres. Jednak przy nieprawidÅ‚owym ustawieniu domeny lub Å›cieÅ¼ki skryptu, moÅ¼e uniemoÅ¼liwiÄ‡ korzystanie z forum!';
 $lang['echange_banner'] = 'Losowe bannery';
-$lang['echange_banner_e'] = 'Mo¿esz wstawiæ losowe bannery. Masz do wyboru warto¶ci 0-6.<br /><b>0</b> - Banner wy³±czony, <b>1</b> - Banner na samej górze forum (nad tabel±), <b>2</b> - Banner w tabeli forum, <b>3</b> - Banner pod Menu forum, <b>4</b> - Banner na dole strony w tabeli forum, <b>5</b> - Banner na dole strony poza tabel± forum, <b>6</b> - Wy³±cza avatar w lewym górnym rogu i wstawia w jego miejsce losowe bannery';
-$lang['echange_banner_html'] = 'Podaj HTML losowych bannerów, mo¿esz u¿yæ dowolnej liczby banerów, kody HTML poszczególnych bannerów musz± byæ oddzielone poprzez: <b>[banner]</b><br />Przyk³ad: <b>&lt;table&gt;Pierwszy banner&lt;/table&gt;[banner]&lt;table&gt;Drugi banner&lt;/table&gt;</b><br /><a href="../images/dynamic.html" target="_blank">Obs³uga zamienników</a>';
-$lang['split_messages'] = '£±cz zdublowane posty';
-$lang['split_messages_e'] = 'Je¿eli u¿ytkownik napisze dwa posty pod rz±d, zostan± z³±czone w jeden, zostanie dodana data ³±czenia, u¿ytkownikowi nie zwiêkszy siê licznik postów.';
-$lang['split_messages_admin'] = '£±cz te¿ posty admina';
-$lang['split_messages_mod'] = '£±cz te¿ posty moderatora';
-$lang['admin_html'] = 'Zezwól Administratorom na HTML';
-$lang['admin_html_e'] = 'Zezwala Administratorom na u¿ywanie w postach dowolnych tagów HTML, niezale¿nie od ustawieñ forum.';
-$lang['jr_admin_html'] = 'Zezwól Junior Adminom na HTML';
-$lang['mod_html'] = 'Zezwól Moderatorom na HTML';
-$lang['last_visitors_time_e'] = 'Czas w godzinach dla wy¶wietlania u¿ytkowników którzy odwiedzili forum przez ostatnie xx godzin. Przy warto¶ci np: 12 mo¿na zmieniæ odpowiednio opis "godziny" na "godzin" w pliku lang_main.php zmienna: $lang[\'Day_users\']';
-$lang['last_visitors_time_count'] = "Ilo¶æ pokazywanych u¿ytkowników, którzy odwiedzili forum przez ostatnie xx godzin.";
-$lang['protection_get'] = 'Globalne zabezpieczenie przeciw w³amaniom ($_GET)';
-$lang['protection_get_e'] = 'Opcja ta filtruje wszystkie dane pochodz±ce z paska adresu, od u¿ytkownika.';
-$lang['helped_a'] = 'Modu³ "POMÓG£"';
-$lang['helped_e'] = 'W³±cz punktacje "Pomóg³". Autor tematu, bêdzie móg³ dodaæ punkt "Pomóg³" osobie, która odpowiedzia³a w jego temacie.';
+$lang['echange_banner_e'] = 'MoÅ¼esz wstawiÄ‡ losowe bannery. Masz do wyboru wartoÅ›ci 0-6.<br /><b>0</b> - Banner wyÅ‚Ä…czony, <b>1</b> - Banner na samej gÃ³rze forum (nad tabelÄ…), <b>2</b> - Banner w tabeli forum, <b>3</b> - Banner pod Menu forum, <b>4</b> - Banner na dole strony w tabeli forum, <b>5</b> - Banner na dole strony poza tabelÄ… forum, <b>6</b> - WyÅ‚Ä…cza avatar w lewym gÃ³rnym rogu i wstawia w jego miejsce losowe bannery';
+$lang['echange_banner_html'] = 'Podaj HTML losowych bannerÃ³w, moÅ¼esz uÅ¼yÄ‡ dowolnej liczby banerÃ³w, kody HTML poszczegÃ³lnych bannerÃ³w muszÄ… byÄ‡ oddzielone poprzez: <b>[banner]</b><br />PrzykÅ‚ad: <b>&lt;table&gt;Pierwszy banner&lt;/table&gt;[banner]&lt;table&gt;Drugi banner&lt;/table&gt;</b><br /><a href="../images/dynamic.html" target="_blank">ObsÅ‚uga zamiennikÃ³w</a>';
+$lang['split_messages'] = 'ÅÄ…cz zdublowane posty';
+$lang['split_messages_e'] = 'JeÅ¼eli uÅ¼ytkownik napisze dwa posty pod rzÄ…d, zostanÄ… zÅ‚Ä…czone w jeden, zostanie dodana data Å‚Ä…czenia, uÅ¼ytkownikowi nie zwiÄ™kszy siÄ™ licznik postÃ³w.';
+$lang['split_messages_admin'] = 'ÅÄ…cz teÅ¼ posty admina';
+$lang['split_messages_mod'] = 'ÅÄ…cz teÅ¼ posty moderatora';
+$lang['admin_html'] = 'ZezwÃ³l Administratorom na HTML';
+$lang['admin_html_e'] = 'Zezwala Administratorom na uÅ¼ywanie w postach dowolnych tagÃ³w HTML, niezaleÅ¼nie od ustawieÅ„ forum.';
+$lang['jr_admin_html'] = 'ZezwÃ³l Junior Adminom na HTML';
+$lang['mod_html'] = 'ZezwÃ³l Moderatorom na HTML';
+$lang['last_visitors_time_e'] = 'Czas w godzinach dla wyÅ›wietlania uÅ¼ytkownikÃ³w ktÃ³rzy odwiedzili forum przez ostatnie xx godzin. Przy wartoÅ›ci np: 12 moÅ¼na zmieniÄ‡ odpowiednio opis "godziny" na "godzin" w pliku lang_main.php zmienna: $lang[\'Day_users\']';
+$lang['last_visitors_time_count'] = "IloÅ›Ä‡ pokazywanych uÅ¼ytkownikÃ³w, ktÃ³rzy odwiedzili forum przez ostatnie xx godzin.";
+$lang['protection_get'] = 'Globalne zabezpieczenie przeciw wÅ‚amaniom ($_GET)';
+$lang['protection_get_e'] = 'Opcja ta filtruje wszystkie dane pochodzÄ…ce z paska adresu, od uÅ¼ytkownika.';
+$lang['helped_a'] = 'ModuÅ‚ "POMÃ“GÅ"';
+$lang['helped_e'] = 'WÅ‚Ä…cz punktacje "PomÃ³gÅ‚". Autor tematu, bÄ™dzie mÃ³gÅ‚ dodaÄ‡ punkt "PomÃ³gÅ‚" osobie, ktÃ³ra odpowiedziaÅ‚a w jego temacie.';
 $lang['l_del_not_method'] = 'Rodzaj powiadomienia';
-$lang['l_del_not_enable'] = 'Powiadomienia o usuniêciu postu/tematu lub przesuniêciu tematu';
-$lang['l_del_not_choice'] = 'Mo¿liwo¶æ wyboru przez Administratora lub Moderatora nie wysy³ania powiadomienia';
-$lang['l_open_in_windows'] = 'Otwórz wszystkie w nowych oknach';
-$lang['l_open_in_windows_e'] = 'Przy wyszukiwaniu w widoku tematów, dodaje link s³u¿±cy do otwarcia wszystkich znalezionych tematów w nowych oknach. Przy bardziej obci±¿onym serwerze lub przy nadu¿ywaniu, mo¿e znacznie zwolniæ dzia³anie forum.';
-$lang['quick_reply_pages'] = 'Szybka odpowied¼ tylko na ostatniej stronie tematu';
-$lang['clog_post'] = 'Loguj wszystkie warto¶ci $_POST';
+$lang['l_del_not_enable'] = 'Powiadomienia o usuniÄ™ciu postu/tematu lub przesuniÄ™ciu tematu';
+$lang['l_del_not_choice'] = 'MoÅ¼liwoÅ›Ä‡ wyboru przez Administratora lub Moderatora nie wysyÅ‚ania powiadomienia';
+$lang['l_open_in_windows'] = 'OtwÃ³rz wszystkie w nowych oknach';
+$lang['l_open_in_windows_e'] = 'Przy wyszukiwaniu w widoku tematÃ³w, dodaje link sÅ‚uÅ¼Ä…cy do otwarcia wszystkich znalezionych tematÃ³w w nowych oknach. Przy bardziej obciÄ…Å¼onym serwerze lub przy naduÅ¼ywaniu, moÅ¼e znacznie zwolniÄ‡ dziaÅ‚anie forum.';
+$lang['quick_reply_pages'] = 'Szybka odpowiedÅº tylko na ostatniej stronie tematu';
+$lang['clog_post'] = 'Loguj wszystkie wartoÅ›ci $_POST';
 $lang['Show_online_status'] = 'Status online pod avatarem';
-$lang['show_action_unlocked'] = 'Poka¿ kto odblokowa³ temat';
-$lang['show_action_locked'] = 'Poka¿ kto zamkn±³ temat';
-$lang['show_action_moved'] = 'Poka¿ kto przesun±³ temat';
-$lang['show_action_expired'] = 'Poka¿ kto wygasi³ post/temat';
-$lang['show_action_edited_by_others'] = 'Poka¿ kto edytowa³ post';
-$lang['show_action_edited_self'] = 'Poka¿ edycjê w³asnego postu';
-$lang['show_action_edited_self_all'] = 'Poka¿ edycjê w³asnego postu nawet gdy nie ma odpowiedzi';
-$lang['allow_mod_delete_actions'] = 'Zezwól moderatorom na kasowanie informacji o czynno¶ciach';
-$lang['Always_in_category'] = 'W ka¿dej kategorii';
-$lang['Topic_spy_e'] = 'Szpieg dodaje link w widoku profilu u¿ytkowników, prowadz±cy do widoku listy tematów które przegl±dali.<br />Szpieg wymaga w³±czenia funkcji zapisuj±cej przegl±danie tematów: <b>Kto przegl±da³ temat</b>';
-$lang['Topic_spy_mod'] = 'Szpieg dostêpny dla moderatorów';
-$lang['Topic_spy_mod_admin'] = 'Zezwól na "szpiegowanie" administratorów przez moderatorów';
-$lang['Post_overlib'] = 'Dymki ze skrótem postów po najechaniu na temat';
-$lang['PH_values'] = 'Ilo¶æ dni przechowywania historii edycji postów, 0 wy³±cza';
-$lang['PH_values_e'] = 'Gdy ktokolwiek bêdzie edytowa³ jakikolwiek post, poprzednia tre¶æ postu zostanie zapisana w bazie danych. Pod postem pojawi siê link widoczny dla administratorów lub moderatorów, wy¶wietlaj±cy wszystkie zmieniane tre¶ci postu';
-$lang['PH_len'] = 'Ilo¶æ w ró¿nicy znaków';
-$lang['PH_len_e'] = 'Je¿eli podasz warto¶æ np <b>3</b> a kto¶ zamieni w po¶cie tylko jeden lub dwa znaki, historia nie zapisze tej zmiany. Zapisze tylko wtedy, gdy kto¶ zamieni 3 lub wiêcej znaków. 0 lub 1 - Ka¿da edycja w której zmieniono przynajmniej jeden znak bêdzie zapisywana';
-$lang['PH_mod'] = 'Podgl±d historii postów dostêpny dla moderatorów';
-$lang['PH_mod_delete'] = 'Kasowanie historii dostêpne dla moderatorów';
-$lang['onmouse'] = 'Efekty OnMouseOver po najechaniu mysz±';
-$lang['anonymous_simple'] = 'Wy³±cz dla u¿ytkowników niezalogowanych dodatki:';
-$lang['anonymous_simple_e'] = 'Dymki, OnMouseOver, Ikony systemu, Poziom u¿ytkowników, Loading, Statystyki, Ostatnich odwiedzaj±cych<br />W celu zaoszczêdzenia transferu';
-$lang['Allow_autologin'] = 'Zezwól na automatyczne logowanie';
-$lang['Allow_autologin_explain'] = 'Wybierz w jaki sposób u¿ytkownicy mog± byæ automatycznie logowani.<br />Automatyczne logowanie jest bezpieczne tylko wtedy, gdy jest sprawdzanie adresu IP. Istnieje zabezpieczenie kont u¿ytkowników i automatycznego logowania które polega na sprawdzaniu adresu IP ostatniej wizyty, je¿eli jest on inny, wymaga rêcznego zalogowania. Mo¿e to byæ utrudnieniem dla osób ze zmiennym IP. Zwykli u¿ytkownicy maj± mo¿liwo¶æ wy³±czenia tego zabezpieczenia w swoim profilu, nie maj± jej Administratorzy, Junior Administratorzy i Moderatorzy. Administrator ma mo¿liwo¶æ wy³±czenia tej funkcji dla dowolnego u¿ytkownika w edycji jego profilu.';
-$lang['Posting'] = 'Pisanie postów';
-$lang['Registering'] = 'Rejestracjê';
-$lang['AA_no_limit'] = 'Bez ograniczeñ';
+$lang['show_action_unlocked'] = 'PokaÅ¼ kto odblokowaÅ‚ temat';
+$lang['show_action_locked'] = 'PokaÅ¼ kto zamknÄ…Å‚ temat';
+$lang['show_action_moved'] = 'PokaÅ¼ kto przesunÄ…Å‚ temat';
+$lang['show_action_expired'] = 'PokaÅ¼ kto wygasiÅ‚ post/temat';
+$lang['show_action_edited_by_others'] = 'PokaÅ¼ kto edytowaÅ‚ post';
+$lang['show_action_edited_self'] = 'PokaÅ¼ edycjÄ™ wÅ‚asnego postu';
+$lang['show_action_edited_self_all'] = 'PokaÅ¼ edycjÄ™ wÅ‚asnego postu nawet gdy nie ma odpowiedzi';
+$lang['allow_mod_delete_actions'] = 'ZezwÃ³l moderatorom na kasowanie informacji o czynnoÅ›ciach';
+$lang['Always_in_category'] = 'W kaÅ¼dej kategorii';
+$lang['Topic_spy_e'] = 'Szpieg dodaje link w widoku profilu uÅ¼ytkownikÃ³w, prowadzÄ…cy do widoku listy tematÃ³w ktÃ³re przeglÄ…dali.<br />Szpieg wymaga wÅ‚Ä…czenia funkcji zapisujÄ…cej przeglÄ…danie tematÃ³w: <b>Kto przeglÄ…daÅ‚ temat</b>';
+$lang['Topic_spy_mod'] = 'Szpieg dostÄ™pny dla moderatorÃ³w';
+$lang['Topic_spy_mod_admin'] = 'ZezwÃ³l na "szpiegowanie" administratorÃ³w przez moderatorÃ³w';
+$lang['Post_overlib'] = 'Dymki ze skrÃ³tem postÃ³w po najechaniu na temat';
+$lang['PH_values'] = 'IloÅ›Ä‡ dni przechowywania historii edycji postÃ³w, 0 wyÅ‚Ä…cza';
+$lang['PH_values_e'] = 'Gdy ktokolwiek bÄ™dzie edytowaÅ‚ jakikolwiek post, poprzednia treÅ›Ä‡ postu zostanie zapisana w bazie danych. Pod postem pojawi siÄ™ link widoczny dla administratorÃ³w lub moderatorÃ³w, wyÅ›wietlajÄ…cy wszystkie zmieniane treÅ›ci postu';
+$lang['PH_len'] = 'IloÅ›Ä‡ w rÃ³Å¼nicy znakÃ³w';
+$lang['PH_len_e'] = 'JeÅ¼eli podasz wartoÅ›Ä‡ np <b>3</b> a ktoÅ› zamieni w poÅ›cie tylko jeden lub dwa znaki, historia nie zapisze tej zmiany. Zapisze tylko wtedy, gdy ktoÅ› zamieni 3 lub wiÄ™cej znakÃ³w. 0 lub 1 - KaÅ¼da edycja w ktÃ³rej zmieniono przynajmniej jeden znak bÄ™dzie zapisywana';
+$lang['PH_mod'] = 'PodglÄ…d historii postÃ³w dostÄ™pny dla moderatorÃ³w';
+$lang['PH_mod_delete'] = 'Kasowanie historii dostÄ™pne dla moderatorÃ³w';
+$lang['onmouse'] = 'Efekty OnMouseOver po najechaniu myszÄ…';
+$lang['anonymous_simple'] = 'WyÅ‚Ä…cz dla uÅ¼ytkownikÃ³w niezalogowanych dodatki:';
+$lang['anonymous_simple_e'] = 'Dymki, OnMouseOver, Ikony systemu, Poziom uÅ¼ytkownikÃ³w, Loading, Statystyki, Ostatnich odwiedzajÄ…cych<br />W celu zaoszczÄ™dzenia transferu';
+$lang['Allow_autologin'] = 'ZezwÃ³l na automatyczne logowanie';
+$lang['Allow_autologin_explain'] = 'Wybierz w jaki sposÃ³b uÅ¼ytkownicy mogÄ… byÄ‡ automatycznie logowani.<br />Automatyczne logowanie jest bezpieczne tylko wtedy, gdy jest sprawdzanie adresu IP. Istnieje zabezpieczenie kont uÅ¼ytkownikÃ³w i automatycznego logowania ktÃ³re polega na sprawdzaniu adresu IP ostatniej wizyty, jeÅ¼eli jest on inny, wymaga rÄ™cznego zalogowania. MoÅ¼e to byÄ‡ utrudnieniem dla osÃ³b ze zmiennym IP. Zwykli uÅ¼ytkownicy majÄ… moÅ¼liwoÅ›Ä‡ wyÅ‚Ä…czenia tego zabezpieczenia w swoim profilu, nie majÄ… jej Administratorzy, Junior Administratorzy i Moderatorzy. Administrator ma moÅ¼liwoÅ›Ä‡ wyÅ‚Ä…czenia tej funkcji dla dowolnego uÅ¼ytkownika w edycji jego profilu.';
+$lang['Posting'] = 'Pisanie postÃ³w';
+$lang['Registering'] = 'RejestracjÄ™';
+$lang['AA_no_limit'] = 'Bez ograniczeÅ„';
 $lang['AA_with_IP'] = 'Ze sprawdzaniem ostatniego adresu IP';
 $lang['AA_with_staff_IP'] = 'Ze sprawdzaniem ostatniego adresu IP dla Admina i Moderatora';
-$lang['Public_category'] = 'Je¿eli chcesz aby forum by³o prezentowane w <a href="http://www.przemo.org/phpBB2/forums.php" target="_blank">Katalogu Forów Dyskusyjnych</a> wybierz jedn± z kategorii. W katalogu pojawi siê adres forum pobrany z Nazwy Domeny i ¦cie¿ki Skryptu oraz opis pobrany z Opisu Strony. Uwaga, opis bêdzie skrócony do 100 znaków. Aktualizacja danych jest dokonywana raz na dwa dni podczas wej¶cia do Panelu Admina, podobnie jak pobieranie informacji o aktualizacjach';
+$lang['Public_category'] = 'JeÅ¼eli chcesz aby forum byÅ‚o prezentowane w <a href="http://www.przemo.org/phpBB2/forums.php" target="_blank">Katalogu ForÃ³w Dyskusyjnych</a> wybierz jednÄ… z kategorii. W katalogu pojawi siÄ™ adres forum pobrany z Nazwy Domeny i ÅšcieÅ¼ki Skryptu oraz opis pobrany z Opisu Strony. Uwaga, opis bÄ™dzie skrÃ³cony do 100 znakÃ³w. Aktualizacja danych jest dokonywana raz na dwa dni podczas wejÅ›cia do Panelu Admina, podobnie jak pobieranie informacji o aktualizacjach';
 $lang['Public_categories'][] = 'Zdrowie i Uroda';
 $lang['Public_categories'][] = 'Dzieci i Rodzina';
-$lang['Public_categories'][] = '¦wiat, Ludzie i Polityka';
+$lang['Public_categories'][] = 'Åšwiat, Ludzie i Polityka';
 $lang['Public_categories'][] = 'Ekonomia i Biznes';
-$lang['Public_categories'][] = 'Jêzyki, Narody i Edukacja';
+$lang['Public_categories'][] = 'JÄ™zyki, Narody i Edukacja';
 $lang['Public_categories'][] = 'Nauka i Technika';
 $lang['Public_categories'][] = 'Kultura i Sztuka';
 $lang['Public_categories'][] = 'Muzyka';
-$lang['Public_categories'][] = 'Zwierzêta i Ro¶liny';
+$lang['Public_categories'][] = 'ZwierzÄ™ta i RoÅ›liny';
 $lang['Public_categories'][] = 'Gry';
 $lang['Public_categories'][] = 'Sport';
 $lang['Public_categories'][] = 'Internet i Komputery';

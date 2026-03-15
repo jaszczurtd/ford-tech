@@ -24,75 +24,75 @@
 $he = ($userdata['user_gender'] != 2) ? true : false;
 
 $lang['Album_config'] = 'Konfiguracja albumu';
-$lang['Album_config_explain'] = 'Tutaj mo¿esz zmieniaæ g³ówne ustawienia Albumu zdjêæ';
+$lang['Album_config_explain'] = 'Tutaj moÅ¼esz zmieniaÄ‡ gÅ‚Ã³wne ustawienia Albumu zdjÄ™Ä‡';
 $lang['Album_config_updated'] = 'Konfiguracja zmieniona';
-$lang['Click_return_album_config'] = 'Kliknij %sTutaj%s ¿eby powróciæ do konfiguracji albumu';
-$lang['Max_pics'] = 'Maksymalna liczba zdjêæ w jednej kategorii (-1 = nielimitowane)';
-$lang['User_pics_limit'] = 'Maksymalna ilo¶æ zdjêæ dla jednego u¿ytkownika (-1 = nielimitowane)';
+$lang['Click_return_album_config'] = 'Kliknij %sTutaj%s Å¼eby powrÃ³ciÄ‡ do konfiguracji albumu';
+$lang['Max_pics'] = 'Maksymalna liczba zdjÄ™Ä‡ w jednej kategorii (-1 = nielimitowane)';
+$lang['User_pics_limit'] = 'Maksymalna iloÅ›Ä‡ zdjÄ™Ä‡ dla jednego uÅ¼ytkownika (-1 = nielimitowane)';
 $lang['Moderator_pics_limit'] = 'Limit kategorii dla jednego moderatora (-1 = nielimitowane)';
-$lang['Pics_Approval'] = 'Ustawienia zdjêæ';
-$lang['Rows_per_page'] = 'Ilo¶æ rzêdów w mini galerii';
-$lang['Cols_per_page'] = 'Ilo¶æ kolumn w mini galerii';
-$lang['Thumbnail_quality'] = 'Jako¶æ miniatur zdjêæ (1-100)';
+$lang['Pics_Approval'] = 'Ustawienia zdjÄ™Ä‡';
+$lang['Rows_per_page'] = 'IloÅ›Ä‡ rzÄ™dÃ³w w mini galerii';
+$lang['Cols_per_page'] = 'IloÅ›Ä‡ kolumn w mini galerii';
+$lang['Thumbnail_quality'] = 'JakoÅ›Ä‡ miniatur zdjÄ™Ä‡ (1-100)';
 $lang['Thumbnail_cache'] = 'Cache minigalerii';
-$lang['Manual_thumbnail'] = 'Rêczna minigaleria';
+$lang['Manual_thumbnail'] = 'RÄ™czna minigaleria';
 $lang['GD_version'] = 'Optymalizacja dla wersji GD';
-$lang['GD_version_e'] = 'W zale¿no¶ci od systemu i rodzaju zainstalowanego kompresora grafiki, musisz wybraæ eksperymentalnie wersjê optymalizacji. Wersja 2 w systemach unixowych z regu³y dzia³a dobrze, przy wersji 1 miniatury kompresuje brzydko. Wersja 2 natomiast w systemach windowsowych czêsto powoduje b³±d przy dodawaniu zdjêcia, a wersja 1 dzia³a dobrze i miniatury wygl±daj± ³adnie';
-$lang['Pic_Desc_Max_Length'] = 'Opis zdjêcia/Komentarz wielko¶æ (bytes)';
+$lang['GD_version_e'] = 'W zaleÅ¼noÅ›ci od systemu i rodzaju zainstalowanego kompresora grafiki, musisz wybraÄ‡ eksperymentalnie wersjÄ™ optymalizacji. Wersja 2 w systemach unixowych z reguÅ‚y dziaÅ‚a dobrze, przy wersji 1 miniatury kompresuje brzydko. Wersja 2 natomiast w systemach windowsowych czÄ™sto powoduje bÅ‚Ä…d przy dodawaniu zdjÄ™cia, a wersja 1 dziaÅ‚a dobrze i miniatury wyglÄ…dajÄ… Å‚adnie';
+$lang['Pic_Desc_Max_Length'] = 'Opis zdjÄ™cia/Komentarz wielkoÅ›Ä‡ (bytes)';
 $lang['Hotlink_prevent'] = 'Zapobieganie hotlinkom';
-$lang['Hotlink_allowed'] = 'Zezwolenia hotlinków dla domen (oddzielanie przecinkami)';
-$lang['Personal_gallery'] = 'Zezwolenia na tworzenie prywatnych galerii dla u¿ytkowników';
-$lang['Personal_gallery_limit'] = 'Limit zdjêæ dla jednej prywatnej galerii (-1 = nielimitowane)';
-$lang['Personal_gallery_view'] = 'Kto mo¿e przegl±daæ prywatne galerie';
-$lang['Rate_system'] = 'W³±cz oceny';
+$lang['Hotlink_allowed'] = 'Zezwolenia hotlinkÃ³w dla domen (oddzielanie przecinkami)';
+$lang['Personal_gallery'] = 'Zezwolenia na tworzenie prywatnych galerii dla uÅ¼ytkownikÃ³w';
+$lang['Personal_gallery_limit'] = 'Limit zdjÄ™Ä‡ dla jednej prywatnej galerii (-1 = nielimitowane)';
+$lang['Personal_gallery_view'] = 'Kto moÅ¼e przeglÄ…daÄ‡ prywatne galerie';
+$lang['Rate_system'] = 'WÅ‚Ä…cz oceny';
 $lang['Rate_Scale'] =' Skala ocen';
-$lang['Comment_system'] = 'W³±cz komentarze';
+$lang['Comment_system'] = 'WÅ‚Ä…cz komentarze';
 $lang['Thumbnail_Settings'] = 'Ustawienia minigalerii';
 $lang['Extra_Settings'] = 'Dodatkowe ustawienia';
-$lang['Default_Sort_Method'] = 'Domy¶lna metoda sortowania';
-$lang['Default_Sort_Order'] = 'Domy¶lny porz±dek sortowania';
-$lang['Fullpic_Popup'] = 'Oryginalny widok zdjêcia jako PopUp';
+$lang['Default_Sort_Method'] = 'DomyÅ›lna metoda sortowania';
+$lang['Default_Sort_Order'] = 'DomyÅ›lny porzÄ…dek sortowania';
+$lang['Fullpic_Popup'] = 'Oryginalny widok zdjÄ™cia jako PopUp';
 
 
 // Personal Gallery Page
 $lang['Personal_Galleries'] = 'Prywatne galerie';
 $lang['Album_personal_gallery_title'] = 'Prywatna galeria';
-$lang['Album_personal_gallery_explain'] = 'Tutaj mo¿esz ustawiæ, która grupa u¿ytkowników ma prawa do tworzenia i przegl±dania w³asnych galerii, je¶li ogólnie wy³±czy³' .  (($he) ? 'e' : 'a') . '¶ mo¿liwo¶æ tworzenia i przegl±du prywatnych galerii.';
+$lang['Album_personal_gallery_explain'] = 'Tutaj moÅ¼esz ustawiÄ‡, ktÃ³ra grupa uÅ¼ytkownikÃ³w ma prawa do tworzenia i przeglÄ…dania wÅ‚asnych galerii, jeÅ›li ogÃ³lnie wyÅ‚Ä…czyÅ‚' .  (($he) ? 'e' : 'a') . 'Å› moÅ¼liwoÅ›Ä‡ tworzenia i przeglÄ…du prywatnych galerii.';
 $lang['Album_personal_successfully'] = 'Ustawienia zapisane';
-$lang['Click_return_album_personal'] = 'Kliknij %sTutaj%s ¿eby wróciæ do ustawieñ prywatnych galerii';
+$lang['Click_return_album_personal'] = 'Kliknij %sTutaj%s Å¼eby wrÃ³ciÄ‡ do ustawieÅ„ prywatnych galerii';
 
 //
 // Categories
 //
 $lang['Album_Categories_Title'] = 'Ustawienia kategorii Albumu';
-$lang['Album_Categories_Explain'] = 'Tutaj mo¿esz ustawiæ ustawienia tworzenia, dodawania, usuwania, sortowania, itp.';
+$lang['Album_Categories_Explain'] = 'Tutaj moÅ¼esz ustawiÄ‡ ustawienia tworzenia, dodawania, usuwania, sortowania, itp.';
 $lang['Category_Permissions'] = 'Poziomy kategorii';
-$lang['Category_Title'] = 'Tytu³ kategorii';
+$lang['Category_Title'] = 'TytuÅ‚ kategorii';
 $lang['Category_Desc'] = 'Opis kategorii';
-$lang['View_level'] = 'Poziom dla podgl±du';
+$lang['View_level'] = 'Poziom dla podglÄ…du';
 $lang['Upload_level'] = 'Poziom dla dodawania';
 $lang['Rate_level'] = 'Poziom dla oceny';
 $lang['Comment_level'] = 'Poziom dla komentarzy';
 $lang['Edit_level'] = ' Poziom dla edytowania';
 $lang['Delete_level'] = 'Poziom dla kasowania';
-$lang['New_category_created'] = 'Nowa kategoria zosta³a utworzona';
-$lang['Click_return_album_category'] = 'Kliknij %sTutaj%s ¿eby powróciæ do ustawieñ kategorii';
-$lang['Category_updated'] = 'Kategoria zosta³a zaktualizowana';
-$lang['Delete_Category'] = 'Usuñ kategorie';
-$lang['Delete_Category_Explain'] = 'W tym miejscu mo¿esz usun±æ kategorie i wybraæ gdzie maj± znale¼æ siê zdjêcia z usuwanej kategorii';
+$lang['New_category_created'] = 'Nowa kategoria zostaÅ‚a utworzona';
+$lang['Click_return_album_category'] = 'Kliknij %sTutaj%s Å¼eby powrÃ³ciÄ‡ do ustawieÅ„ kategorii';
+$lang['Category_updated'] = 'Kategoria zostaÅ‚a zaktualizowana';
+$lang['Delete_Category'] = 'UsuÅ„ kategorie';
+$lang['Delete_Category_Explain'] = 'W tym miejscu moÅ¼esz usunÄ…Ä‡ kategorie i wybraÄ‡ gdzie majÄ… znaleÅºÄ‡ siÄ™ zdjÄ™cia z usuwanej kategorii';
 
-$lang['Delete_all_pics'] = 'Usuñ wszystkie zdjêcia z tej kategorii';
-$lang['Category_deleted'] = 'Kategoria usuniêta';
+$lang['Delete_all_pics'] = 'UsuÅ„ wszystkie zdjÄ™cia z tej kategorii';
+$lang['Category_deleted'] = 'Kategoria usuniÄ™ta';
 
 //
 // Permissions
 //
-$lang['Album_Auth_Title'] = 'Prawa u¿ytkowników';
-$lang['Album_Auth_Explain'] = 'Mo¿esz wybraæ które grupy lub u¿ytkownicy bêd± moderatorami dla jakiej kategorii albumu.';
-$lang['Select_a_Category'] = 'Wybierz kategoriê';
-$lang['Look_up_Category'] = 'Podgl±d kategorii';
+$lang['Album_Auth_Title'] = 'Prawa uÅ¼ytkownikÃ³w';
+$lang['Album_Auth_Explain'] = 'MoÅ¼esz wybraÄ‡ ktÃ³re grupy lub uÅ¼ytkownicy bÄ™dÄ… moderatorami dla jakiej kategorii albumu.';
+$lang['Select_a_Category'] = 'Wybierz kategoriÄ™';
+$lang['Look_up_Category'] = 'PodglÄ…d kategorii';
 $lang['Album_Auth_successfully'] = 'Ustawienia zapisane';
-$lang['Click_return_album_auth'] = 'Kliknij %sTutaj%s ¿eby powróciæ do ustawieñ praw u¿ytkowników';
+$lang['Click_return_album_auth'] = 'Kliknij %sTutaj%s Å¼eby powrÃ³ciÄ‡ do ustawieÅ„ praw uÅ¼ytkownikÃ³w';
 
 $lang['Upload'] = 'Dodawanie';
 $lang['Rate'] = 'Ocena';
@@ -101,19 +101,19 @@ $lang['Comment'] = 'Komentarz';
 //
 // Clear Cache
 //
-$lang['Clear_Cache'] = 'Wyczy¶æ Cache';
-$lang['Album_clear_cache_confirm'] = 'Je¶li masz w³±czony cache dla miniatur musisz wyczy¶ciæ cache po zmianie ustawieñ Albumu.<br /><br />Chcesz wyczy¶ciæ teraz?';
+$lang['Clear_Cache'] = 'WyczyÅ›Ä‡ Cache';
+$lang['Album_clear_cache_confirm'] = 'JeÅ›li masz wÅ‚Ä…czony cache dla miniatur musisz wyczyÅ›ciÄ‡ cache po zmianie ustawieÅ„ Albumu.<br /><br />Chcesz wyczyÅ›ciÄ‡ teraz?';
 
-$lang['Create_album'] = 'Utwórz nowy album';
-$lang['Create_sub_album'] = 'Utwórz podkategorie albumu';
+$lang['Create_album'] = 'UtwÃ³rz nowy album';
+$lang['Create_sub_album'] = 'UtwÃ³rz podkategorie albumu';
 
 $lang['Thumbnail_cache_cleared_successfully'] = '<br />Cache wyczyszczony<br />&nbsp;';
 
 $lang['Watermark_transparent'] = 'Znak wodny';
-$lang['Watermark_transparent_e'] = 'Podaj przezroczysto¶æ znaku wodnego w przedziale 1-99<br />Zostaje wykorzystany obrazek <b>/images/wm.png</b> mo¿esz go zmieniæ.<br />0 - wy³±czone';
-$lang['Watermark_width'] = 'Znak wodny po³o¿enie w poziomie';
-$lang['Watermark_width_e'] = 'Podaj warto¶æ w punktach, warto¶æ dodatnia - lewa strona<br />warto¶æ ujemna - prawa strona, <b>mid</b> - wy¶rodkowane';
-$lang['Watermark_height'] = 'Znak wodny po³o¿enie w pionie';
-$lang['Watermark_height_e'] = 'Podaj warto¶æ w punktach, warto¶æ dodatnia - góra<br />warto¶æ ujemna - dó³, <b>mid</b> - wy¶rodkowane';
+$lang['Watermark_transparent_e'] = 'Podaj przezroczystoÅ›Ä‡ znaku wodnego w przedziale 1-99<br />Zostaje wykorzystany obrazek <b>/images/wm.png</b> moÅ¼esz go zmieniÄ‡.<br />0 - wyÅ‚Ä…czone';
+$lang['Watermark_width'] = 'Znak wodny poÅ‚oÅ¼enie w poziomie';
+$lang['Watermark_width_e'] = 'Podaj wartoÅ›Ä‡ w punktach, wartoÅ›Ä‡ dodatnia - lewa strona<br />wartoÅ›Ä‡ ujemna - prawa strona, <b>mid</b> - wyÅ›rodkowane';
+$lang['Watermark_height'] = 'Znak wodny poÅ‚oÅ¼enie w pionie';
+$lang['Watermark_height_e'] = 'Podaj wartoÅ›Ä‡ w punktach, wartoÅ›Ä‡ dodatnia - gÃ³ra<br />wartoÅ›Ä‡ ujemna - dÃ³Å‚, <b>mid</b> - wyÅ›rodkowane';
 
 ?>

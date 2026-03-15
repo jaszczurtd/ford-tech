@@ -1,83 +1,83 @@
 <?php
 
 $lang['to_low_php'] = 'zbyt niska wersja.';
-$lang['cookie_different'] = 'Nazwa Domeny inna ni¿ Domena Cookie';
+$lang['cookie_different'] = 'Nazwa Domeny inna niÅ¼ Domena Cookie';
 $lang['is_writable'] = 'do zapisu';
 $lang['not_writable'] = 'nie do zapisu';
-$lang['set_chmod'] = 'Spróbuj ustawiæ prawa do zapisu przez FTP u¿ywaj±c komendy:';
-$lang['function_ct_not_exists'] = 'funkcja tworzenia miniatur obrazków nie istnieje !</font> Biblioteka GD nieza³adowana.';
-$lang['gd_loaded'] = 'funkcja istnieje, biblioteka GD za³adowana';
-$lang['function_gd'] = 'funkcja istnieje, biblioteka GD <b>[ %s ]</b> za³adowana';
-$lang['function_zlip_not_exists'] = 'biblioteka zlib nie za³adowana !.</font> Potrzebna jest m.in. do uwierzytelniania graficznego.';
-$lang['loaded'] = 'za³adowane';
-$lang['fcr'] = 'Rezultat sprawdzania poprawno¶ci plików:';
-$lang['wrong_content'] = 'Z³a zawarto¶æ';
+$lang['set_chmod'] = 'SprÃ³buj ustawiÄ‡ prawa do zapisu przez FTP uÅ¼ywajÄ…c komendy:';
+$lang['function_ct_not_exists'] = 'funkcja tworzenia miniatur obrazkÃ³w nie istnieje !</font> Biblioteka GD niezaÅ‚adowana.';
+$lang['gd_loaded'] = 'funkcja istnieje, biblioteka GD zaÅ‚adowana';
+$lang['function_gd'] = 'funkcja istnieje, biblioteka GD <b>[ %s ]</b> zaÅ‚adowana';
+$lang['function_zlip_not_exists'] = 'biblioteka zlib nie zaÅ‚adowana !.</font> Potrzebna jest m.in. do uwierzytelniania graficznego.';
+$lang['loaded'] = 'zaÅ‚adowane';
+$lang['fcr'] = 'Rezultat sprawdzania poprawnoÅ›ci plikÃ³w:';
+$lang['wrong_content'] = 'ZÅ‚a zawartoÅ›Ä‡';
 $lang['file_missing'] = 'Brak pliku';
-$lang['result_e'] = 'Niektóre pliki maj± inn± zawarto¶æ ni¿ oryginalne. Je¿eli nie edytowa³e¶ ¿adnego pliku oznacza to problem podczas wysy³ania plików na serwer.<br />Spróbuj wys³aæ ponownie pliki wy¶wietlone powy¿ej. Spróbuj u¿yæ trybu binarnego podczas wysy³ania.';
-$lang['all_files_ok'] = 'Wszystkie pliki (%s) s± poprawne';
+$lang['result_e'] = 'NiektÃ³re pliki majÄ… innÄ… zawartoÅ›Ä‡ niÅ¼ oryginalne. JeÅ¼eli nie edytowaÅ‚eÅ› Å¼adnego pliku oznacza to problem podczas wysyÅ‚ania plikÃ³w na serwer.<br />SprÃ³buj wysÅ‚aÄ‡ ponownie pliki wyÅ›wietlone powyÅ¼ej. SprÃ³buj uÅ¼yÄ‡ trybu binarnego podczas wysyÅ‚ania.';
+$lang['all_files_ok'] = 'Wszystkie pliki (%s) sÄ… poprawne';
 
 $lang['checksum_current'] = 'suma obecna';
-$lang['checksum_correct'] = 'suma prawid³owa';
-$lang['cf_only_admin'] = 'Dostêp do CheckFiles tylko dla Administratorów.';
+$lang['checksum_correct'] = 'suma prawidÅ‚owa';
+$lang['cf_only_admin'] = 'DostÄ™p do CheckFiles tylko dla AdministratorÃ³w.';
 $lang['Wrong_sql_version'] = 'Wersja bazy SQL';
 $lang['version'] = 'wersja';
 $lang['sql_checkng'] = 'Sprawdzanie synchronizacji SQL';
-$lang['admin_explain'] = 'Je¿eli chcesz aby tylko administratorzy mieli dostêp do CheckFiles w pliku check_files.php na samym pocz±tku nadaj zmiennej: <b>$only_admin</b> warto¶æ <b>1</b><br />Pamiêtaj jednak, ¿e je¿eli gdziekolwiek bêdziesz zg³aszaæ problem z forum musisz udostêpniæ CheckFiles ! W innym wypadku nie otrzymasz pomocy.';
+$lang['admin_explain'] = 'JeÅ¼eli chcesz aby tylko administratorzy mieli dostÄ™p do CheckFiles w pliku check_files.php na samym poczÄ…tku nadaj zmiennej: <b>$only_admin</b> wartoÅ›Ä‡ <b>1</b><br />PamiÄ™taj jednak, Å¼e jeÅ¼eli gdziekolwiek bÄ™dziesz zgÅ‚aszaÄ‡ problem z forum musisz udostÄ™pniÄ‡ CheckFiles ! W innym wypadku nie otrzymasz pomocy.';
 
-$lang['user_posts'] = 'Posty u¿ytkowników';
-$lang['post_text'] = 'Tekst&nbsp;postów';
-$lang['topic_posts'] = 'Postów&nbsp;w&nbsp;tematach';
+$lang['user_posts'] = 'Posty uÅ¼ytkownikÃ³w';
+$lang['post_text'] = 'Tekst&nbsp;postÃ³w';
+$lang['topic_posts'] = 'PostÃ³w&nbsp;w&nbsp;tematach';
 $lang['topic_first_last_post'] = 'Pierwszy&nbsp;i&nbsp;ostatni&nbsp;post&nbsp;w&nbsp;temacie';
-$lang['moved_topics'] = 'Przesuniête&nbsp;tematy';
-$lang['topic_without_posts'] = 'Tematów&nbsp;bez&nbsp;postów';
-$lang['post_without_topics'] = 'Postów&nbsp;bez&nbsp;tematów';
-$lang['forums_posts'] = 'Postów&nbsp;w&nbsp;forach';
-$lang['forums_topics'] = 'Tematów&nbsp;w&nbsp;forach';
+$lang['moved_topics'] = 'PrzesuniÄ™te&nbsp;tematy';
+$lang['topic_without_posts'] = 'TematÃ³w&nbsp;bez&nbsp;postÃ³w';
+$lang['post_without_topics'] = 'PostÃ³w&nbsp;bez&nbsp;tematÃ³w';
+$lang['forums_posts'] = 'PostÃ³w&nbsp;w&nbsp;forach';
+$lang['forums_topics'] = 'TematÃ³w&nbsp;w&nbsp;forach';
 $lang['forums_last_post'] = 'Ostatni&nbsp;post&nbsp;forum';
 $lang['polls'] = 'Sondy';
-$lang['users'] = 'U¿ytkownicy';
+$lang['users'] = 'UÅ¼ytkownicy';
 $lang['all'] = 'Wszystkie';
-$lang['sync_explain'] = '(Przy du¿ych bazach danych, ta czynno¶æ mo¿e trwaæ bardzo d³ugo i znacznie obci±¿yæ serwer!)';
-$lang['back'] = 'Powrót';
-$lang['CF_back'] = 'Powrót do CheckFiles';
-$lang['users_wrong_posts'] = 'U¿ytkowników z niew³a¶ciw± ilo¶ci± postów';
-$lang['non_exists_posters'] = 'Nieistniej±cych autorów postów';
-$lang['non_exists_topic_authors'] = 'Nieistniej±cych autorów tematów';
-$lang['posts_was_sync'] = '<b>Posty zosta³y zsynchronizowane, sprawd¼ jeszcze raz ca³kowit± synchronizacje postów.<br /></b>Je¿eli wynik bêdzie negatywny uruchom synchronizacjê w panelu admina.';
-$lang['empty_posts'] = 'ID "pustych" postów bez tre¶ci postów';
-$lang['empty_posts_text'] = 'ID tre¶ci postów bez postów';
-$lang['delete_empty_posts'] = 'Usuñ "puste" posty i tre¶ci postów bez postów';
-$lang['topics_wrong_replies'] = 'Tematów z niew³a¶ciw± ilo¶ci± odpowiedzi';
-$lang['topics_wrong_last_post'] = 'Tematów z niew³a¶ciwym ID ostatniego postu';
-$lang['topics_wrong_first_post'] = 'Tematów z niew³a¶ciwym ID pierwszego postu';
-$lang['empty_moved_topics'] = '"Pustych" przesuniêtych tematów (do usuniêcia) bez odpowiednika';
-$lang['topics_was_sync'] = '<b>Tematy zosta³y zsynchronizowane, sprawd¼ jeszcze raz ca³kowit± synchronizacje forum (wszystkie).<br /></b>Je¿eli wynik bêdzie negatywny uruchom synchronizacjê w panelu admina.';
-$lang['empty_topics'] = 'Tematów nie przypisanych do ¿adnego lub odpowiedniego forum: <b>%s</b><br />[Topic ID - Forum ID]: %s<br />Kliknij %sTutaj%s aby usun±æ te tematy.';
-$lang['forums_wrong_posts'] = 'Forów z niew³a¶ciw± ilo¶ci± postów';
-$lang['forums_wrong_topics'] = 'Forów z niew³a¶ciw± ilo¶ci± tematów';
-$lang['forums_wrong_last_post'] = 'Forów z niew³a¶ciwym ostatnim postem';
-$lang['polls_without_topics'] = 'Sond bez tematów';
-$lang['votes_without_polls'] = 'G³osów nieprzydzielonych do sond';
-$lang['voters_without_polls'] = 'G³osuj±cych nieprzydzielonych do sond';
-$lang['users_without_groups'] = 'U¿ytkowników bez grup: <b>%s</b><br />User ID\'s: %s<br /><font size="1">Ka¿dy u¿ytkownik ma przypisan± grupê i personaln± grupê (groups i user_groups), bez nich u¿ytkownikowi nie mo¿na nadaæ dodatkowych praw.<br />Problem ten móg³ powstaæ podczas awarii bazy SQL, lub rêcznej edycji bazy SQL, ciê¿ko jest go usun±æ, z uwagi na unikalno¶æ i brak powi±zania ID grupy, oraz ID personalnej grupy z u¿ytkownikiem.</font><br />%sNapraw%s (u¿ytkownicy z listy powy¿ej utrac± przywileje [moderator, przynale¿no¶æ do grup] )';
+$lang['sync_explain'] = '(Przy duÅ¼ych bazach danych, ta czynnoÅ›Ä‡ moÅ¼e trwaÄ‡ bardzo dÅ‚ugo i znacznie obciÄ…Å¼yÄ‡ serwer!)';
+$lang['back'] = 'PowrÃ³t';
+$lang['CF_back'] = 'PowrÃ³t do CheckFiles';
+$lang['users_wrong_posts'] = 'UÅ¼ytkownikÃ³w z niewÅ‚aÅ›ciwÄ… iloÅ›ciÄ… postÃ³w';
+$lang['non_exists_posters'] = 'NieistniejÄ…cych autorÃ³w postÃ³w';
+$lang['non_exists_topic_authors'] = 'NieistniejÄ…cych autorÃ³w tematÃ³w';
+$lang['posts_was_sync'] = '<b>Posty zostaÅ‚y zsynchronizowane, sprawdÅº jeszcze raz caÅ‚kowitÄ… synchronizacje postÃ³w.<br /></b>JeÅ¼eli wynik bÄ™dzie negatywny uruchom synchronizacjÄ™ w panelu admina.';
+$lang['empty_posts'] = 'ID "pustych" postÃ³w bez treÅ›ci postÃ³w';
+$lang['empty_posts_text'] = 'ID treÅ›ci postÃ³w bez postÃ³w';
+$lang['delete_empty_posts'] = 'UsuÅ„ "puste" posty i treÅ›ci postÃ³w bez postÃ³w';
+$lang['topics_wrong_replies'] = 'TematÃ³w z niewÅ‚aÅ›ciwÄ… iloÅ›ciÄ… odpowiedzi';
+$lang['topics_wrong_last_post'] = 'TematÃ³w z niewÅ‚aÅ›ciwym ID ostatniego postu';
+$lang['topics_wrong_first_post'] = 'TematÃ³w z niewÅ‚aÅ›ciwym ID pierwszego postu';
+$lang['empty_moved_topics'] = '"Pustych" przesuniÄ™tych tematÃ³w (do usuniÄ™cia) bez odpowiednika';
+$lang['topics_was_sync'] = '<b>Tematy zostaÅ‚y zsynchronizowane, sprawdÅº jeszcze raz caÅ‚kowitÄ… synchronizacje forum (wszystkie).<br /></b>JeÅ¼eli wynik bÄ™dzie negatywny uruchom synchronizacjÄ™ w panelu admina.';
+$lang['empty_topics'] = 'TematÃ³w nie przypisanych do Å¼adnego lub odpowiedniego forum: <b>%s</b><br />[Topic ID - Forum ID]: %s<br />Kliknij %sTutaj%s aby usunÄ…Ä‡ te tematy.';
+$lang['forums_wrong_posts'] = 'ForÃ³w z niewÅ‚aÅ›ciwÄ… iloÅ›ciÄ… postÃ³w';
+$lang['forums_wrong_topics'] = 'ForÃ³w z niewÅ‚aÅ›ciwÄ… iloÅ›ciÄ… tematÃ³w';
+$lang['forums_wrong_last_post'] = 'ForÃ³w z niewÅ‚aÅ›ciwym ostatnim postem';
+$lang['polls_without_topics'] = 'Sond bez tematÃ³w';
+$lang['votes_without_polls'] = 'GÅ‚osÃ³w nieprzydzielonych do sond';
+$lang['voters_without_polls'] = 'GÅ‚osujÄ…cych nieprzydzielonych do sond';
+$lang['users_without_groups'] = 'UÅ¼ytkownikÃ³w bez grup: <b>%s</b><br />User ID\'s: %s<br /><font size="1">KaÅ¼dy uÅ¼ytkownik ma przypisanÄ… grupÄ™ i personalnÄ… grupÄ™ (groups i user_groups), bez nich uÅ¼ytkownikowi nie moÅ¼na nadaÄ‡ dodatkowych praw.<br />Problem ten mÃ³gÅ‚ powstaÄ‡ podczas awarii bazy SQL, lub rÄ™cznej edycji bazy SQL, ciÄ™Å¼ko jest go usunÄ…Ä‡, z uwagi na unikalnoÅ›Ä‡ i brak powiÄ…zania ID grupy, oraz ID personalnej grupy z uÅ¼ytkownikiem.</font><br />%sNapraw%s (uÅ¼ytkownicy z listy powyÅ¼ej utracÄ… przywileje [moderator, przynaleÅ¼noÅ›Ä‡ do grup] )';
 $lang['SQL_unsync'] = 'Baza nie jest zsynchronizowana !';
-$lang['SQL_unsync_e'] = 'Narzêdzia do synchronizacji bazy SQL, znajdziesz w Panelu Administratora w sekcji: Fora, U¿ytkownicy i Za³±czniki</b><br /><font size="1">W prawid³owym dzia³aniu forum nie przeszkadza desynchronizacja:<br />- Postów u¿ytkowników (wynikaæ mo¿e ona na przyk³ad z oznaczenia forum jako niezliczaj±cego posty, po napisaniu tematów w tym forum)<br />- Ró¿nica w ilo¶ci postów i tre¶ci postów, pod warunkiem, ¿e ilo¶æ tre¶ci postów jest wiêksza<br />&nbsp;&nbsp;(na ogó³ jest przyczyn± rêcznej edycji bazy danych, lub niestabilno¶ci± serwera)<br />- Sondy nieprzypisane do tematów<br />Pozosta³e desynchronizacje nale¿y jak najszybciej eliminowaæ.</font>';
+$lang['SQL_unsync_e'] = 'NarzÄ™dzia do synchronizacji bazy SQL, znajdziesz w Panelu Administratora w sekcji: Fora, UÅ¼ytkownicy i ZaÅ‚Ä…czniki</b><br /><font size="1">W prawidÅ‚owym dziaÅ‚aniu forum nie przeszkadza desynchronizacja:<br />- PostÃ³w uÅ¼ytkownikÃ³w (wynikaÄ‡ moÅ¼e ona na przykÅ‚ad z oznaczenia forum jako niezliczajÄ…cego posty, po napisaniu tematÃ³w w tym forum)<br />- RÃ³Å¼nica w iloÅ›ci postÃ³w i treÅ›ci postÃ³w, pod warunkiem, Å¼e iloÅ›Ä‡ treÅ›ci postÃ³w jest wiÄ™ksza<br />&nbsp;&nbsp;(na ogÃ³Å‚ jest przyczynÄ… rÄ™cznej edycji bazy danych, lub niestabilnoÅ›ciÄ… serwera)<br />- Sondy nieprzypisane do tematÃ³w<br />PozostaÅ‚e desynchronizacje naleÅ¼y jak najszybciej eliminowaÄ‡.</font>';
 $lang['SQL_sync'] = 'Baza jest zsynchronizowana';
 $lang['sync'] = 'Zsynchronizowane';
 $lang['gentime'] = 'Czas sprawdzania';
-$lang['SQL_queries'] = 'Wykonanych zapytañ';
-$lang['check_SQL'] = 'Sprawd¼ synchronizacjê bazy SQL';
+$lang['SQL_queries'] = 'Wykonanych zapytaÅ„';
+$lang['check_SQL'] = 'SprawdÅº synchronizacjÄ™ bazy SQL';
 $lang['domain_name'] = 'Nazwa Domeny';
-$lang['domain_name_wrong'] = 'Nazwa Domeny ró¿ni siê od Domeny Cookie !';
+$lang['domain_name_wrong'] = 'Nazwa Domeny rÃ³Å¼ni siÄ™ od Domeny Cookie !';
 $lang['gzip'] = 'Kompresja gzip forum';
 $lang['installed_mods'] = 'Zainstalowane mody';
 $lang['modified'] = 'modyfikowany';
-$lang['count_chr'] = 'Ilo¶æ znaków:<br />Aktualnie - Oryginalnie';
+$lang['count_chr'] = 'IloÅ›Ä‡ znakÃ³w:<br />Aktualnie - Oryginalnie';
 $lang['filename'] = 'Nazwa pliku';
 $lang['forum_compress'] = 'skrypt';
 $lang['server_compress'] = 'serwer';
 $lang['Missing_tables'] = 'W bazie SQL brak tabel';
 $lang['Missing_table_fields'] = 'W tabeli "%s" brak kolumn';
 $lang['Missing_field'] = 'W tabeli: %s brak kolumn';
-$lang['Missing_inserts'] = 'W tabeli: %s brak wpisów';
+$lang['Missing_inserts'] = 'W tabeli: %s brak wpisÃ³w';
 ?>
