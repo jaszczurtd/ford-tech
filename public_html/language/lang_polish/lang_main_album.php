@@ -40,7 +40,7 @@ $lang['View'] = 'Ods³on';
 // Category View
 //
 $lang['Category_not_exist'] = 'Ta kategoria nie istnieje lub nie posiadasz do niej praw dostêpu';
-$lang['Upload_Pic'] = 'Dodaj zdjêcie';
+$lang['Upload_Pic'] = 'Dodaj zdjêcia';
 $lang['Pic_Title'] = 'Tytu³ zdjêcia';
 
 $lang['Album_moderate_can'] = '<b>Mo¿esz</b> %smoderowaæ%s tê kategorie';

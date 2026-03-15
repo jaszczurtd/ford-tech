@@ -17,7 +17,7 @@ function checkForm() {
         bbstyle(-1); 
         //formObj.preview.disabled = true; 
         //formObj.submit.disabled = true; 
-    setTimeout("document.post.post.disabled = true; document.post.post.value='Wysy³anie...'", 0); 
+    setTimeout("document.post.post.disabled = true; document.post.post.value='Wysyï¿½anie...'", 0); 
             document.post.message.scrollTop = prevTop; 
         return true; 
     } 
@@ -118,6 +118,7 @@ function bbcode(strFore, strAft)
       <!-- BEGIN user_logged_in -->
 	  <b>{L_OPTIONS}</b><br>
       <input type="checkbox" name="attach_sig" {quick_reply.user_logged_in.ATTACH_SIGNATURE}>{L_ATTACH_SIGNATURE}<br><input type="checkbox" name="notify" {quick_reply.user_logged_in.NOTIFY_ON_REPLY}>{L_NOTIFY_ON_REPLY}
+      {quick_reply.user_logged_in.GALLERY_HTML}
       <!-- END user_logged_in -->
       <!-- BEGIN switch_lock_topic -->
       <br><input type="checkbox" name="lock">{L_LOCK_TOPIC}

@@ -331,6 +331,7 @@ var new_size2 = 0;
 			<tr>
 				<td><span class="gen"><textarea name="message" id="message" rows="15" cols="35" style="width:550px" tabindex="3" class="post" onFocus="Active(this)" onBlur="NotActive(this)" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);">{MESSAGE}</textarea></span></td>
 			</tr>
+			{GALLERY_HTML}
 		</table>
 	</td>
 	</tr>

@@ -40,9 +40,42 @@ $template->assign_block_vars('quick_reply', array(
 
 if ( $userdata['session_logged_in'] )
 {
+	// Gallery: load logged-in user's album images
+	$gallery_html = '';
+	$sql = "SELECT pic_id, pic_filename, pic_thumbnail, pic_title
+		FROM " . ALBUM_TABLE . "
+		WHERE pic_user_id = " . intval($userdata['user_id']) . "
+		ORDER BY pic_id DESC
+		LIMIT 100";
+	if ( $result = $db->sql_query($sql) )
+	{
+		$items = '';
+		while ( $pic = $db->sql_fetchrow($result) )
+		{
+			$pic_id    = intval($pic['pic_id']);
+			$thumb_url = $phpbb_root_path . 'album_mod/upload/cache/' . $pic['pic_thumbnail'];
+			$title     = htmlspecialchars($pic['pic_title'], ENT_QUOTES);
+			$server_protocol = (!empty($board_config['cookie_secure'])) ? 'https://' : 'http://';
+			$base_url  = rtrim($server_protocol . $board_config['server_name'] . $board_config['script_path'], '/') . '/';
+			$bbcode    = '[URL=' . $base_url . 'album_pic.php?pic_id=' . $pic_id . '][img]' . $base_url . 'album_thumbnail.php?pic_id=' . $pic_id . '[/img][/URL]';
+			$items .= '<span style="display:inline-block;text-align:center;vertical-align:top;margin-right:6px;cursor:pointer;max-width:120px;" onclick="qrInsertBB(\'' . addslashes($bbcode) . '\');" title="' . $title . '">'
+				. '<img src="' . $thumb_url . '" style="max-height:120px;max-width:120px;display:block;margin:0 auto;" border="0" alt="' . $title . '">'
+				. '<span class="gensmall" style="display:block;white-space:normal;word-break:break-all;max-width:120px;margin-top:4px;">' . $title . '</span>'
+				. '</span>';
+		}
+		$db->sql_freeresult($result);
+		if ( $items )
+		{
+			$gallery_html = '<table width="100%" style="table-layout:fixed;border-collapse:collapse;margin-top:6px;border-top:1px solid #444;" cellpadding="0" cellspacing="0"><tr><td style="overflow:hidden;padding:0;"><div id="qr-gallery" style="overflow-x:auto;overflow-y:hidden;white-space:nowrap;height:160px;padding:4px 2px;">'
+				. $items
+				. '</div></td></tr></table>'
+				. '<script type="text/javascript">function qrInsertBB(tag){var f=document.post;if(f&&f.message){var t=f.message;var v=t.value;var s=t.selectionStart;t.value=v.substring(0,s)+tag+v.substring(s);t.selectionStart=t.selectionEnd=s+tag.length;t.focus();}}</script>';
+		}
+	}
 	$template->assign_block_vars('quick_reply.user_logged_in', array(
 		'ATTACH_SIGNATURE' => ($userdata['user_attachsig']) ? ' checked="checked"' : '',
-		'NOTIFY_ON_REPLY' => ($notify_user || $userdata['user_notify']) ? ' checked="checked"' : '')
+		'NOTIFY_ON_REPLY'  => ($notify_user || $userdata['user_notify']) ? ' checked="checked"' : '',
+		'GALLERY_HTML'     => $gallery_html)
 	);
 }
 else

@@ -1,27 +1,22 @@
 <script language="JavaScript" type="text/javascript">
 <!--
 function checkAlbumForm() {
-	formErrors = false;
+	var fileInput = document.upload['pic_file[]'];
+	var fileCount = (fileInput && fileInput.files) ? fileInput.files.length : (fileInput && fileInput.value.length > 0 ? 1 : 0);
 
-	if (document.upload.pic_title.value.length < 2)
-	{
-		formErrors = "{L_UPLOAD_NO_TITLE}";
-	}
-	else if (document.upload.pic_file.value.length < 2)
-	{
-		formErrors = "{L_UPLOAD_NO_FILE}";
-	}
-	else if (document.upload.pic_desc.value.length > {S_PIC_DESC_MAX_LENGTH})
-	{
-		formErrors = "{L_DESC_TOO_LONG}";
-	}
-
-	if (formErrors) {
-		alert(formErrors);
+	if (fileCount < 1) {
+		alert("{L_UPLOAD_NO_FILE}");
 		return false;
-	} else {
-		return true;
 	}
+	if (fileCount == 1 && document.upload.pic_title.value.length < 2) {
+		alert("{L_UPLOAD_NO_TITLE}");
+		return false;
+	}
+	if (document.upload.pic_desc.value.length > {S_PIC_DESC_MAX_LENGTH}) {
+		alert("{L_DESC_TOO_LONG}");
+		return false;
+	}
+	return true;
 }
 // -->
 </script>
@@ -44,7 +39,7 @@ function checkAlbumForm() {
   </tr>
 <!-- END switch_user_logged_out -->
   <tr>
-	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span></td>
+	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span><br><span class="gensmall">(opcjonalny przy wielu plikach — użyta zostanie nazwa pliku)</span></td>
 	<td class="row2"><input class="post" type="text" name="pic_title" size="60"></td>
   </tr>
   <tr>
@@ -53,8 +48,11 @@ function checkAlbumForm() {
 	<td class="row2"><textarea class="post" cols="60" rows="4" name="pic_desc" size="60"></textarea></td>
   </tr>
   <tr>
+	<td class="row1" colspan="2"><span class="gensmall" style="display:block;padding:6px 8px;background:#1a1a2e;border-left:3px solid #5577aa;line-height:1.6;">Mo&#380;esz doda&#263; kilka zdj&#281;&#263; na raz. Kliknij przycisk &quot;Wybierz plik&quot;, a nast&#281;pnie &mdash; trzymaj&#261;c wci&#347;ni&#281;ty klawisz <b>Ctrl</b> &mdash; klikaj kolejne zdj&#281;cia. Wszystkie zaznaczone zostan&#261; dodane do galerii jednocze&#347;nie.<br>Tytu&#322; jest opcjonalny: je&#347;li go nie wpiszesz, ka&#380;de zdj&#281;cie otrzyma tytu&#322; taki jak nazwa pliku.</span></td>
+  </tr>
+  <tr>
 	<td class="row1"><span class="gen">{L_UPLOAD_PIC_FROM_MACHINE}:</span></td>
-	<td class="row2"><input class="post" type="file" name="pic_file" size="49"></td>
+	<td class="row2"><input class="post" type="file" name="pic_file[]" multiple accept="image/jpeg,image/png,image/gif" size="49"></td>
   </tr>
 <!-- BEGIN switch_manual_thumbnail -->
   <tr>

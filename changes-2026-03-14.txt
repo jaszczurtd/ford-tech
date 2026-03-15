@@ -113,6 +113,40 @@ Cel: uruchomienie forum phpBB 2.x (modyfikacja Przemo ~1.12.5) lokalnie pod PHP 
       (stala uzywana w album_personal.php i album_upload.php,
        nigdzie niezdefiniowana — crash przy probie wejscia w album uzytkownika)
 
+21. public_html/viewforum.php
+    - 3 wywolania count($userdata['unread_data'][...]) ->
+      count((array)$userdata['unread_data'][...])
+      (PHP 8 TypeError przy null — crash przy wejsciu w sekcje forum)
+
+22. public_html/quick_reply.php
+    public_html/templates/ApartDark/quick_reply.tpl
+    - Dodano poziomo przewijana galerie zdiec uzytkownika w sekcji Szybka odpowiedz
+      (pojawia sie pod checkboxem "Powiadom mnie gdy ktos odpowie")
+    - Klikniecie miniaturki wkleja do pola tekstowego BBCode:
+      [URL=https://.../album_pic.php?pic_id=X][img]https://.../album_thumbnail.php?pic_id=X[/img][/URL]
+    - Galeria opakowana w mini-tabele z table-layout:fixed, aby nie rozpychala layoutu strony
+
+23. public_html/posting.php
+    public_html/templates/ApartDark/posting_body.tpl
+    - Dodano ta sama galerie zdiec uzytkownika w formularzu posting.php
+      (pojawia sie pod polem tekstowym wiadomosci)
+
+24. public_html/album_upload.php
+    - Przepisano galaz przetwarzania uploadu na petle foreach
+      umozliwiajaca dodanie wielu zdiec jednoczesnie
+    - Normalizacja $_FILES['pic_file'] do tablicy plikow (obsluga single i multi)
+    - Tytul opcjonalny przy batch upload — uzywana jest oryginalna nazwa pliku
+    - Raport wynikow: "Dodano X z Y zdiec" + lista bledow per plik
+
+25. public_html/templates/ApartDark/album_upload_body.tpl
+    - input[type=file] zmieniony na multiple z accept="image/jpeg,image/png,image/gif"
+    - Zaktualizowana walidacja JS (obsluga wielu plikow, tytul opcjonalny przy >1 pliku)
+    - Dodana informacja dla uzytkownika o mozliwosci zaznaczenia wielu zdiec (Ctrl+klik)
+    - Tytul oznaczony jako opcjonalny przy wielu plikach
+
+26. public_html/language/lang_polish/lang_main_album.php
+    - $lang['Upload_Pic'] = 'Dodaj zdjecie' -> 'Dodaj zdjecia'
+
 BAZA DANYCH (fordtech_local, tabela phpbb2_config):
     - server_name    = localhost
     - server_port    = 80
