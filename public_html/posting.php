@@ -2444,11 +2444,12 @@ if( ( $mode == 'newtopic' || ( $mode == 'editpost' && $post_data['edit_poll']) )
 //
 if( $mode == 'reply' && $board_config['topic_preview'] && $is_auth['auth_read'])
 {
-	require($phpbb_root_path . 'includes/topic_review.'.$phpEx);
-	topic_review($topic_id, true);
-
-	$template->assign_block_vars('switch_inline_mode', array());
-	$template->assign_var_from_handle('TOPIC_REVIEW_BOX', 'reviewbody');
+	$review_url = append_sid("posting.$phpEx?mode=topicreview&amp;" . POST_TOPIC_URL . "=$topic_id");
+	$review_html = '<table border="0" cellpadding="3" cellspacing="1" width="100%" class="forumline">' . "\n"
+		. '<tr><td class="catHead" height="28" align="center"><b><span class="cattitle">' . $lang['Topic_review'] . '</span></b></td></tr>' . "\n"
+		. '<tr><td class="row1"><iframe width="100%" height="300" src="' . $review_url . '"></iframe></td></tr>' . "\n"
+		. '</table>';
+	$template->assign_vars(array('TOPIC_REVIEW_BOX' => $review_html));
 }
 
 // Gallery: load logged-in user's album images for posting form

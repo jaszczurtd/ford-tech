@@ -1,12 +1,4 @@
 
-<!-- BEGIN switch_inline_mode -->
-<table border="0" cellpadding="3" cellspacing="1" width="100%" class="forumline">
-	<tr> 
-		<td class="catHead" height="28" align="center"><b><span class="cattitle">{L_TOPIC_REVIEW}</span></b></td>
-	</tr>
-	<tr>
-		<td class="row1"><iframe width="100%" height="300" src="{U_REVIEW_TOPIC}" >
-<!-- END switch_inline_mode -->
 <table border="0" cellpadding="3" cellspacing="1" width="100%" class="forumline">
 	<tr>
 		<th class="thCornerL" width="22%" height="26">{L_AUTHOR}</th>
@@ -32,8 +24,3 @@
 	</tr>
 	 <!-- END postrow -->
 </table>
-<!-- BEGIN switch_inline_mode -->
-		</iframe></td>
-	</tr>
-</table>
-<!-- END switch_inline_mode -->
