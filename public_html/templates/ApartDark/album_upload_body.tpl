@@ -8,15 +8,66 @@ function checkAlbumForm() {
 		alert("{L_UPLOAD_NO_FILE}");
 		return false;
 	}
-	if (fileCount == 1 && document.upload.pic_title.value.length < 2) {
-		alert("{L_UPLOAD_NO_TITLE}");
-		return false;
-	}
 	if (document.upload.pic_desc.value.length > {S_PIC_DESC_MAX_LENGTH}) {
 		alert("{L_DESC_TOO_LONG}");
 		return false;
 	}
-	return true;
+	submitWithProgress();
+	return false;
+}
+
+function formatBytes(b) {
+	if (b < 1024) return b + ' B';
+	if (b < 1048576) return (b / 1024).toFixed(1) + ' KB';
+	return (b / 1048576).toFixed(1) + ' MB';
+}
+
+function submitWithProgress() {
+	var form = document.upload;
+	if (typeof FormData === 'undefined') { form.submit(); return; }
+	var fd = new FormData(form);
+	var fi = form['pic_file[]'];
+	var n = (fi && fi.files) ? fi.files.length : 1;
+	var label = n == 1 ? 'Wysy&#322;anie zdj&#281;cia...' : 'Wysy&#322;anie ' + n + ' zdj&#281;&#263;...';
+
+	var ov = document.createElement('div');
+	ov.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);z-index:9999;display:flex;align-items:center;justify-content:center;';
+	var box = document.createElement('div');
+	box.style.cssText = 'background:#1a1a2e;border:2px solid #5577aa;border-radius:8px;padding:30px 40px;text-align:center;min-width:350px;font-family:Verdana,Arial,sans-serif;';
+	var ttl = document.createElement('div');
+	ttl.style.cssText = 'color:#fff;font-size:14px;font-weight:bold;margin-bottom:15px;';
+	ttl.innerHTML = label;
+	var barBg = document.createElement('div');
+	barBg.style.cssText = 'background:#333;border-radius:4px;height:22px;width:300px;overflow:hidden;margin:0 auto 10px;';
+	var barFill = document.createElement('div');
+	barFill.style.cssText = 'background:linear-gradient(90deg,#3366aa,#5599dd);height:100%;width:0%;transition:width 0.15s;border-radius:4px;';
+	var pctText = document.createElement('div');
+	pctText.style.cssText = 'color:#aab;font-size:11px;margin-bottom:4px;';
+	pctText.textContent = '0%';
+	var info = document.createElement('div');
+	info.style.cssText = 'color:#778;font-size:10px;';
+	info.innerHTML = 'Prosz&#281; nie zamyka&#263; strony.';
+	barBg.appendChild(barFill);
+	box.appendChild(ttl); box.appendChild(barBg); box.appendChild(pctText); box.appendChild(info);
+	ov.appendChild(box);
+	document.body.appendChild(ov);
+
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST', form.action, true);
+	xhr.upload.onprogress = function(e) {
+		if (e.lengthComputable) {
+			var p = Math.round(e.loaded / e.total * 100);
+			barFill.style.width = p + '%';
+			pctText.textContent = p + '% (' + formatBytes(e.loaded) + ' / ' + formatBytes(e.total) + ')';
+			if (p >= 100) {
+				ttl.innerHTML = 'Przetwarzanie na serwerze...';
+				info.innerHTML = 'To mo&#380;e chwil&#281; potrwa&#263;.';
+			}
+		}
+	};
+	xhr.onload = function() { document.open(); document.write(xhr.responseText); document.close(); };
+	xhr.onerror = function() { ov.parentNode.removeChild(ov); alert('Blad polaczenia. Sprobuj ponownie.'); };
+	xhr.send(fd);
 }
 // -->
 </script>
@@ -39,7 +90,7 @@ function checkAlbumForm() {
   </tr>
 <!-- END switch_user_logged_out -->
   <tr>
-	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span><br><span class="gensmall">(opcjonalny przy wielu plikach &mdash; u&#380;yta zostanie nazwa pliku)</span></td>
+	<td class="row1" height="28"><span class="gen">{L_PIC_TITLE}:</span><br><span class="gensmall">(opcjonalny &mdash; je&#347;li puste, u&#380;yta zostanie nazwa pliku)</span></td>
 	<td class="row2"><input class="post" type="text" name="pic_title" size="60"></td>
   </tr>
   <tr>

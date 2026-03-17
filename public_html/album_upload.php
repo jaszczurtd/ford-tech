@@ -480,6 +480,28 @@ else
 			continue;
 		}
 
+		// Fix EXIF orientation (JPEG only)
+		if ( $src && $pic_filetype == '.jpg' && function_exists('exif_read_data') )
+		{
+			$exif = @exif_read_data(ALBUM_UPLOAD_PATH . $pic_filename);
+			if ( $exif && !empty($exif['Orientation']) )
+			{
+				switch ( (int)$exif['Orientation'] )
+				{
+					case 2: imageflip($src, IMG_FLIP_HORIZONTAL); break;
+					case 3: $src = imagerotate($src, 180, 0); break;
+					case 4: imageflip($src, IMG_FLIP_VERTICAL); break;
+					case 5: imageflip($src, IMG_FLIP_HORIZONTAL); $src = imagerotate($src, 270, 0); break;
+					case 6: $src = imagerotate($src, 270, 0); break;
+					case 7: imageflip($src, IMG_FLIP_HORIZONTAL); $src = imagerotate($src, 90, 0); break;
+					case 8: $src = imagerotate($src, 90, 0); break;
+				}
+				// Update dimensions after rotation
+				$pic_width  = imagesx($src);
+				$pic_height = imagesy($src);
+			}
+		}
+
 		// Resize if needed
 		if ( ($pic_width > $album_config['max_width']) || ($pic_height > $album_config['max_height']) )
 		{
