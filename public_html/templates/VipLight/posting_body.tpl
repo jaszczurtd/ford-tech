@@ -7,6 +7,7 @@ var w_help = '{L_BBCODE_W_HELP}';var a_help = '{L_BBCODE_A_HELP}';var s_help = '
 var f_help = '{L_BBCODE_F_HELP}';var st_help = '{L_BBCODE_ST_HELP}';var e_help = '{L_BBCODE_E_HELP}';
 var k_help = '{L_BBCODE_K_HELP}';var y_help = '{L_BBCODE_Y_HELP}';var s2_help = '{L_BBCODE_S2_HELP}';
 var g_help = '{L_BBCODE_G_HELP}';var h_help = '{L_BBCODE_H_HELP}'; var ct_help = '{L_BBCODE_CT_HELP}';
+var yt_help = '{L_BBCODE_YT_HELP}';
 var img_addr = '{IMG_ADDR}';var link_text_prompt = '{L_WRITE_LINK_TEXT}';var link_url_prompt = '{L_WRITE_ADDRESS}';
 var new_size2 = 0;
 //-->
@@ -174,7 +175,7 @@ var new_size2 = 0;
 					<!-- BEGIN button_ur -->
 					<input type="button" class="button" accesskey="w" name="addbbcode18" value="URL" style="text-decoration: underline; width: 40px" onclick="namedlink(this.form,'URL')" onMouseOver="helpline('w')">
 					<!-- END button_ur -->
-					{BUTTON_CE}{BUTTON_F}{BUTTON_S}{BUTTON_ST}{BUTTON_HI}</span></td>
+					{BUTTON_CE}{BUTTON_F}{BUTTON_S}{BUTTON_ST}{BUTTON_HI}{BUTTON_YT}</span></td>
 			</tr>
 			<tr>
 				<td>

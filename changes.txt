@@ -210,3 +210,23 @@ Cel: ograniczenie spamu botow i stabilizacja logowania/rejestracji po wdrozeniu 
    public_html/templates/*/posting_topic_review.tpl
    - Poprawki renderowania strony po publikacji posta
      (usuniecie problemu pustej tresci po wyslaniu formularza).
+
+7. public_html/templates/ApartDark/shoutbox_body.tpl
+   public_html/templates/VipLight/shoutbox_body.tpl
+   public_html/templates/subSilver/shoutbox_body.tpl
+   - Poszerzono Shoutbox i dopasowano jego szerokosc do szerokosci kontenera strony,
+     aby modul nie byl wezszy od reszty layoutu.
+   - Ujednolicono szerokosc elementow wewnatrz Shoutboxa,
+     zeby caly blok skalowal sie spojnie z ukladem forum.
+
+8. public_html/templates/subSilver/posting_body.tpl
+   public_html/templates/VipLight/posting_body.tpl
+   - Dodano przycisk BBCode "YouTube" w edytorze posta.
+   - W subSilver przycisk YouTube umieszczono bezposrednio pod "Video",
+     aby zachowac czytelny i oczekiwany uklad narzedzi.
+
+9. public_html/templates/ApartDark/quick_reply.tpl
+   public_html/templates/VipLight/quick_reply.tpl
+   - Dodano przycisk "YouTube" w sekcji Szybka odpowiedz
+     (pod istniejacym przyciskiem "Video").
+   - Przycisk wstawia do tresci posta tagi [youtube][/youtube].

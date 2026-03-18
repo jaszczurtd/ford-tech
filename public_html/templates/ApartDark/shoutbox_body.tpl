@@ -4,13 +4,13 @@ onload = requestNewMessages;
 var updateInterval = {REFRESH_SB};
 -->
 </script> 
-<table id="SB_content" border="0" align="center" cellpadding="0" cellspacing="1" class="forumline">
+<table id="SB_content" border="0" align="center" cellpadding="0" cellspacing="1" class="forumline" style="width:100%;">
 	<tr>
 		<th class="thHead">{L_SHOUTBOX} <img src="templates/{STYLE_NAME}/images/act_indicator.gif" id="act_indicator" alt="indicator"></th>
 	</tr>
 	<tr>
 		<td>
-			<div id="SB_box" style="width:{SHOUTBOX_WIDTH}px; height:{SHOUTBOX_HEIGHT}px; overflow:auto;">
+			<div id="SB_box" style="width:100%; height:{SHOUTBOX_HEIGHT}px; overflow:auto; box-sizing:border-box;">
 				<div id="SB_inner">
 				
 				</div>
@@ -27,7 +27,7 @@ var updateInterval = {REFRESH_SB};
 			<!-- END smilies_emotki -->
 			<input type="button" class="post" style="display: none;" id="zmien" value="{L_EDIT_SB}" onclick="sendEditShout();">
 			<input type="button" class="post" style="display: none;" id="anuluj1" value="{L_CANCEL_SB}" onclick="anuluj1();">
-			<input type="button" class="post" style="display: none; width: 560px;" id="refresh12" value="{L_REFRESH_SB}" onclick="refreshSB12();">
+			<input type="button" class="post" style="display: none; width: 100%;" id="refresh12" value="{L_REFRESH_SB}" onclick="refreshSB12();">
 			<input type="hidden" id="userName" value="{USER_ID}" disabled="disabled">
 			<input type="hidden" id="userId" value="" disabled="disabled">
 		</td>

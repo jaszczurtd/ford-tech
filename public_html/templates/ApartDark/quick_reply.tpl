@@ -106,6 +106,9 @@ function bbcode(strFore, strAft)
                                 <tr>
                                        <td>&nbsp;<input type="button" class="button" value="Video" style="width: 38px; text-indent: -3px;" onclick="bbcode('[video]', '[/video]')"></td>
                                </tr>
+				<tr>
+					<td>&nbsp;<input type="button" class="button" value="YouTube" style="width: 58px; text-indent: -3px;" onclick="bbcode('[youtube]', '[/youtube]')"></td>
+				</tr>
                    </table>
                </td>
 	    </tr>
