@@ -118,35 +118,6 @@ Cel: uruchomienie forum phpBB 2.x (modyfikacja Przemo ~1.12.5) lokalnie pod PHP 
       count((array)$userdata['unread_data'][...])
       (PHP 8 TypeError przy null — crash przy wejsciu w sekcje forum)
 
-22. public_html/quick_reply.php
-    public_html/templates/ApartDark/quick_reply.tpl
-    - Dodano poziomo przewijana galerie zdiec uzytkownika w sekcji Szybka odpowiedz
-      (pojawia sie pod checkboxem "Powiadom mnie gdy ktos odpowie")
-    - Klikniecie miniaturki wkleja do pola tekstowego BBCode:
-      [URL=https://.../album_pic.php?pic_id=X][img]https://.../album_thumbnail.php?pic_id=X[/img][/URL]
-    - Galeria opakowana w mini-tabele z table-layout:fixed, aby nie rozpychala layoutu strony
-
-23. public_html/posting.php
-    public_html/templates/ApartDark/posting_body.tpl
-    - Dodano ta sama galerie zdiec uzytkownika w formularzu posting.php
-      (pojawia sie pod polem tekstowym wiadomosci)
-
-24. public_html/album_upload.php
-    - Przepisano galaz przetwarzania uploadu na petle foreach
-      umozliwiajaca dodanie wielu zdiec jednoczesnie
-    - Normalizacja $_FILES['pic_file'] do tablicy plikow (obsluga single i multi)
-    - Tytul opcjonalny przy batch upload — uzywana jest oryginalna nazwa pliku
-    - Raport wynikow: "Dodano X z Y zdiec" + lista bledow per plik
-
-25. public_html/templates/ApartDark/album_upload_body.tpl
-    - input[type=file] zmieniony na multiple z accept="image/jpeg,image/png,image/gif"
-    - Zaktualizowana walidacja JS (obsluga wielu plikow, tytul opcjonalny przy >1 pliku)
-    - Dodana informacja dla uzytkownika o mozliwosci zaznaczenia wielu zdiec (Ctrl+klik)
-    - Tytul oznaczony jako opcjonalny przy wielu plikach
-
-26. public_html/language/lang_polish/lang_main_album.php
-    - $lang['Upload_Pic'] = 'Dodaj zdjecie' -> 'Dodaj zdjecia'
-
 BAZA DANYCH (fordtech_local, tabela phpbb2_config):
     - server_name    = localhost
     - server_port    = 80
@@ -155,3 +126,87 @@ BAZA DANYCH (fordtech_local, tabela phpbb2_config):
     - cookie_domain  = localhost
     - board_disable  = ''       (bylo: 'Przerba techniczna :)')
     - disable_type   = 0
+
+
+Zmiany wprowadzone 2026-03-17
+Cel: rozbudowa funkcji galerii i usprawnienie uploadu zdjec
+===========================================================
+
+1. public_html/quick_reply.php
+   public_html/templates/ApartDark/quick_reply.tpl
+   - Dodano poziomo przewijana galerie zdiec uzytkownika w sekcji Szybka odpowiedz
+     (pojawia sie pod checkboxem "Powiadom mnie gdy ktos odpowie")
+   - Klikniecie miniaturki wkleja do pola tekstowego BBCode:
+     [URL=https://.../album_pic.php?pic_id=X][img]https://.../album_thumbnail.php?pic_id=X[/img][/URL]
+   - Galeria opakowana w mini-tabele z table-layout:fixed, aby nie rozpychala layoutu strony
+
+2. public_html/posting.php
+   public_html/templates/ApartDark/posting_body.tpl
+   - Dodano ta sama galerie zdiec uzytkownika w formularzu posting.php
+     (pojawia sie pod polem tekstowym wiadomosci)
+
+3. public_html/album_upload.php
+   - Przepisano galaz przetwarzania uploadu na petle foreach
+     umozliwiajaca dodanie wielu zdiec jednoczesnie
+   - Normalizacja $_FILES['pic_file'] do tablicy plikow (obsluga single i multi)
+   - Dodano automatyczna korekte orientacji EXIF dla JPEG
+     (obsluga obrotu/flip, aktualizacja wymiarow po korekcie)
+   - Tytul opcjonalny przy batch upload — uzywana jest oryginalna nazwa pliku
+   - Raport wynikow: "Dodano X z Y zdiec" + lista bledow per plik
+
+4. public_html/templates/ApartDark/album_upload_body.tpl
+   public_html/templates/VipLight/album_upload_body.tpl
+   public_html/templates/subSilver/album_upload_body.tpl
+   - input[type=file] zmieniony na multiple z accept="image/jpeg,image/png,image/gif"
+   - Zaktualizowana walidacja JS (obsluga wielu plikow, tytul opcjonalny)
+   - Dodano JS progressbar uploadu (XMLHttpRequest + FormData)
+     z procentem, rozmiarem danych i komunikatem "przetwarzanie na serwerze"
+   - Dodana informacja dla uzytkownika o mozliwosci zaznaczenia wielu zdiec (Ctrl+klik)
+   - Tytul oznaczony jako opcjonalny
+
+5. public_html/language/lang_polish/lang_main_album.php
+   - $lang['Upload_Pic'] = 'Dodaj zdjecie' -> 'Dodaj zdjecia'
+
+
+Zmiany wprowadzone 2026-03-18
+Cel: ograniczenie spamu botow i stabilizacja logowania/rejestracji po wdrozeniu zabezpieczen
+=============================================================================================
+
+1. public_html/includes/anti_bot.php (NOWY)
+   - Dodano centralny modul anty-botowy:
+     * honeypot (ukryte pole formularza)
+     * podpisywany timestamp formularza (_form_ts + _form_tk)
+     * minimalny czas wypelnienia formularza
+     * walidacja tresci posta (linki + blacklista domen/fraz)
+
+2. public_html/includes/bots_limits.php (NOWY)
+   - Dodano centralny plik konfiguracyjny zabezpieczen:
+     * ANTIBOT_MIN_FORM_TIME
+     * ANTIBOT_SECRET
+     * ANTIBOT_MAX_LINKS_NEW_USER
+     * ANTIBOT_NEW_USER_POST_THRESHOLD
+     * ANTIBOT_MIN_TEXT_LENGTH
+     * listy blacklist (domeny/frazy)
+
+3. public_html/includes/usercp_register.php
+   public_html/posting.php
+   public_html/quick_reply.php
+   public_html/login.php
+   public_html/templates/*/(profile_add_body.tpl, posting_body.tpl, quick_reply.tpl, login_body.tpl)
+   - Zintegrowano pola anty-botowe z formularzami (S_ANTIBOT_FIELDS) i walidacje po submit.
+   - Rejestracja i dodawanie postow zostaly objete kontrola anty-bot.
+
+4. public_html/login.php
+   - Naprawiono problem "Security validation failed." przy logowaniu z formularzy skroconych
+     (np. box logowania na stronie glownej/portalu), ktore nie zawsze wysylaly pola anty-botowe.
+   - Usunieto blokujaca walidacje anty-bot z samego procesu logowania,
+     pozostawiajac zabezpieczenia anty-bot dla rejestracji i publikacji tresci.
+
+5. public_html/templates/ApartDark/overall_header.tpl
+   - Poprawiono uszkodzone polskie znaki i literowki w tekscie nawigacji
+     (m.in. "Strona Główna", komunikat powitalny dla goscia).
+
+6. public_html/posting.php
+   public_html/templates/*/posting_topic_review.tpl
+   - Poprawki renderowania strony po publikacji posta
+     (usuniecie problemu pustej tresci po wyslaniu formularza).

@@ -4,7 +4,7 @@ Forum **ford-tech.pl** - phpBB 2.x z polską modyfikacją Przemo (~1.12.5, 2005)
 
 Forum działa pod adresem: **http://ford-tech.pl**
 
-Szczegółowy opis wszystkich zmian: [changes-2026-03-14.txt](changes-2026-03-14.txt)
+Szczegółowy opis wszystkich zmian: [changes.txt](changes.txt)
 
 ---
 
