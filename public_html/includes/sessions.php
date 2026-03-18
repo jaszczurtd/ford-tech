@@ -339,6 +339,7 @@ function session_begin($user_id, $user_ip, $page_id, $auto_create = 0, $enable_a
 
 	$last_visit = 0;
 	$current_time = CR_TIME;
+	$user_ip_prefix = substr($user_ip, 0, 6);
 
 	//
 	// Are auto-logins allowed?
@@ -375,7 +376,9 @@ function session_begin($user_id, $user_ip, $page_id, $auto_create = 0, $enable_a
 
 			$do_secure_ip_check = ( ($board_config['allow_autologin'] == 2 || $board_config['allow_autologin'] == 1) && ($board_config['allow_autologin'] == 2 || ($secure_data['user_level'] != USER || $secure_data['user_jr'])) && $secure_data['user_ip_login_check'] ) ? true : false;
 
-			if ( (!$secure_data['user_ip'] || $secure_data['user_ip'] != $user_ip) && $do_secure_ip_check )
+			$last_ip_prefix = substr($secure_data['user_ip'], 0, 6);
+
+			if ( (!$secure_data['user_ip'] || $last_ip_prefix != $user_ip_prefix) && $do_secure_ip_check )
 			{ 
 				$sessiondata['autologinid'] = $enable_autologin = '';
 				$user_id = ANONYMOUS;
@@ -457,7 +460,7 @@ function session_begin($user_id, $user_ip, $page_id, $auto_create = 0, $enable_a
 	$sql = "UPDATE " . SESSIONS_TABLE . "
 		SET session_user_id = $user_id, session_time = $current_time, session_page = $page_id, session_logged_in = $login, session_admin = $admin
 		WHERE session_id = '" . $session_id . "' 
-			AND session_ip = '$user_ip'
+			AND session_ip LIKE '" . $user_ip_prefix . "%'
 			AND session_time > " . ($current_time - $board_config['session_length']);
 	if ( !$db->sql_query($sql) || !$db->sql_affectedrows() )
 	{

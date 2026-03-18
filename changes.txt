@@ -230,3 +230,23 @@ Cel: ograniczenie spamu botow i stabilizacja logowania/rejestracji po wdrozeniu 
    - Dodano przycisk "YouTube" w sekcji Szybka odpowiedz
      (pod istniejacym przyciskiem "Video").
    - Przycisk wstawia do tresci posta tagi [youtube][/youtube].
+
+10. public_html/includes/sessions.php
+    Problem: losowe wylogowywanie czesci uzytkownikow.
+    Przyczyna: session_begin() walidowala IP sesji po pelnym adresie
+    (8 znakow hex = 4 oktety), podczas gdy session_pagestart() juz
+    uzywal lagodniejszego porownania po prefixie /24 (6 znakow hex
+    = 3 oktety). Przy zmianie ostatniego oktetu IP (typowe dla
+    sieci mobilnych LTE, CGNAT, load-balanced proxy) sesja nie mogla
+    zostac odnaleziona/odnowiona i uzytkownik byl wylogowywany.
+    Zmiany:
+    - Dodano $user_ip_prefix = substr($user_ip, 0, 6) na poczatku
+      session_begin() (linia 342).
+    - Autologin IP-check: porownanie prefixow /24 zamiast pelnych IP
+      (linia 379-381).
+    - UPDATE sesji w session_begin(): zmieniono
+      AND session_ip = '$user_ip'
+      na AND session_ip LIKE '$user_ip_prefix%'
+      (linia 463).
+    Efekt: ujednolicenie poziomu walidacji IP miedzy session_begin()
+    a session_pagestart() — wszedzie /24 (3 oktety).
