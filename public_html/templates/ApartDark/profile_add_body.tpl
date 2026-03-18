@@ -83,7 +83,7 @@ dom_menu = new _dom_menu();
 	</tr>
 	<!-- BEGIN switch_avatar_block -->
 	<tr>
-		<td class="row1" nowrap="nowrap" onMouseOver="this.className='row2'; this.style.cursor='pointer';" onMouseOut="this.className='row1'; this.style.cursor='pointer';" onClick="dom_menu.set('avatarinfo'); return false;"><div id="avatarinfo_opt" class="menu"><b>&raquo;</b> <span class="gensmall">Panel kontrolny avatarów</span></div></td>
+		<td class="row1" nowrap="nowrap" onMouseOver="this.className='row2'; this.style.cursor='pointer';" onMouseOut="this.className='row1'; this.style.cursor='pointer';" onClick="dom_menu.set('avatarinfo'); return false;"><div id="avatarinfo_opt" class="menu"><b>&raquo;</b> <span class="gensmall">Panel kontrolny avatarï¿½w</span></div></td>
 	</tr>
 	<!-- END switch_avatar_block -->
 	<tr>
@@ -166,7 +166,7 @@ dom_menu = new _dom_menu();
 	<!-- Visual Confirmation -->
 	<!-- BEGIN validation -->
 	<tr>
-	  <td class="row2" colspan="2">¯eby zapobiec automatycznym rejestracjom, forum wymaga wpisania kodu potwierdzaj±cego. Kod jest pokazywany na obrazku poni¿ej. Je¶li nie mo¿esz go przeczytaæ, to skontaktuj siê z administratorem forum.</td>
+	  <td class="row2" colspan="2">ï¿½eby zapobiec automatycznym rejestracjom, forum wymaga wpisania kodu potwierdzajï¿½cego. Kod jest pokazywany na obrazku poniï¿½ej. Jeï¿½li nie moï¿½esz go przeczytaï¿½, to skontaktuj siï¿½ z administratorem forum.</td>
 	</tr>
 	<tr>
 	  <td class="row1" valign="top"><span class="gen">{validation.L_VALIDATION}:<br /></span><span class="gensmall">{validation.L_VALIDATION_EXPLAIN}</span></td>
@@ -336,7 +336,7 @@ dom_menu = new _dom_menu();
 	</tr>
 	<!-- END switch_signature_block -->
 	<tr>
-		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
+		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}{S_ANTIBOT_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
 	</tr>
       </tr>
 </table>
@@ -515,7 +515,7 @@ dom_menu = new _dom_menu();
 <!-- BEGIN switch_avatar_block -->
 <table id="avatarinfo" style="display:none" border="0" cellpadding="3" cellspacing="1" width="100%" class="forumline">
 	<tr> 
-	  <th class="thSides" colspan="2" height="12" valign="middle"><span class="gensmall2">Panel kontrolny Avatarów</span></th>
+	  <th class="thSides" colspan="2" height="12" valign="middle"><span class="gensmall2">Panel kontrolny Avatarï¿½w</span></th>
 	</tr>
 	<tr> 
 		<td class="row2" colspan="2">{L_AVATAR_EXPLAIN}</td>
@@ -546,7 +546,7 @@ dom_menu = new _dom_menu();
 	</tr>
 	<!-- END switch_avatar_local_gallery -->
 	<tr>
-		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
+		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}{S_ANTIBOT_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
 	</tr>
 </table>
 <!-- END switch_avatar_block -->

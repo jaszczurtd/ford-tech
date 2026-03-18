@@ -107,7 +107,7 @@ function bbcode(strFore, strAft)
       </span></td>
    </tr>
    <tr>
-      <td class="catBottom" align="center" height="28" colspan="2">{S_HIDDEN_FIELDS}<input type="hidden" name="mode" value="reply"><input type="hidden" name="disable_html" value="1"><input type="hidden" name="t" value="{quick_reply.TOPIC_ID}"><input type="hidden" name="last_msg" value="{quick_reply.LAST_MESSAGE}"><input type="submit" name="preview" class="mainoption" value="{L_PREVIEW}">&nbsp;<input type="submit" name="post" class="mainoption" value="{L_SUBMIT}"></td>
+      <td class="catBottom" align="center" height="28" colspan="2">{S_HIDDEN_FIELDS}{S_ANTIBOT_FIELDS}<input type="hidden" name="mode" value="reply"><input type="hidden" name="disable_html" value="1"><input type="hidden" name="t" value="{quick_reply.TOPIC_ID}"><input type="hidden" name="last_msg" value="{quick_reply.LAST_MESSAGE}"><input type="submit" name="preview" class="mainoption" value="{L_PREVIEW}">&nbsp;<input type="submit" name="post" class="mainoption" value="{L_SUBMIT}"></td>
    </tr>
 </table>
 </form>

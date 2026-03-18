@@ -83,10 +83,10 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
    <tr>
       <td class="menu" align="center"><span class="main">
-			<a href="{U_INDEX_PORTAL}" class="main"> Strona g³ówna </a>&nbsp;&nbsp;
+			<a href="{U_INDEX_PORTAL}" class="main"> Strona gï¿½ï¿½wna </a>&nbsp;&nbsp;
 			<a href="{U_SEARCH}" class="main"> Szukaj </a>&nbsp;&nbsp;
 			<a href="{U_GROUP_CP}" class="main"> Grupy </a>&nbsp;&nbsp;
-			<a href="{U_MEMBERLIST}" class="main"> U¿ytkownicy </a>&nbsp;&nbsp;
+			<a href="{U_MEMBERLIST}" class="main"> Uï¿½ytkownicy </a>&nbsp;&nbsp;
 			<a href="{U_PRIVATEMSGS}" class="main">{PRIVATE_MESSAGE_INFO}</a>&nbsp;&nbsp;
 			<a href="{U_PROFILE}" class="main"> Profil </a>&nbsp;&nbsp;
 			<a href="{U_STAT}" class="main"> {L_STATISTICS} </a>&nbsp;&nbsp;
@@ -96,7 +96,7 @@
 			<a href="{U_LOGIN_LOGOUT}" class="main"> {L_LOGIN_LOGOUT} </a>
                         </span></tr></td></table>
 <a name="top"></a>{ROTATE_BANNER_1}
-<table width="850px" cellspacing="0" cellpadding="7" border="0" align="center" class="b2">
+<table width="80%" style="max-width:1400px;" cellspacing="0" cellpadding="7" border="0" align="center" class="b2">
    <tr>
       <td class="bodyline">
 	  {FORUM_WARNINGS}

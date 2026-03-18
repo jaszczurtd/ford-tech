@@ -409,7 +409,7 @@
 	<!-- END switch_avatar_block -->
 	{PHOTO_BOX}
 	<tr>
-		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption">&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption"></td>
+		<td class="catBottom" colspan="2" align="center" height="22">{S_HIDDEN_FIELDS}{S_ANTIBOT_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption">&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption"></td>
 	</tr>
 </table>
 </form>

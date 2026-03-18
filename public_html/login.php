@@ -32,6 +32,7 @@ define('IN_PHPBB', true);
 $phpbb_root_path = './';
 include($phpbb_root_path . 'extension.inc');
 include($phpbb_root_path . 'common.'.$phpEx);
+include($phpbb_root_path . 'includes/anti_bot.'.$phpEx);
 
 if ( !function_exists('file_get_contents') )
 {
@@ -488,6 +489,8 @@ else
 		$s_hidden_fields = '<input type="hidden" name="redirect" value="' . $forward_page . '" />';
 		$s_hidden_fields .= (isset($HTTP_GET_VARS['admin'])) ? '<input type="hidden" name="admin" value="1" />' : '';
 
+		$antibot_fields = antibot_form_fields();
+
 		make_jumpbox('viewforum.'.$phpEx);
 		$template->assign_vars(array(
 			'USERNAME' => $username,
@@ -497,6 +500,7 @@ else
 
 			'U_SEND_PASSWORD' => append_sid("profile.$phpEx?mode=sendpassword"),
 
+			'S_ANTIBOT_FIELDS' => $antibot_fields,
 			'S_HIDDEN_FIELDS' => $s_hidden_fields)
 		);
 

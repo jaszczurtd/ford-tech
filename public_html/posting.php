@@ -33,6 +33,7 @@ include($phpbb_root_path . 'includes/bbcode.'.$phpEx);
 include($phpbb_root_path . 'includes/functions_post.'.$phpEx);
 include($phpbb_root_path . 'includes/functions_add.'.$phpEx);
 include($phpbb_root_path . 'includes/functions_log.'.$phpEx);
+include($phpbb_root_path . 'includes/anti_bot.'.$phpEx);
 
 //
 // Check and set various parameters
@@ -922,6 +923,30 @@ else if ( $submit || $confirm )
 	//
 	// Submit post/vote (newtopic, edit, reply, etc.)
 	//
+
+	// Anti-bot: sprawdz honeypot i timestamp
+	if ( $submit && ($mode == 'newtopic' || $mode == 'reply' || $mode == 'editpost') )
+	{
+		$antibot_error = antibot_check_form($HTTP_POST_VARS);
+		if ( $antibot_error != '' )
+		{
+			message_die(GENERAL_MESSAGE, $antibot_error);
+		}
+	}
+
+	// Anti-bot: filtr tresci posta
+	if ( $submit && ($mode == 'newtopic' || $mode == 'reply') && !empty($HTTP_POST_VARS['message']) )
+	{
+		$antibot_content_error = antibot_check_post_content(
+			$HTTP_POST_VARS['message'],
+			$userdata['user_posts'],
+			$userdata['user_level']
+		);
+		if ( $antibot_content_error != '' )
+		{
+			message_die(GENERAL_MESSAGE, $antibot_content_error);
+		}
+	}
 
 	if ( $mode == 'editpost' && $comment )
 	{
@@ -1997,6 +2022,8 @@ $hidden_form_fields .= ($comment) ? '<input type="hidden" name="comment" value="
 $hidden_form_fields .= '<input type="hidden" name="post_parent" value="' . $post_parent . '" />';
 $hidden_form_fields .= '<input type="hidden" name="sid" value="' . $userdata['session_id'] . '" />';
 
+$antibot_fields = antibot_form_fields();
+
 switch( $mode )
 {
 	case 'newtopic':
@@ -2167,6 +2194,7 @@ $template->assign_vars(array(
 	'S_TYPE_TOGGLE' => $topic_type_toggle,
 	'S_TOPIC_ID' => $topic_id,
 	'S_POST_ACTION' => append_sid("posting.$phpEx"),
+	'S_ANTIBOT_FIELDS' => $antibot_fields,
 	'S_HIDDEN_FORM_FIELDS' => $hidden_form_fields)
 );
 

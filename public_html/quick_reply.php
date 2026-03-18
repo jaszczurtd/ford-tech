@@ -173,8 +173,13 @@ if ( $board_config['allow_bbcode'] == 1 )
 }
 
 $s_hidden_fields = '<input type="hidden" name="sid" value="' . $userdata['session_id'] . '" />';
+
+@include_once($phpbb_root_path . 'includes/anti_bot.'.$phpEx);
+$antibot_fields = function_exists('antibot_form_fields') ? antibot_form_fields() : '';
+
 $template->assign_vars(array(
 	'S_HIDDEN_FIELDS' => $s_hidden_fields,
+	'S_ANTIBOT_FIELDS' => $antibot_fields,
 	'U_MORE_SMILIES' => append_sid("posting.$phpEx?mode=smilies"),
 	'L_USERNAME' => $lang['Username'],
 	'L_PREVIEW' => $lang['Preview'],

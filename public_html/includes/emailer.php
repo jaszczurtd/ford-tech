@@ -200,8 +200,8 @@ class emailer
 
 		$to = $this->addresses['to'];
 
-		$cc = (count($this->addresses['cc'])) ? implode(', ', $this->addresses['cc']) : '';
-		$bcc = (count($this->addresses['bcc'])) ? implode(', ', $this->addresses['bcc']) : '';
+		$cc = (!empty($this->addresses['cc'])) ? implode(', ', $this->addresses['cc']) : '';
+		$bcc = (!empty($this->addresses['bcc'])) ? implode(', ', $this->addresses['bcc']) : '';
 
 		// Build header
 		$admin_email = trim($board_config['board_email']);

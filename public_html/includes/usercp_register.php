@@ -27,6 +27,8 @@ if ( !defined('IN_PHPBB') )
 	exit;
 }
 
+@include_once($phpbb_root_path . 'includes/anti_bot.'.$phpEx);
+
 $unhtml_specialchars_match = array('#&gt;#', '#&lt;#', '#&quot;#', '#&amp;#', '#&nbsp;#');
 $unhtml_specialchars_replace = array('>', '<', '"', '&', '');
 
@@ -345,6 +347,16 @@ if ( isset($HTTP_POST_VARS['submit']) )
 {
 	include($phpbb_root_path . 'includes/usercp_avatar.'.$phpEx);
 	include($phpbb_root_path . 'includes/usercp_signature.'.$phpEx);
+
+	// Anti-bot: sprawdz honeypot i timestamp przy rejestracji
+	if ( $mode == 'register' && function_exists('antibot_check_form') )
+	{
+		$antibot_error = antibot_check_form($HTTP_POST_VARS);
+		if ( $antibot_error != '' )
+		{
+			message_die(GENERAL_MESSAGE, $antibot_error);
+		}
+	}
 
 	$passwd_sql = '';
 
@@ -1363,17 +1375,17 @@ else
 
 	$i = 0;
 	$s_birthday='';
-	for ( $i = 0; $i <= strlen('d-m-Y'); $i++ )
+	for ( $i = 0; $i < strlen('d-m-Y'); $i++ )
 	{
 		switch ($birth_format[$i])
 		{
-			case d:
+			case 'd':
 				$s_birthday .= $s_b_day;
 			break;
-			case m:
+			case 'm':
 				$s_birthday .= $s_b_md;
 			break;
-			case Y:
+			case 'Y':
 				$s_birthday .= $s_b_year;
 			break;
 		}
@@ -1634,6 +1646,7 @@ else
 		'S_ALLOW_AVATAR_LOCAL' => $board_config['allow_avatar_local'],
 		'S_ALLOW_AVATAR_REMOTE' => $board_config['allow_avatar_remote'],
 		'S_HIDDEN_FIELDS' => $s_hidden_fields,
+		'S_ANTIBOT_FIELDS' => function_exists('antibot_form_fields') ? antibot_form_fields() : '',
 		'S_FORM_ENCTYPE' => $form_enctype,
 		'S_PROFILE_ACTION' => $s_profile_action)
 	);

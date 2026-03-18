@@ -88,7 +88,7 @@
 
      <!-- BEGIN switch_user_logged_in -->
      <td><div id="separ"></div></td>
-     <td class="h_nav"><a href="{U_INDEX}">Strona G³ówna</a></td>   
+     <td class="h_nav"><a href="{U_INDEX}">Strona Gï¿½ï¿½wna</a></td>   
      <td><div id="separ"></div></td>
      <td class="h_nav"><a href="{U_SEARCH}">{L_SEARCH}</a></td>
      <td><div id="separ"></div></td>
@@ -105,7 +105,7 @@
 
 	 <!-- BEGIN switch_user_logged_out -->
 	   <td><div id="separ"></div></td> 
-     <td class="h_nav"><font color="#DDDDDD">Witaj Go¶ciu. Jeste¶ niezarejestrowany lub niezalogowany na forum. Prosimy o przej¶cie do formularza</font> <a href="{U_REGISTER}">rejestracyjnego</a> <font color="#DDDDDD">lub</font> <a href="{U_LOGIN_LOGOUT}">zaloguj</a> <font color="#DDDDDD">siê aby móc korzytsaæ z pe³nej zawarto¶ci jak± oferuje ci forum {SITENAME}.</font></td></td>
+     <td class="h_nav"><font color="#DDDDDD">Witaj Goï¿½ciu. Jesteï¿½ niezarejestrowany lub niezalogowany na forum. Prosimy o przejï¿½cie do formularza</font> <a href="{U_REGISTER}">rejestracyjnego</a> <font color="#DDDDDD">lub</font> <a href="{U_LOGIN_LOGOUT}">zaloguj</a> <font color="#DDDDDD">siï¿½ aby mï¿½c korzytsaï¿½ z peï¿½nej zawartoï¿½ci jakï¿½ oferuje ci forum {SITENAME}.</font></td></td>
 	 <!-- END switch_user_logged_out -->
      <!-- BEGIN switch_user_logged_in -->
 	 <td><div id="separ"></div></td>
@@ -126,7 +126,7 @@
 		 </div>
  
 <a name="top"></a>{ROTATE_BANNER_1}
-<table width="850px" cellspacing="0" cellpadding="7" border="0" align="center">
+<table width="80%" style="max-width:1400px;" cellspacing="0" cellpadding="7" border="0" align="center">
    <tr>
       <td class="bodyline">
 	  {FORUM_WARNINGS}
