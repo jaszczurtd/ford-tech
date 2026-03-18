@@ -88,7 +88,7 @@
 
      <!-- BEGIN switch_user_logged_in -->
      <td><div id="separ"></div></td>
-     <td class="h_nav"><a href="{U_INDEX}">Strona G��wna</a></td>   
+     <td class="h_nav"><a href="{U_INDEX}">Strona Główna</a></td>   
      <td><div id="separ"></div></td>
      <td class="h_nav"><a href="{U_SEARCH}">{L_SEARCH}</a></td>
      <td><div id="separ"></div></td>
@@ -105,7 +105,7 @@
 
 	 <!-- BEGIN switch_user_logged_out -->
 	   <td><div id="separ"></div></td> 
-     <td class="h_nav"><font color="#DDDDDD">Witaj Go�ciu. Jeste� niezarejestrowany lub niezalogowany na forum. Prosimy o przej�cie do formularza</font> <a href="{U_REGISTER}">rejestracyjnego</a> <font color="#DDDDDD">lub</font> <a href="{U_LOGIN_LOGOUT}">zaloguj</a> <font color="#DDDDDD">si� aby m�c korzytsa� z pe�nej zawarto�ci jak� oferuje ci forum {SITENAME}.</font></td></td>
+	 <td class="h_nav"><font color="#DDDDDD">Witaj Gościu. Jesteś niezarejestrowany lub niezalogowany na forum. Prosimy o przejście do formularza</font> <a href="{U_REGISTER}">rejestracyjnego</a> <font color="#DDDDDD">lub</font> <a href="{U_LOGIN_LOGOUT}">zalogować</a> <font color="#DDDDDD">się aby móc korzystać z pełnej zawartości jaką oferuje ci forum {SITENAME}.</font></td></td>
 	 <!-- END switch_user_logged_out -->
      <!-- BEGIN switch_user_logged_in -->
 	 <td><div id="separ"></div></td>
